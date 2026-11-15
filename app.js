@@ -1,24 +1,42 @@
-/* Working name is deliberately isolated here for easy rebranding. */
-const APP_NAME='LabsBuddy';
-const KEY='labsbuddy.v1';
 const $=id=>document.getElementById(id);
-let db=null;
-let presets=JSON.parse(localStorage.getItem(KEY+'.presets')||'[]');
-$('appName').textContent=APP_NAME;
-const option=(value,label)=>{const o=document.createElement('option');o.value=value;o.textContent=label;return o;};
-function fill(id,items){const e=$(id);e.replaceChildren(...items.map(i=>option(i.value,i.label)));}
-function camera(){return db.models.find(m=>m.id===$('camera').value);}
-function mode(){return camera()?.modes.find(m=>m.id===$('resolution').value);}
-function refreshCamera(){const c=camera();$('cameraInfo').textContent=c.notes;if(!c.modes.length){fill('resolution',[{value:'',label:'Not yet verified'}]);fill('fps',[{value:'',label:'Not yet verified'}]);fill('lens',[{value:'',label:'Not yet verified'}]);render();return;}fill('resolution',c.modes.map(m=>({value:m.id,label:m.label})));refreshMode();}
-function refreshMode(){const m=mode();fill('fps',m?m.fps.map(n=>({value:n,label:n+' fps'})):[{value:'',label:'Unavailable'}]);fill('lens',m?m.lens.map(n=>({value:n,label:n})):[{value:'',label:'Unavailable'}]);render();}
-function current(){return {camera:$('camera').value,resolution:$('resolution').value,fps:$('fps').value,lens:$('lens').value,stabilization:'0'};}
-function render(){const c=camera(),m=mode();const valid=!!m;const code=valid?'!M'+ 'r'+(m.id==='4k43'?'4':m.id==='27k43'?'2':'4')+'p'+$('fps').value:'';$('command').textContent=valid?code:'QR unavailable until this model is validated';$('qr').replaceChildren();if(!valid){$('qr').textContent='Model mapping in progress';$('status').textContent='No unverified QR will be generated.';return;}if(typeof QRCode==='undefined'){$('qr').textContent='QR engine unavailable';$('status').textContent='QR library must be installed locally.';return;}new QRCode($('qr'),{text:code,width:256,height:256,colorDark:'#000000',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.M});$('status').textContent='Experimental command — do not assume aspect ratio or lens is applied.';localStorage.setItem(KEY+'.last',JSON.stringify(current()));}
-function refreshPresets(){fill('presets',[{value:'',label:'Choose a saved preset…'},...presets.map((p,i)=>({value:String(i),label:p.name}))]);}
+const KEY='labsbuddy.v2';let db, presets=[];
+try{presets=JSON.parse(localStorage.getItem(KEY+'.presets')||'[]')}catch{}
+const opt=(v,t)=>{let e=document.createElement('option');e.value=v;e.textContent=t;return e};
+const options=(id,arr)=>$(id).replaceChildren(...arr.map(x=>opt(x.value,x.label)));
+const groups=[
+['Recording','Mode',[['','Leave unchanged'],['mV','Video'],['mP','Photo'],['mT','Time-lapse video'],['mTP','Time-lapse photo'],['mTW','TimeWarp'],['mPB','Burst photo'],['mPN','Night photo'],['mNL','Night-lapse video'],['mNP','Night-lapse photo']]],
+['Recording','Resolution',[['','Leave unchanged'],['r1','1080p 16:9'],['r1T','1440p 4:3'],['r2','2.7K 16:9'],['r2T','2.7K 4:3'],['r4','4K 16:9'],['r4T','4K 4:3'],['r4X','4K 8:7'],['r5','5K / 5.3K / MAX 5.6K'],['r5X','5.3K 8:7'],['r8','8K']]],
+['Recording','Frame rate',[['','Leave unchanged'],...[24,25,30,50,60,100,120,200,240].map(n=>['p'+n,n+' fps'])]],
+['Recording','Digital lens',[['','Leave unchanged'],['fW','Wide'],['fL','Linear'],['fS','SuperView'],['fV','HyperView'],['fH','Linear + Horizon Level'],['fN','Narrow'],['fM','Medium']]],
+['Recording','HyperSmooth',[['','Leave unchanged'],['e0','Off'],['e1','On'],['e2','High'],['e3','Boost'],['e4','Auto']]],
+['Protune','Bitrate',[['','Leave unchanged'],['b0','Standard'],['b1','High']]],
+['Protune','Colour',[['','Leave unchanged'],['cF','Flat'],['cG','Vibrant / GoPro Color'],['cN','Natural']]],
+['Protune','Colour depth',[['','Leave unchanged'],['d8','8-bit'],['d10','10-bit']]],
+['Protune','White balance',[['','Leave unchanged'],['wA','Auto'],...[23,28,32,40,45,50,55,60,65].map(n=>['w'+n,(n*100)+'K']),['wN','Native']]],
+['Protune','EV compensation',[['','Leave unchanged'],...[-2,-1.5,-1,-.5,0,.5,1,1.5,2].map(n=>['x'+(n===0?'0':String(n).replace('0.','.')),String(n)+' EV'])]],
+['Protune','Sharpness',[['','Leave unchanged'],['sL','Low'],['sM','Medium'],['sH','High']]],
+['Protune','ISO range',[['','Leave unchanged'],['i1M1','100 fixed'],['i2M1','100–200'],['i4M1','100–400'],['i8M1','100–800'],['i16M1','100–1600'],['i32M1','100–3200'],['i64M1','100–6400']]],
+['Labs','Custom bitrate (Mb/s)',{type:'number',min:1,max:999,prefix:'$BITR='}],
+['Labs','Noise reduction (1–100)',{type:'number',min:1,max:100,prefix:'$NR01='}],
+['Labs','Histogram',[['','Leave unchanged'],['$HIST=0','Off'],['$HIST=5','On (contrast 5)']]],
+['Labs','Spirit level',[['','Leave unchanged'],['$LEVL=0','Off'],['$LEVL=6','On (size 6)']]],
+['Labs','QR scanning during recording',[['','Leave unchanged'],['$QRDR=0','Off'],['$QRDR=1','On']]],
+['Labs','Wireless',[['','Leave unchanged'],['oW0','Off'],['oW1','On']]],
+['Labs','Disable audio',[['','Leave unchanged'],['$DAUD=0','Off'],['$DAUD=1','On']]],
+['Labs','Wake on USB power',[['','Leave unchanged'],['$WAKE=0','Off'],['$WAKE=1','On']]]
+];
+const compat={hero5session:{blocked:['Colour depth','Custom bitrate (Mb/s)','Noise reduction (1–100)','Spirit level']},hero7:{blocked:['Colour depth','Custom bitrate (Mb/s)','Noise reduction (1–100)']},hero8:{blocked:['Colour depth','Custom bitrate (Mb/s)','Noise reduction (1–100)']},hero9:{blocked:['Colour depth','Custom bitrate (Mb/s)','Noise reduction (1–100)']},max:{blocked:['Colour depth','Noise reduction (1–100)']}};
+let fields=[];
+function build(){const root=$('extraControls');root.replaceChildren();fields=[];for(const group of ['Recording','Protune','Labs']){const heading=document.createElement('h3');heading.textContent=group;root.append(heading);for(const [g,label,spec] of groups.filter(x=>x[0]===group)){const id='field'+fields.length;const wrap=document.createElement('div');const l=document.createElement('label');l.htmlFor=id;l.textContent=label;wrap.append(l);let e;if(Array.isArray(spec)){e=document.createElement('select');e.replaceChildren(...spec.map(x=>opt(x[0],x[1])))}else{e=document.createElement('input');e.type='number';e.min=spec.min;e.max=spec.max;e.placeholder='Leave unchanged'}e.id=id;e.addEventListener('input',render);wrap.append(e);root.append(wrap);fields.push({label,spec,e});}}}
+function camera(){return db?.models.find(m=>m.id===$('camera').value)}
+function refreshCamera(){const c=camera();if(!c)return;$('cameraInfo').textContent=c.notes;const disabled=compat[c.id]?.blocked||[];for(const f of fields){f.e.disabled=disabled.includes(f.label);if(f.e.disabled)f.e.value='';}options('resolution',c.modes.length?c.modes.map(m=>({value:m.id,label:m.label})):[{value:'',label:'Use command controls below'}]);refreshMode()}
+function refreshMode(){const m=camera()?.modes.find(x=>x.id===$('resolution').value);options('fps',m?m.fps.map(n=>({value:n,label:n+' fps'})):[{value:'',label:'Use command controls below'}]);options('lens',m?m.lens.map(n=>({value:n,label:n})):[{value:'',label:'Use command controls below'}]);render()}
+function command(){let parts=[];for(const f of fields){if(f.e.disabled||f.e.value==='')continue;if(Array.isArray(f.spec))parts.push(f.e.value);else{let n=Number(f.e.value);if(Number.isFinite(n)&&n>=f.spec.min&&n<=f.spec.max)parts.push(f.spec.prefix+n)}}return parts.join('')}
+function render(){const code=command();$('command').textContent=code||'Select settings below to generate a QR';$('qr').replaceChildren();if(!code){$('qr').textContent='Select a setting';$('status').textContent='Only selected controls are encoded.';return}if(typeof QRCode==='undefined'){$('qr').textContent='QR library unavailable';return}try{new QRCode($('qr'),{text:code,width:256,height:256,colorDark:'#000',colorLight:'#fff',correctLevel:QRCode.CorrectLevel.M});$('status').textContent='Labs syntax generated. Confirm camera and firmware compatibility before use.'}catch(e){$('qr').textContent='QR too large; use fewer settings';$('status').textContent=e.message}}
+function refreshPresets(){options('presets',[{value:'',label:'Choose a saved preset…'},...presets.map((p,i)=>({value:String(i),label:p.name}))])}
 $('camera').addEventListener('change',refreshCamera);$('resolution').addEventListener('change',refreshMode);$('fps').addEventListener('change',render);$('lens').addEventListener('change',render);
-$('save').addEventListener('click',()=>{const name=prompt('Preset name');if(!name)return;presets.push({name,settings:current()});localStorage.setItem(KEY+'.presets',JSON.stringify(presets));refreshPresets();});
-$('load').addEventListener('click',()=>{const p=presets[Number($('presets').value)];if(!p||$('presets').value==='')return;$('camera').value=p.settings.camera;refreshCamera();if([...$('resolution').options].some(o=>o.value===p.settings.resolution)){$('resolution').value=p.settings.resolution;refreshMode();}if([...$('fps').options].some(o=>o.value===p.settings.fps))$('fps').value=p.settings.fps;render();});
-$('fullscreen').addEventListener('click',()=>{const e=$('qr');if(e.requestFullscreen)e.requestFullscreen();});
-(async()=>{try{const r=await fetch('./data/cameras.json');if(!r.ok)throw Error('camera data unavailable');db=await r.json();fill('camera',db.models.map(m=>({value:m.id,label:m.name})));const last=JSON.parse(localStorage.getItem(KEY+'.last')||'null');if(last&&db.models.some(m=>m.id===last.camera))$('camera').value=last.camera;refreshCamera();if(last&&mode()&&camera().modes.some(m=>m.id===last.resolution)){$('resolution').value=last.resolution;refreshMode();if([...$('fps').options].some(o=>o.value===last.fps))$('fps').value=last.fps;render();}refreshPresets();}catch(e){$('status').textContent='Could not load camera database: '+e.message;}})();
+$('save').addEventListener('click',()=>{const name=prompt('Preset name');if(!name)return;presets.push({name,camera:$('camera').value,values:fields.map(f=>f.e.value)});localStorage.setItem(KEY+'.presets',JSON.stringify(presets));refreshPresets()});
+$('load').addEventListener('click',()=>{const p=presets[Number($('presets').value)];if(!p||$('presets').value==='')return;$('camera').value=p.camera;refreshCamera();fields.forEach((f,i)=>{if(!f.e.disabled)f.e.value=p.values[i]||''});render()});
+$('fullscreen').addEventListener('click',()=>{$('qr').requestFullscreen?.()});
+(async()=>{try{build();const r=await fetch('./data/cameras.json');if(!r.ok)throw Error('Camera database unavailable');db=await r.json();options('camera',db.models.map(m=>({value:m.id,label:m.name})));refreshCamera();refreshPresets()}catch(e){$('status').textContent=e.message}})();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(console.warn);
-const catalogue=[['Protune','Bitrate','Standard / High / Labs custom'],['Protune','Shutter','Auto and manual exposure'],['Protune','ISO Min / Max','Camera-specific ISO limits'],['Protune','White Balance','Auto / Kelvin presets'],['Protune','EV Compensation','Exposure adjustment'],['Protune','Sharpness','Low / Medium / High'],['Protune','Colour','Flat / GoPro / model-specific'],['Recording','Aspect ratio','Depends on recording mode'],['Recording','HyperSmooth','Off / supported modes'],['Recording','Horizon Leveling','Lens and FPS restrictions'],['Recording','Audio','Wind / RAW audio / model support'],['Labs','High bitrate','Extended bitrate commands'],['Labs','Motion detection','Trigger configuration'],['Labs','Scheduled capture','Time/date triggers'],['Labs','USB power','Power-on and USB behaviour'],['Labs','GPS / metadata','Telemetry configuration'],['Labs','QR automation','Start-up commands and scripts'],['Labs','Overlays','Supported Labs overlays']];
-const extra=$('extraControls');if(extra){for(const group of ['Recording','Protune','Labs']){const h=document.createElement('h3');h.textContent=group;extra.append(h);for(const [g,name,desc] of catalogue.filter(x=>x[0]===group)){const p=document.createElement('p');p.className='muted';p.textContent=name+' — '+desc+' (not yet wired)';extra.append(p);}}}
