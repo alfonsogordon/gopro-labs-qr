@@ -30,6 +30,30 @@ const compat={hero5session:{blocked:['Colour depth','Custom bitrate (Mb/s)','Noi
 let fields=[];
 function build(){const root=$('extraControls');root.replaceChildren();fields=[];for(const group of ['Recording','Protune','Labs']){const details=document.createElement('details');details.className='settingGroup';details.open=group==='Recording';const heading=document.createElement('summary');heading.textContent=group;details.append(heading);root.append(details);for(const [g,label,spec] of groups.filter(x=>x[0]===group)){const id='field'+fields.length;const wrap=document.createElement('div');const l=document.createElement('label');l.htmlFor=id;l.textContent=label;wrap.append(l);let e;if(Array.isArray(spec)){e=document.createElement('select');e.replaceChildren(...spec.map(x=>opt(x[0],x[1])))}else{e=document.createElement('input');e.type='number';e.min=spec.min;e.max=spec.max;e.placeholder='Leave unchanged'}e.id=id;e.addEventListener('input',updateSetting);e.addEventListener('change',updateSetting);wrap.append(e);details.append(wrap);fields.push({label,spec,e});}}}
 function camera(){return db?.models.find(m=>m.id===$('camera').value)}
+const modelCapabilities={
+hero5session:{resolution:['r1','r1T','r2','r2T','r4'],lens:['fW','fL','fS','fN','fM'],color:['cF','cG'],depth:[],modes:['mV','mP','mT','mTP','mTW','mPB','mPN','mNL','mNP']},
+hero7:{resolution:['r1','r1T','r2','r2T','r4','r4T'],lens:['fW','fL','fS','fN'],color:['cF','cG'],depth:[]},
+hero8:{resolution:['r1','r1T','r2','r2T','r4','r4T'],lens:['fW','fL','fS','fN'],color:['cF','cG'],depth:[]},
+hero9:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5'],lens:['fW','fL','fS','fH','fN'],color:['cF','cG'],depth:[]},
+hero10:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5'],lens:['fW','fL','fS','fH'],color:['cF','cG','cN'],depth:[]},
+hero10bones:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5'],lens:['fW','fL','fS'],color:['cF','cG','cN'],depth:[]},
+hero11:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
+hero11mini:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
+hero12:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
+hero13:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
+max:{resolution:['r3','r5'],lens:['fW'],color:['cF','cG'],depth:[]},
+max2:{resolution:['r4','r5','r8'],lens:['fW'],color:['cF','cG','cN'],depth:['d8','d10']},
+mission1:{resolution:['r1','r2','r4','r4V','r5','r8','r8T'],lens:['fW','fL'],color:['cF','cG','cN','cC','cL'],depth:['d8','d10']},
+mission1pro:{resolution:['r1','r2','r4','r4V','r5','r8','r8T'],lens:['fW','fL'],color:['cF','cG','cN','cC','cL'],depth:['d8','d10']},
+mission1proils:{resolution:['r1','r2','r4','r4V','r5','r8','r8T'],lens:['fW','fL'],color:['cF','cG','cN','cC','cL'],depth:['d8','d10']}
+};
+const extraModes=[['mVL','Video Looping'],['mST','Star Trails'],['mLP','Light Painting'],['mLT','Vehicle Lights'],['mVN','Night Video']];
+const extraRes=[['r3','3K 360'],['r4V','4K Vertical'],['r8T','8K 4:3']];
+const extraColors=[['cC','Cinematic'],['cL','GPLog2']];
+groups.find(g=>g[1]==='Mode')[2].push(...extraModes);
+groups.find(g=>g[1]==='Resolution')[2].push(...extraRes);
+groups.find(g=>g[1]==='Colour')[2].push(...extraColors);
+function profileAllowed(id,label){const p=modelCapabilities[id];if(!p)return null;const map={'Resolution':'resolution','Digital lens':'lens','Colour':'color','Colour depth':'depth','Mode':'modes'};if(label==='Mode'){const base=['mV','mP','mT','mTP','mTW','mPB','mPN','mNL','mNP'];const extra=id==='hero10'?['mL']:id.startsWith('mission')?['mVN','mST','mLP','mLT']:['hero11','hero12','hero13'].includes(id)?['mST','mLP','mLT']:[];return ['',...(p.modes||base),...extra]}const k=map[label];return k?['',...(p[k]||[])]:null}
 const videoLabels=['Resolution','Frame rate','Digital lens','HyperSmooth'];
 const hero9Matrix={
 'r4T':{fps:['p24','p25','p30'],lens:['fW'],smooth:['e0','e1']},
@@ -39,9 +63,9 @@ const hero9Matrix={
 function field(name){return fields.find(f=>f.label===name)}
 function setChoices(f,allowed){if(!f||!Array.isArray(f.spec))return;const old=f.e.value;const values=f.spec.filter(([value])=>!allowed||allowed.includes(value));f.e.replaceChildren(...values.map(([v,label])=>opt(v,label)));f.e.value=values.some(x=>x[0]===old)?old:''}
 function applyConstraints(){const c=camera();if(!c)return;const hero=c.id==='hero9';const selected=field('Resolution').e.value;const recording=field('Mode').e.value;const video=!recording||recording==='mV';const matrix=hero?hero9Matrix[selected]:null;
-for(const f of fields){let allowed=null;if(hero)allowed=hero9Options[f.label]||null;if(hero&&f.label==='Resolution')allowed=['',...Object.keys(hero9Matrix)];if(hero&&matrix&&f.label==='Frame rate')allowed=['',...matrix.fps];if(hero&&matrix&&f.label==='Digital lens')allowed=['',...matrix.lens];if(hero&&matrix&&f.label==='HyperSmooth')allowed=['',...matrix.smooth];if(hero&&f.label==='Frame rate'&&!matrix)allowed=[''];if(hero&&f.label==='Digital lens'&&!matrix)allowed=[''];if(hero&&f.label==='HyperSmooth'&&!matrix)allowed=[''];if(!hero&&videoLabels.includes(f.label))allowed=[''];if(!video&&videoLabels.includes(f.label))allowed=[''];setChoices(f,allowed);const blocked=compat[c.id]?.blocked||[];f.e.disabled=blocked.includes(f.label)||(!hero&&videoLabels.includes(f.label))||(!video&&videoLabels.includes(f.label));if(f.e.disabled)f.e.value='';}
+for(const f of fields){let allowed=null;allowed=profileAllowed(c.id,f.label);if(hero&&hero9Options[f.label]&&!['Resolution','Digital lens'].includes(f.label))allowed=hero9Options[f.label];if(hero&&f.label==='Resolution')allowed=['',...Object.keys(hero9Matrix)];if(hero&&matrix&&f.label==='Frame rate')allowed=['',...matrix.fps];if(hero&&matrix&&f.label==='Digital lens')allowed=['',...matrix.lens];if(hero&&matrix&&f.label==='HyperSmooth')allowed=['',...matrix.smooth];if(hero&&f.label==='Frame rate'&&!matrix)allowed=[''];if(hero&&f.label==='Digital lens'&&!matrix)allowed=[''];if(hero&&f.label==='HyperSmooth'&&!matrix)allowed=[''];if(!hero&&['Frame rate','HyperSmooth'].includes(f.label))allowed=[''];if(!video&&videoLabels.includes(f.label))allowed=[''];setChoices(f,allowed);const blocked=compat[c.id]?.blocked||[];f.e.disabled=blocked.includes(f.label)||(!hero&&['Frame rate','HyperSmooth'].includes(f.label))||(!video&&videoLabels.includes(f.label));if(f.e.disabled)f.e.value='';}
 }
-function refreshCamera(){const c=camera();if(!c)return;$('cameraInfo').textContent=c.notes+(c.id==='hero9'?' • Video combinations limited to the three currently mapped modes.':' • Video combinations locked until model-specific modes are verified.');for(const f of fields)f.e.value='';field('Mode').e.value='mV';applyConstraints();render()}
+function refreshCamera(){const c=camera();if(!c)return;$('cameraInfo').textContent=c.notes+(c.id==='hero9'?' • Video combinations limited to the three currently mapped modes.':' • Model options shown; frame-rate combinations locked until verified.');for(const f of fields)f.e.value='';field('Mode').e.value='mV';applyConstraints();render()}
 function updateSetting(e){if(e?.target===field('Mode')?.e||e?.target===field('Resolution')?.e)applyConstraints();render()}
 function command(){let parts=[];for(const f of fields){if(f.e.disabled||f.e.value==='')continue;if(Array.isArray(f.spec))parts.push(f.e.value);else{let n=Number(f.e.value);if(Number.isFinite(n)&&n>=f.spec.min&&n<=f.spec.max)parts.push(f.spec.prefix+n)}}return parts.join('')}
 function render(){const code=command();$('command').textContent=code||'Select settings below to generate a QR';$('qr').replaceChildren();if(!code){$('qr').textContent='Select a setting';$('status').textContent='Only selected controls are encoded.';return}if(typeof QRCode==='undefined'){$('qr').textContent='QR library unavailable';return}try{new QRCode($('qr'),{text:code,width:256,height:256,colorDark:'#000',colorLight:'#fff',correctLevel:QRCode.CorrectLevel.M});$('status').textContent='Labs syntax generated. Confirm camera and firmware compatibility before use.'}catch(e){$('qr').textContent='QR too large; use fewer settings';$('status').textContent=e.message}}
