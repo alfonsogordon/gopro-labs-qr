@@ -1,11 +1,77 @@
 {
   "schemaVersion": 1,
-  "notice": "Provisional profiles; all command/mode combinations require validation against official model-specific Labs documentation and physical camera tests.",
+  "notice": "All documented Labs firmware families are selectable. Mode tables remain provisional; use verified command controls for supported features.",
   "models": [
+    {
+      "id": "mission1proils",
+      "name": "MISSION 1 PRO ILS",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "mission1pro",
+      "name": "MISSION 1 PRO",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "mission1",
+      "name": "MISSION 1",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "max2",
+      "name": "MAX2",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero13",
+      "name": "HERO13 Black",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero12",
+      "name": "HERO12 Black",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero11",
+      "name": "HERO11 Black",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero11mini",
+      "name": "HERO11 Black Mini",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero10",
+      "name": "HERO10 Black",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero10bones",
+      "name": "HERO10 Bones",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "max",
+      "name": "MAX",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
     {
       "id": "hero9",
       "name": "HERO9 Black",
-      "notes": "Naked HERO9 test camera. 4K 4:3 30fps and 2.7K 4:3 60fps are candidate modes.",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
       "modes": [
         {
           "id": "4k43",
@@ -50,15 +116,21 @@
       ]
     },
     {
-      "id": "hero11mini",
-      "name": "HERO11 Black Mini",
-      "notes": "Labs support and recording mode commands pending model-specific validation.",
+      "id": "hero8",
+      "name": "HERO8 Black",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
       "modes": []
     },
     {
-      "id": "max2",
-      "name": "MAX2",
-      "notes": "360 and single-lens command support pending official verification.",
+      "id": "hero7",
+      "name": "HERO7 Black",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
+      "modes": []
+    },
+    {
+      "id": "hero5session",
+      "name": "HERO5 Session",
+      "notes": "Labs firmware supported; exact recording-mode combinations must be checked on camera.",
       "modes": []
     }
   ]
