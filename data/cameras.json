@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "notice": "Provisional profiles; all command/mode combinations require validation against official model-specific Labs documentation and physical camera tests.",
+  "models": [
+    {
+      "id": "hero9",
+      "name": "HERO9 Black",
+      "notes": "Naked HERO9 test camera. 4K 4:3 30fps and 2.7K 4:3 60fps are candidate modes.",
+      "modes": [
+        {
+          "id": "4k43",
+          "label": "4K 4:3",
+          "fps": [
+            24,
+            25,
+            30
+          ],
+          "lens": [
+            "Wide"
+          ]
+        },
+        {
+          "id": "27k43",
+          "label": "2.7K 4:3",
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "Wide"
+          ]
+        },
+        {
+          "id": "4k169",
+          "label": "4K 16:9",
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "Wide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hero11mini",
+      "name": "HERO11 Black Mini",
+      "notes": "Labs support and recording mode commands pending model-specific validation.",
+      "modes": []
+    },
+    {
+      "id": "max2",
+      "name": "MAX2",
+      "notes": "360 and single-lens command support pending official verification.",
+      "modes": []
+    }
+  ]
+}
