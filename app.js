@@ -8,7 +8,9 @@ const groups=[
 ['Recording','Resolution',[['','Leave unchanged'],['r1','1080p 16:9'],['r1T','1440p 4:3'],['r2','2.7K 16:9'],['r2T','2.7K 4:3'],['r4','4K 16:9'],['r4T','4K 4:3'],['r4X','4K 8:7'],['r5','5K / 5.3K / MAX 5.6K'],['r5X','5.3K 8:7'],['r8','8K']]],
 ['Recording','Frame rate',[['','Leave unchanged'],...[24,25,30,50,60,100,120,200,240].map(n=>['p'+n,n+' fps'])]],
 ['Recording','Digital lens',[['','Leave unchanged'],['fW','Wide'],['fL','Linear'],['fS','SuperView'],['fV','HyperView'],['fH','Linear + Horizon Level'],['fN','Narrow'],['fM','Medium']]],
+['Recording','Raw audio processing',[['','Leave unchanged'],['aL','Low'],['aM','Medium'],['aH','High']]],
 ['Recording','HyperSmooth',[['','Leave unchanged'],['e0','Off'],['e1','On'],['e2','High'],['e3','Boost'],['e4','Auto']]],
+['Recording','Time-lapse interval',[['','Leave unchanged'],['p2','0.5 seconds'],['p1','1 second'],['p.2','2 seconds'],['p.5','5 seconds'],['p.10','10 seconds'],['p.30','30 seconds'],['p.60','1 minute'],['p.120','2 minutes'],['p.300','5 minutes'],['p.1800','30 minutes'],['p.3600','1 hour']]],
 ['Protune','Bitrate',[['','Leave unchanged'],['b0','Standard'],['b1','High']]],
 ['Protune','Colour',[['','Leave unchanged'],['cF','Flat'],['cG','Vibrant / GoPro Color'],['cN','Natural']]],
 ['Protune','Colour depth',[['','Leave unchanged'],['d8','8-bit'],['d10','10-bit']]],
@@ -36,12 +38,12 @@ hero5session:{resolution:['r1','r1T','r2','r2T','r4'],lens:['fW','fL','fS','fN',
 hero7:{resolution:['r1','r1T','r2','r2T','r4','r4T'],lens:['fW','fL','fS','fN'],color:['cF','cG'],depth:[]},
 hero8:{resolution:['r1','r1T','r2','r2T','r4','r4T'],lens:['fW','fL','fS','fN'],color:['cF','cG'],depth:[]},
 hero9:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5'],lens:['fW','fL','fS','fH','fN'],color:['cF','cG'],depth:[]},
-hero10:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5'],lens:['fW','fL','fS','fH'],color:['cF','cG','cN'],depth:[]},
+hero10:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5','r5T'],lens:['fW','fL','fS','fH'],color:['cF','cG','cN'],depth:[]},
 hero10bones:{resolution:['r1','r1T','r2','r2T','r4','r4T','r5'],lens:['fW','fL','fS'],color:['cF','cG','cN'],depth:[]},
 hero11:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
 hero11mini:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
 hero12:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
-hero13:{resolution:['r1','r2','r2T','r4','r4T','r4X','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
+hero13:{resolution:['r1','r1V','r2','r2T','r4','r4T','r4X','r4S','r4V','r5','r5X'],lens:['fW','fL','fS','fV','fH'],color:['cF','cG','cN'],depth:['d8','d10']},
 max:{resolution:['r3','r5'],lens:['fW'],color:['cF','cG'],depth:[]},
 max2:{resolution:['r4','r5','r8'],lens:['fW'],color:['cF','cG','cN'],depth:['d8','d10']},
 mission1:{resolution:['r1','r2','r4','r4V','r5','r8','r8T'],lens:['fW','fL'],color:['cF','cG','cN','cC','cL'],depth:['d8','d10']},
@@ -49,11 +51,11 @@ mission1pro:{resolution:['r1','r2','r4','r4V','r5','r8','r8T'],lens:['fW','fL'],
 mission1proils:{resolution:['r1','r2','r4','r4V','r5','r8','r8T'],lens:['fW','fL'],color:['cF','cG','cN','cC','cL'],depth:['d8','d10']}
 };
 const extraModes=[['mVL','Video Looping'],['mST','Star Trails'],['mLP','Light Painting'],['mLT','Vehicle Lights'],['mVN','Night Video']];
-const extraRes=[['r3','3K 360'],['r4V','4K Vertical'],['r8T','8K 4:3']];
+const extraRes=[['r1V','1080p vertical'],['r4S','4K square'],['r5T','5K 4:3'],['r3','3K 360'],['r4V','4K Vertical'],['r8T','8K 4:3']];
 const extraColors=[['cC','Cinematic'],['cL','GPLog2']];
 groups.find(g=>g[1]==='Mode')[2].push(...extraModes);
 groups.find(g=>g[1]==='Resolution')[2].push(...extraRes);
-groups.find(g=>g[1]==='Colour')[2].push(...extraColors);
+groups.find(g=>g[1]==='Colour')[2].push(...extraColors);groups.find(g=>g[1]==='Digital lens')[2].push(['fX','SuperMax Wide (lens mod)']);
 function profileAllowed(id,label){const p=modelCapabilities[id];if(!p)return null;const map={'Resolution':'resolution','Digital lens':'lens','Colour':'color','Colour depth':'depth','Mode':'modes'};if(label==='Mode'){const base=['mV','mP','mT','mTP','mTW','mPB','mPN','mNL','mNP'];const extra=id==='hero10'?['mL']:id.startsWith('mission')?['mVN','mST','mLP','mLT']:['hero11','hero12','hero13'].includes(id)?['mST','mLP','mLT']:[];return ['',...(p.modes||base),...extra]}const k=map[label];return k?['',...(p[k]||[])]:null}
 const videoLabels=['Resolution','Frame rate','Digital lens','HyperSmooth'];
 const hero9Matrix={
@@ -64,7 +66,7 @@ const hero9Matrix={
 function field(name){return fields.find(f=>f.label===name)}
 function setChoices(f,allowed){if(!f||!Array.isArray(f.spec))return;const old=f.e.value;const values=f.spec.filter(([value])=>!allowed||allowed.includes(value));f.e.replaceChildren(...values.map(([v,label])=>opt(v,label)));f.e.value=values.some(x=>x[0]===old)?old:''}
 function applyConstraints(){const c=camera();if(!c)return;const hero=c.id==='hero9';const selected=field('Resolution').e.value;const recording=field('Mode').e.value;const video=!recording||recording==='mV';const matrix=hero?hero9Matrix[selected]:null;
-for(const f of fields){let allowed=null;allowed=profileAllowed(c.id,f.label);if(hero&&hero9Options[f.label]&&!['Resolution','Digital lens'].includes(f.label))allowed=hero9Options[f.label];if(hero&&f.label==='Resolution')allowed=['',...Object.keys(hero9Matrix)];if(hero&&matrix&&f.label==='Frame rate')allowed=['',...matrix.fps];if(hero&&matrix&&f.label==='Digital lens')allowed=['',...matrix.lens];if(hero&&matrix&&f.label==='HyperSmooth')allowed=['',...matrix.smooth];if(f.label==='Shutter angle')allowed=['','0','360','180','90','45','22','10','5','2'];if(hero&&f.label==='Frame rate'&&!matrix)allowed=[''];if(hero&&f.label==='Digital lens'&&!matrix)allowed=[''];if(hero&&f.label==='HyperSmooth'&&!matrix)allowed=[''];if(!hero&&['Frame rate','HyperSmooth'].includes(f.label))allowed=[''];if(!video&&videoLabels.includes(f.label))allowed=[''];setChoices(f,allowed);const blocked=compat[c.id]?.blocked||[];f.e.disabled=blocked.includes(f.label)||(!hero&&['Frame rate','HyperSmooth'].includes(f.label))||(!video&&videoLabels.includes(f.label));if(f.e.disabled)f.e.value='';}
+for(const f of fields){let allowed=null;allowed=profileAllowed(c.id,f.label);if(hero&&hero9Options[f.label]&&!['Resolution','Digital lens'].includes(f.label))allowed=hero9Options[f.label];if(hero&&f.label==='Resolution')allowed=['',...Object.keys(hero9Matrix)];if(hero&&matrix&&f.label==='Frame rate')allowed=['',...matrix.fps];if(hero&&matrix&&f.label==='Digital lens')allowed=['',...matrix.lens];if(hero&&matrix&&f.label==='HyperSmooth')allowed=['',...matrix.smooth];if(f.label==='Shutter angle')allowed=['','0','360','180','90','45','22','10','5','2'];if(hero&&f.label==='Frame rate'&&!matrix)allowed=[''];if(hero&&f.label==='Digital lens'&&!matrix)allowed=[''];if(hero&&f.label==='HyperSmooth'&&!matrix)allowed=[''];if(!hero&&['Frame rate','HyperSmooth'].includes(f.label))allowed=[''];const lapse=['mT','mTP','mNL','mNP'].includes(recording);if(f.label==='Time-lapse interval'&&!lapse)allowed=[''];if(lapse&&f.label==='Frame rate')allowed=[''];if(!video&&videoLabels.includes(f.label))allowed=[''];setChoices(f,allowed);const blocked=compat[c.id]?.blocked||[];f.e.disabled=blocked.includes(f.label)||(!hero&&['Frame rate','HyperSmooth'].includes(f.label))||(!video&&videoLabels.includes(f.label))||(f.label==='Time-lapse interval'&&!['mT','mTP','mNL','mNP'].includes(recording));if(f.e.disabled)f.e.value='';}
 }
 function refreshCamera(){const c=camera();if(!c)return;$('cameraInfo').textContent=c.notes+(c.id==='hero9'?' • Video combinations limited to the three currently mapped modes.':' • Model options shown; frame-rate combinations locked until verified.');for(const f of fields)f.e.value='';field('Mode').e.value='mV';applyConstraints();render()}
 function updateSetting(e){if(e?.target===field('Mode')?.e||e?.target===field('Resolution')?.e)applyConstraints();render()}
