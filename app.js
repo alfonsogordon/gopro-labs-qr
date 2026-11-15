@@ -1,5 +1,5 @@
 const $=id=>document.getElementById(id);
-const KEY='labsbuddy.v3';let db, presets=[];
+const KEY='labsbuddy.v2';let db, presets=[];
 try{presets=JSON.parse(localStorage.getItem(KEY+'.presets')||'[]')}catch{}
 const opt=(v,t)=>{let e=document.createElement('option');e.value=v;e.textContent=t;return e};
 const options=(id,arr)=>$(id).replaceChildren(...arr.map(x=>opt(x.value,x.label)));
