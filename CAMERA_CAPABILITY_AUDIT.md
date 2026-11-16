@@ -15,11 +15,11 @@ Sources:
 | HERO5 Session | provisional | provisional | NOT VERIFIED | partial |
 | HERO7 Black | provisional | provisional | NOT VERIFIED | partial |
 | HERO8 Black | provisional | provisional | NOT VERIFIED | partial |
-| HERO9 Black | provisional | provisional | 3 provisional rules only | partial |
+| HERO9 Black | manufacturer manual | manufacturer manual | Resolution/FPS and lens rows populated; stabilization remains unverified | partial |
 | HERO10 Black | provisional | provisional | NOT VERIFIED | partial |
 | HERO10 Bones | provisional | provisional | NOT VERIFIED | partial |
 | HERO11 Black | provisional | provisional | NOT VERIFIED | partial |
-| HERO11 Black Mini | provisional | provisional | NOT VERIFIED | partial; Mini exceptions |
+| HERO11 Black Mini | GoPro product specification | GoPro product specification | Resolution/FPS populated; lens/stabilization combinations unverified | partial; Mini exceptions |
 | HERO12 Black | provisional | provisional | NOT VERIFIED | partial |
 | HERO13 Black | provisional | provisional | NOT VERIFIED | partial |
 | MAX | provisional | provisional | NOT VERIFIED | partial |
@@ -44,3 +44,9 @@ Sources:
 5. Audit saved presets: existing index-based storage can shift when controls are inserted. Migrate to stable label-based keys without losing user presets.
 
 Do not mark the app fully validated or advertise that invalid combinations are impossible until these steps pass.
+
+## Validated recording matrix sources (16 November 2026)
+
+- HERO9 Black: [GoPro HERO9 Black user manual, Tech Specs: Video, pp. 122–124](https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf). Populated 5K, 4K, 4K 4:3, 2.7K, 2.7K 4:3, 1440p, 1080p resolution/FPS and the listed digital lenses. Some lens options differ at 4K high frame rate and 1080p 240fps. HyperSmooth level compatibility is **not** yet independently validated.
+- HERO11 Black Mini: [GoPro official product specifications](https://gopro.com/en/us/shop/cameras/hero11-black-mini/CHDHF-111-master.html). Populated 5.3K 8:7, 16:9, 4:3; 4K 8:7, 16:9, 4:3; 2.7K 16:9, 4:3; 1080p. Lens-by-FPS and stabilization combinations remain **unverified**.
+- Other 13 models: existing model-level candidate lists remain **unverified**, and the app must not present them as a complete compatibility matrix.
