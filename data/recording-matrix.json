@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "notice": "Partial tables are provisional. Empty tables are unverified, not unsupported. Lens and stabilization combinations are not validated.",
+  "notice": "Source-checked recording modes for HERO7, HERO8, HERO11, plus provisional HERO9 and HERO11 Mini. Remaining models lack verified per-mode tables. Lens-by-FPS is recorded where sourced; stabilization needs more per-mode checking. Empty means unknown, not unsupported.",
   "cameras": {
     "mission1proils": {
       "status": "not-validated",
@@ -33,9 +33,216 @@
       "modes": {}
     },
     "hero11": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://community.gopro.com/s/article/HERO11-Black-Video-Settings-And-Resolutions?language=en_US",
+      "modes": {
+        "r5X": {
+          "fps": [
+            24,
+            25,
+            30
+          ],
+          "lens": [
+            "fW"
+          ],
+          "stabilization": [
+            "on",
+            "off"
+          ]
+        },
+        "r5T": {
+          "fps": [
+            24,
+            25,
+            30
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH"
+          ]
+        },
+        "r5": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "fS",
+            "fW",
+            "fL",
+            "fH",
+            "fV"
+          ],
+          "lensByFps": {
+            "50": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "60": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ]
+          }
+        },
+        "r4X": {
+          "fps": [
+            50,
+            60
+          ],
+          "lens": [
+            "fW"
+          ],
+          "stabilization": [
+            "on",
+            "off"
+          ]
+        },
+        "r4T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH"
+          ]
+        },
+        "r4": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ],
+          "lens": [
+            "fS",
+            "fW",
+            "fL",
+            "fH",
+            "fV"
+          ],
+          "lensByFps": {
+            "24": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "25": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "30": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "100": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "120": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ]
+          }
+        },
+        "r2T": {
+          "fps": [
+            50,
+            60,
+            100,
+            120
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH"
+          ]
+        },
+        "r2": {
+          "fps": [
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ],
+          "lens": [
+            "fS",
+            "fW",
+            "fL",
+            "fH"
+          ],
+          "lensByFps": {
+            "200": [
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "240": [
+              "fW",
+              "fL",
+              "fH"
+            ]
+          }
+        },
+        "r1": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ],
+          "lens": [
+            "fS",
+            "fW",
+            "fL",
+            "fH"
+          ],
+          "lensByFps": {
+            "200": [
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "240": [
+              "fW",
+              "fL",
+              "fH"
+            ]
+          }
+        }
+      },
+      "validation": "Manufacturer recording tables; FPS and lens restrictions transcribed. Stabilization combinations still require checks."
     },
     "hero10": {
       "status": "not-validated",
@@ -53,14 +260,319 @@
       "modes": {}
     },
     "hero8": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://community.gopro.com/s/article/HERO8-Black-Video-Resolutions?language=en_US",
+      "modes": {
+        "r4": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "fS",
+            "fW",
+            "fL"
+          ],
+          "lensByFps": {
+            "50": [
+              "fW",
+              "fL"
+            ],
+            "60": [
+              "fW",
+              "fL"
+            ]
+          }
+        },
+        "r4T": {
+          "fps": [
+            24,
+            25,
+            30
+          ],
+          "lens": [
+            "fW",
+            "fL"
+          ]
+        },
+        "r2": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ],
+          "lens": [
+            "fW",
+            "fS",
+            "fL",
+            "fN"
+          ],
+          "lensByFps": {
+            "100": [
+              "fW"
+            ],
+            "120": [
+              "fW"
+            ]
+          }
+        },
+        "r2T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fN"
+          ],
+          "lensByFps": {
+            "50": [
+              "fW"
+            ],
+            "60": [
+              "fW"
+            ]
+          }
+        },
+        "r1T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fN"
+          ],
+          "lensByFps": {
+            "100": [
+              "fW"
+            ],
+            "120": [
+              "fW"
+            ]
+          }
+        },
+        "r1": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ],
+          "lens": [
+            "fW",
+            "fS",
+            "fL",
+            "fN"
+          ],
+          "lensByFps": {
+            "200": [
+              "fW"
+            ],
+            "240": [
+              "fW"
+            ]
+          }
+        }
+      },
+      "validation": "Manufacturer recording tables; FPS and lens restrictions transcribed. Stabilization combinations still require checks."
     },
     "hero7": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://gopro.com/content/dam/help/hero7-black/manuals/HERO7Black_UM_ENG_REVC.pdf",
+      "modes": {
+        "r4": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "fW",
+            "fS"
+          ],
+          "lensByFps": {
+            "24": [
+              "fW",
+              "fS"
+            ],
+            "25": [
+              "fW",
+              "fS"
+            ],
+            "30": [
+              "fW",
+              "fS"
+            ],
+            "50": [
+              "fW"
+            ],
+            "60": [
+              "fW"
+            ]
+          }
+        },
+        "r4T": {
+          "fps": [
+            24,
+            25,
+            30
+          ],
+          "lens": [
+            "fW"
+          ]
+        },
+        "r2": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ],
+          "lens": [
+            "fL",
+            "fW",
+            "fS"
+          ],
+          "lensByFps": {
+            "100": [
+              "fW"
+            ],
+            "120": [
+              "fW"
+            ]
+          }
+        },
+        "r2T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ],
+          "lens": [
+            "fL",
+            "fW"
+          ],
+          "lensByFps": {
+            "50": [
+              "fW"
+            ],
+            "60": [
+              "fW"
+            ]
+          }
+        },
+        "r1T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ],
+          "lens": [
+            "fL",
+            "fW"
+          ],
+          "lensByFps": {
+            "100": [
+              "fW"
+            ],
+            "120": [
+              "fW"
+            ]
+          }
+        },
+        "r1": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ],
+          "lens": [
+            "fL",
+            "fW",
+            "fS"
+          ],
+          "lensByFps": {
+            "200": [
+              "fW"
+            ],
+            "240": [
+              "fW"
+            ]
+          }
+        },
+        "r960": {
+          "fps": [
+            100,
+            120,
+            200,
+            240
+          ],
+          "lens": [
+            "fW"
+          ]
+        },
+        "r720": {
+          "fps": [
+            50,
+            60,
+            200,
+            240
+          ],
+          "lens": [
+            "fL",
+            "fW"
+          ],
+          "lensByFps": {
+            "200": [
+              "fW"
+            ],
+            "240": [
+              "fW"
+            ]
+          }
+        }
+      },
+      "validation": "Manufacturer recording tables; FPS and lens restrictions transcribed. Stabilization combinations still require checks."
     },
     "hero5session": {
       "status": "not-validated",
