@@ -24,8 +24,8 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p dist/data dist/vendor
-          cp index.html app.js sw.js manifest.webmanifest icon.svg dist/
-          cp data/cameras.json dist/data/
+          cp index.html matrix.html app.js sw.js manifest.webmanifest icon.svg dist/
+          cp data/cameras.json data/recording-matrix.json dist/data/
           if [ -f vendor/qrcode.min.js ]; then
             cp vendor/qrcode.min.js dist/vendor/
           else
