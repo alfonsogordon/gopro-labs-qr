@@ -113,11 +113,12 @@ r1:{fps:[24,25,30,50,60,100,120,200,240]}
 // Single normalized capability registry consumed by dropdown filtering.
 // "fps" and "resolution" are model-level candidates, NOT verified combinations.
 // videoMatrix entries are provisional until checked against manufacturer mode tables.
+let recordingMatrixData=null;
 const cameraProfiles=Object.fromEntries(Object.entries(modelCapabilities).map(([id,cap])=>[id,{
   ...cap,
   fps:fpsByModel[id]||[],
   labs:Object.keys(labsSupport).filter(label=>labsSupport[label].includes(id)),
-  videoMatrix:verifiedVideoMatrices[id]||{}
+  videoMatrix:recordingMatrixData?.cameras?.[id]?.modes||verifiedVideoMatrices[id]||{}
 }]));
 function field(name){return fields.find(f=>f.label===name)}
 function setChoices(f,allowed){if(!f||!Array.isArray(f.spec))return;const old=f.e.value;const values=f.spec.filter(([value])=>!allowed||allowed.includes(value));f.e.replaceChildren(...values.map(([v,label])=>opt(v,label)));f.e.value=values.some(x=>x[0]===old)?old:''}
@@ -133,5 +134,5 @@ $('camera').addEventListener('change',refreshCamera);
 $('save').addEventListener('click',()=>{const name=prompt('Preset name');if(!name)return;presets.push({name,camera:$('camera').value,values:fields.map(f=>f.e.value)});localStorage.setItem(KEY+'.presets',JSON.stringify(presets));refreshPresets()});
 $('load').addEventListener('click',()=>{const p=presets[Number($('presets').value)];if(!p||$('presets').value==='')return;$('camera').value=p.camera;refreshCamera();fields.forEach((f,i)=>{if(!f.e.disabled)f.e.value=p.values[i]||''});applyConstraints();fields.forEach((f,i)=>{if(!f.e.disabled&&Array.isArray(f.spec)&&[...f.e.options].some(o=>o.value===p.values[i]))f.e.value=p.values[i]||''});applyConstraints();render()});
 $('fullscreen').addEventListener('click',()=>{$('qr').requestFullscreen?.()});
-(async()=>{try{build();const r=await fetch('./data/cameras.json');if(!r.ok)throw Error('Camera database unavailable');db=await r.json();options('camera',db.models.map(m=>({value:m.id,label:m.name})));refreshCamera();render();refreshPresets()}catch(e){$('status').textContent=e.message}})();
+(async()=>{try{build();const r=await fetch('./data/cameras.json');if(!r.ok)throw Error('Camera database unavailable');db=await r.json();try{const mr=await fetch('./data/recording-matrix.json');if(mr.ok){recordingMatrixData=await mr.json();for(const [id,profile] of Object.entries(cameraProfiles))profile.videoMatrix=recordingMatrixData.cameras?.[id]?.modes||{};}}catch(err){console.warn('Recording matrix unavailable; using built-in fallback',err)}options('camera',db.models.map(m=>({value:m.id,label:m.name})));refreshCamera();render();refreshPresets()}catch(e){$('status').textContent=e.message}})();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(console.warn);
