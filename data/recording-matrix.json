@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "notice": "Source-checked recording modes for HERO7, HERO8, HERO11, plus provisional HERO9 and HERO11 Mini. Remaining models lack verified per-mode tables. Lens-by-FPS is recorded where sourced; stabilization needs more per-mode checking. Empty means unknown, not unsupported.",
+  "notice": "Matrices are partial. HERO12 has a complete manufacturer-published resolution/FPS overview. HERO13 and HERO10 rows contain only positively confirmed combinations, NOT complete frame-rate sets. Lens and stabilization intersections are incomplete. Do not treat omitted values as unsupported.",
   "cameras": {
     "mission1proils": {
       "status": "not-validated",
@@ -23,14 +23,155 @@
       "modes": {}
     },
     "hero13": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://community.gopro.com/s/article/HERO13-Black-Camera-Battery-Life?language=en_US",
+      "modes": {
+        "r5X": {
+          "fps": [
+            24,
+            30
+          ]
+        },
+        "r5": {
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        "r4X": {
+          "fps": [
+            24,
+            30,
+            60
+          ]
+        },
+        "r4V": {
+          "fps": [
+            30,
+            60
+          ]
+        },
+        "r4": {
+          "fps": [
+            24,
+            30,
+            60,
+            120
+          ]
+        },
+        "r2T": {
+          "fps": [
+            120
+          ]
+        },
+        "r2": {
+          "fps": [
+            240
+          ]
+        },
+        "r1V": {
+          "fps": [
+            30,
+            60
+          ]
+        },
+        "r1": {
+          "fps": [
+            30,
+            60,
+            120,
+            240
+          ]
+        }
+      },
+      "validation": "Confirmed frame-rate combinations from GoPro's HERO13 8:7 article and battery test tables; NOT exhaustive, especially PAL frame rates. Do not interpret absent FPS as unsupported."
     },
     "hero12": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://gopro.com/en/us/shop/cameras/hero12-black/CHDHX-121-master.html",
+      "modes": {
+        "r5X": {
+          "fps": [
+            24,
+            25,
+            30
+          ]
+        },
+        "r5": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r4X": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r4V": {
+          "fps": [
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r4": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ]
+        },
+        "r2T": {
+          "fps": [
+            50,
+            60,
+            100,
+            120
+          ]
+        },
+        "r2": {
+          "fps": [
+            200,
+            240
+          ]
+        },
+        "r1V": {
+          "fps": [
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r1": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ]
+        }
+      },
+      "validation": "Resolution/FPS transcribed from official product specs; lens, HDR, stabilization intersections not yet validated."
     },
     "hero11": {
       "status": "partial",
@@ -245,9 +386,37 @@
       "validation": "Manufacturer recording tables; FPS and lens restrictions transcribed. Stabilization combinations still require checks."
     },
     "hero10": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://gopro.com/en/gb/news/guide-to-hero10-black-frame-rates",
+      "modes": {
+        "r5": {
+          "fps": [
+            60
+          ]
+        },
+        "r4": {
+          "fps": [
+            60,
+            120
+          ]
+        },
+        "r4T": {
+          "fps": [
+            60
+          ]
+        },
+        "r2": {
+          "fps": [
+            240
+          ]
+        },
+        "r2T": {
+          "fps": [
+            120
+          ]
+        }
+      },
+      "validation": "Only manufacturer-confirmed example FPS entries. Not exhaustive; missing frame rates are unknown, not unsupported."
     },
     "hero10bones": {
       "status": "not-validated",
