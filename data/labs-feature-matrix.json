@@ -1,0 +1,1234 @@
+{
+  "schemaVersion": 1,
+  "source": "https://github.com/gopro/labs#overview-of-labs-functionality-and-device-compatibility",
+  "sourceUpdated": "2026-07-23",
+  "notice": "GoPro's official matrix uses grouped camera columns. HERO11 Mini, HERO10 Bones, and MISSION variants share group columns but may have exceptions. Their support is conservatively marked 'grouped-check' rather than confirmed.",
+  "cameraAliases": {
+    "mission1pro": "mission1",
+    "mission1proils": "mission1",
+    "hero11mini": "hero11",
+    "hero10bones": "hero10"
+  },
+  "features": [
+    {
+      "feature": "24.0Hz capture vs 23.976",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "All Integer frame rates 30.0 vs 29.97",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "NLE proxies",
+      "reference": "https://gopro.github.io/labs/control/proxies",
+      "support": {
+        "mission1": "supported",
+        "max2": "partial",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Altered File Naming",
+      "reference": "https://gopro.github.io/labs/control/basename",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Archive Mode (locked settings)",
+      "reference": "https://gopro.github.io/labs/control/archive",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Audio Channels Gain/Solo/Mute",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Audio Disable",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Bitrate Controls",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Boot Command",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Command Shell via USB Comms",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Commands over Open GoPro WiFi links",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Distance-Lapse",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Dive Mode",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Exposure Display current ISO and shutter",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Exposure Damping control",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Exposure Curve custom log encoding",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Exposure Min/Max Times",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Extra Long time-lapse",
+      "reference": "https://gopro.github.io/labs/control/longtimelapse",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "GPS Log without capture",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "GPS time sync",
+      "reference": "https://gopro.github.io/labs/control/gpssync",
+      "support": {
+        "mission1": "partial",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Guidelines Display on rear LCD",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "HDMI display settings",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Hindsight Timeout Extension",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Histogram (on display)",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Histogram Position/Size (either screen)",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "I-Frame only HEVC Encoding",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Large Chapter Support (12GB)",
+      "reference": "https://gopro.github.io/labs/control/chapters",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Live Stream Initiation",
+      "reference": "https://gopro.github.io/labs/control/rtmp",
+      "support": {
+        "mission1": "unknown",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Low Light mode",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "LRV Disable",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "unsupported",
+        "hero12": "unsupported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "LTC Time support (via MediaMod/Pro Mic Adapter)",
+      "reference": "https://gopro.github.io/labs/control/ltc",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Max Shutter Angle exposure control",
+      "reference": "https://gopro.github.io/labs/control/maxshut",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Metadata Injections",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Noise Reduction control",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Overlay - Burn-ins e.g. Time/Date",
+      "reference": "https://gopro.github.io/labs/control/overlays",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Overlay - Color Bar",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Overlays - Logo Burn-In",
+      "reference": "https://gopro.github.io/labs/control/logo",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Overlays - Luma Sweep",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Owner Information",
+      "reference": "https://gopro.github.io/labs/control/owner",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Preset names with Labs commands",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "QR decoding while recording",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "SD card speed test",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Spirit Level Display on rear LCD",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Stop Motion",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Sunrise/Sunset starts",
+      "reference": "https://gopro.github.io/labs/control/solartimelapse",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Time delayed Starts",
+      "reference": "https://gopro.github.io/labs/control/custom",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Time/date/timecode QR Code",
+      "reference": "https://gopro.github.io/labs/control/precisiontime",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Tone Mapping Controls",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Trigger - Accelerometer",
+      "reference": "https://gopro.github.io/labs/control/imutrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Trigger - GPS speed",
+      "reference": "https://gopro.github.io/labs/control/speedtrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Trigger - Gyroscope",
+      "reference": "https://gopro.github.io/labs/control/imutrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Trigger - IMU Motion",
+      "reference": "https://gopro.github.io/labs/control/imutrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Trigger - Motion detection",
+      "reference": "https://gopro.github.io/labs/control/motion",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Trigger - USB Power",
+      "reference": "https://gopro.github.io/labs/control/usb",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Upload scripting",
+      "reference": "https://gopro.github.io/labs/control/dailytl",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "USB power trust override",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "partial",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Visual Scripting Blockly",
+      "reference": "https://gopro.github.io/labs/build",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Wake on Power",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    {
+      "feature": "Wider Color Gamut",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "White Balance Warmer/Cooler",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    {
+      "feature": "Zero to sixty timing",
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    }
+  ]
+}
