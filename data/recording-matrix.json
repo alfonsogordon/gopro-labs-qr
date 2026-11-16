@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "notice": "Partial tables are provisional. Empty tables are unverified, not unsupported. Lens and stabilization combinations are not validated.",
+  "cameras": {
+    "mission1proils": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "mission1pro": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "mission1": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "max2": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero13": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero12": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero11": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero10": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero10bones": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "max": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero8": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero7": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero5session": {
+      "status": "not-validated",
+      "source": null,
+      "modes": {}
+    },
+    "hero9": {
+      "status": "partial",
+      "source": "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf",
+      "modes": {
+        "r5": {
+          "fps": [
+            24,
+            25,
+            30
+          ]
+        },
+        "r4": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r4T": {
+          "fps": [
+            24,
+            25,
+            30
+          ]
+        },
+        "r2": {
+          "fps": [
+            50,
+            60,
+            100,
+            120
+          ]
+        },
+        "r2T": {
+          "fps": [
+            50,
+            60
+          ]
+        },
+        "r1T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ]
+        },
+        "r1": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ]
+        }
+      }
+    },
+    "hero11mini": {
+      "status": "partial",
+      "source": "https://gopro.com/en/us/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+      "modes": {
+        "r5X": {
+          "fps": [
+            24,
+            25,
+            30
+          ]
+        },
+        "r5": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r5T": {
+          "fps": [
+            24,
+            25,
+            30
+          ]
+        },
+        "r4X": {
+          "fps": [
+            50,
+            60
+          ]
+        },
+        "r4": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120
+          ]
+        },
+        "r4T": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60
+          ]
+        },
+        "r2": {
+          "fps": [
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ]
+        },
+        "r2T": {
+          "fps": [
+            50,
+            60,
+            100,
+            120
+          ]
+        },
+        "r1": {
+          "fps": [
+            24,
+            25,
+            30,
+            50,
+            60,
+            100,
+            120,
+            200,
+            240
+          ]
+        }
+      }
+    }
+  }
+}
