@@ -122,8 +122,66 @@ const cameraProfiles=Object.fromEntries(Object.entries(modelCapabilities).map(([
 }]));
 function field(name){return fields.find(f=>f.label===name)}
 function setChoices(f,allowed){if(!f||!Array.isArray(f.spec))return;const old=f.e.value;const values=f.spec.filter(([value])=>!allowed||allowed.includes(value));f.e.replaceChildren(...values.map(([v,label])=>opt(v,label)));f.e.value=values.some(x=>x[0]===old)?old:''}
-function applyConstraints(){const c=camera();if(!c)return;const hero=c.id==='hero9';const selected=field('Resolution').e.value;const recording=field('Mode').e.value;const video=!recording||recording==='mV'||['m3','mH','mHF','mHR'].includes(recording);const matrix=cameraProfiles[c.id]?.videoMatrix[selected]||null;const fpsSelected=Number((field('Frame rate')?.e.value||'').slice(1));
-for(const f of fields){let allowed=null;allowed=profileAllowed(c.id,f.label);if(hero&&hero9Options[f.label]&&!['Resolution','Digital lens','Frame rate','HyperSmooth'].includes(f.label))allowed=hero9Options[f.label];if(hero&&f.label==='Resolution')allowed=['',...cameraProfiles.hero9.resolution];if(matrix?.fps?.length&&f.label==='Frame rate')allowed=['',...matrix.fps.map(n=>'p'+n)];if(matrix&&matrix.lens&&f.label==='Digital lens'){const documented=matrix.lensByFps?.[fpsSelected]||matrix.lens;allowed=['',...(matrix.lensComplete===true?documented:[...new Set([...(cameraProfiles[c.id]?.lens||[]),...documented])])]}if(f.label==='Shutter angle')allowed=c.id.startsWith('mission')?['']:['','0','360','180','90','45','22','10','5','2'];if(f.label==='Default mode on power-up'&&c.id.startsWith('mission'))allowed=['','dL'];if(f.label==='MISSION ISO')allowed=c.id.startsWith('mission')?null:[''];if(f.label==='ISO range'&&c.id.startsWith('mission'))allowed=[''];if(f.label==='Bitrate'&&!c.id.startsWith('mission'))allowed=['','b0','b1'];if(f.label==='Noise reduction preset')allowed=c.id==='hero13'?null:[''];if(f.label==='Touch screen')allowed=['hero13','max2'].includes(c.id)?null:[''];if(f.label==='Front screen')allowed=['hero9','hero10','hero11','hero12','hero13'].includes(c.id)?null:[''];if(f.label==='External microphone')allowed=['hero10','hero11','hero12','hero13'].includes(c.id)?null:[''];if(f.label==='MISSION shutter')allowed=c.id.startsWith('mission')?null:[''];if(f.label==='RAW photos')allowed=['mP','mPB','mPN','mTP','mNP'].includes(recording)?['','r','r0']:[''];if(f.label==='Night photo shutter')allowed=['mPN','mNP'].includes(recording)?null:[''];if(f.label==='Hindsight')allowed=['hero9','hero10','hero10bones','hero11','hero11mini','hero12','hero13'].includes(c.id)&&video?null:[''];if(hero&&f.label==='Frame rate'&&!matrix)allowed=['',...cameraProfiles[c.id].fps.map(n=>'p'+n)];if(hero&&f.label==='Digital lens'&&!matrix)allowed=['',...cameraProfiles[c.id].lens];if(hero&&f.label==='HyperSmooth'&&!matrix)allowed=['','e0','e1','e2','e3'];if(f.label==='Frame rate'&&matrix?.fps?.length)allowed=['',...matrix.fps.map(n=>'p'+n)];if(f.label==='HyperSmooth'&&video)allowed=['','e0','e1','e2','e3','e4'];const lapse=['mT','mTP','mNL','mNP'].includes(recording);if(f.label==='Time-lapse interval'&&!lapse)allowed=[''];if(lapse&&f.label==='Frame rate')allowed=[''];if(!video&&videoLabels.includes(f.label))allowed=[''];if(!video&&f.label==='Shutter angle')allowed=[''];setChoices(f,allowed);const blocked=[];if(f.label==='GPS'&&['hero11mini','hero10bones'].includes(c.id))allowed=[''];const featureName={'Custom bitrate (Mb/s)':'Bitrate Controls','Noise reduction (1–100)':'Noise Reduction','Histogram':'Histogram','Spirit level':'Spirit Level','Disable audio':'Audio Disable','Wake on USB power':'Wake on Power'}[f.label];const official=labsFeatureData?.features?.find(x=>x.feature.startsWith(featureName||'\u0000'));const state=official?.support?.[c.id];const labsUnsupported=featureName?state==='unsupported'||state==='grouped-check'||state==='partial'||state==='unknown'||(!state&&!cameraProfiles[c.id]?.labs.includes(f.label)):false;f.e.disabled=!!labsUnsupported||(f.label==='GPS'&&['hero11mini','hero10bones'].includes(c.id))||blocked.includes(f.label)||(f.label==='RAW photos'&&!['mP','mPB','mPN','mTP','mNP'].includes(recording))||(f.label==='Night photo shutter'&&!['mPN','mNP'].includes(recording))||(f.label==='Hindsight'&&(!video||!['hero9','hero10','hero10bones','hero11','hero11mini','hero12','hero13'].includes(c.id)))||(!video&&videoLabels.includes(f.label))||(f.label==='Time-lapse interval'&&!['mT','mTP','mNL','mNP'].includes(recording))||(!video&&f.label==='Shutter angle')||(f.label==='Shutter angle'&&c.id.startsWith('mission'))||(f.label==='MISSION shutter'&&!c.id.startsWith('mission'))||(f.label==='MISSION ISO'&&!c.id.startsWith('mission'))||(f.label==='ISO range'&&c.id.startsWith('mission'))||(f.label==='Noise reduction preset'&&c.id!=='hero13')||(f.label==='Touch screen'&&!['hero13','max2'].includes(c.id))||(f.label==='Front screen'&&!['hero9','hero10','hero11','hero12','hero13'].includes(c.id))||(f.label==='External microphone'&&!['hero10','hero11','hero12','hero13'].includes(c.id));if(f.e.disabled)f.e.value='';f.e.parentElement.hidden=!!labsUnsupported||(f.label==='GPS'&&['hero11mini','hero10bones'].includes(c.id))||(f.e.disabled&&['RAW photos','Night photo shutter','Hindsight','MISSION shutter','MISSION ISO','ISO range','Shutter angle','Noise reduction preset','Touch screen','Front screen','External microphone'].includes(f.label));}
+function applyConstraints(){
+ const c=camera();if(!c)return;
+ const id=c.id, profile=cameraProfiles[id], documented=recordingMatrixData?.cameras?.[id]?.modes||{};
+ const resolution=field('Resolution')?.e.value, mode=field('Mode')?.e.value;
+ const video=!mode||['mV','m3','mH','mHF','mHR'].includes(mode);
+ const row=documented[resolution];
+ const fps=Number((field('Frame rate')?.e.value||'').slice(1));
+ const photo=['mP','mPB','mPN','mTP','mNP'].includes(mode);
+ const lapse=['mT','mTP','mNL','mNP'].includes(mode);
+ for(const f of fields){
+  const name=f.label;
+  let allowed=profileAllowed(id,name);
+  if(name==='Resolution'){
+   allowed=['',...new Set([...(profile.resolution||[]),...Object.keys(documented)])];
+  }
+  if(name==='Frame rate'){
+   allowed=['',...(resolution&&row?.fps?.length?row.fps:profile.fps||[]).map(n=>'p'+n)];
+  }
+  if(name==='Digital lens'){
+   const documentedLenses=row?.lensByFps?.[fps]||row?.lens;
+   allowed=['',...(documentedLenses?.length?documentedLenses:profile.lens||[])];
+  }
+  if(name==='HyperSmooth')allowed=['','e0','e1','e2','e3','e4'];
+  if(name==='Shutter angle')allowed=id.startsWith('mission')?['']:['','0','360','180','90','45','22','10','5','2'];
+  if(name==='Default mode on power-up'&&id.startsWith('mission'))allowed=['','dL'];
+  if(name==='MISSION ISO')allowed=id.startsWith('mission')?null:[''];
+  if(name==='ISO range'&&id.startsWith('mission'))allowed=[''];
+  if(name==='Bitrate'&&!id.startsWith('mission'))allowed=['','b0','b1'];
+  if(name==='Noise reduction preset')allowed=id==='hero13'?null:[''];
+  if(name==='Touch screen')allowed=['hero13','max2'].includes(id)?null:[''];
+  if(name==='Front screen')allowed=['hero9','hero10','hero11','hero12','hero13'].includes(id)?null:[''];
+  if(name==='External microphone')allowed=['hero10','hero11','hero12','hero13'].includes(id)?null:[''];
+  if(name==='MISSION shutter')allowed=id.startsWith('mission')?null:[''];
+  if(name==='RAW photos')allowed=photo?['','r','r0']:[''];
+  if(name==='Night photo shutter')allowed=['mPN','mNP'].includes(mode)?null:[''];
+  if(name==='Hindsight')allowed=['hero9','hero10','hero10bones','hero11','hero11mini','hero12','hero13'].includes(id)&&video?null:[''];
+  if(name==='Time-lapse interval'&&!lapse)allowed=[''];
+  if(!video&&videoLabels.includes(name))allowed=[''];
+  if(lapse&&name==='Frame rate')allowed=[''];
+  if(!video&&name==='Shutter angle')allowed=[''];
+  const featureName={'Custom bitrate (Mb/s)':'Bitrate Controls','Noise reduction (1–100)':'Noise Reduction','Histogram':'Histogram','Spirit level':'Spirit Level','Disable audio':'Audio Disable','Wake on USB power':'Wake on Power'}[name];
+  const official=featureName?labsFeatureData?.features?.find(x=>x.feature.startsWith(featureName)):null;
+  const state=official?.support?.[id];
+  const labsUnsupported=!!featureName&&(state?state!=='supported':!profile.labs.includes(name));
+  setChoices(f,allowed);
+  const disabled=labsUnsupported||(name==='GPS'&&['hero11mini','hero10bones'].includes(id))||
+   (name==='RAW photos'&&!photo)||(name==='Night photo shutter'&&!['mPN','mNP'].includes(mode))||
+   (name==='Hindsight'&&(!video||!['hero9','hero10','hero10bones','hero11','hero11mini','hero12','hero13'].includes(id)))||
+   (!video&&videoLabels.includes(name))||(name==='Time-lapse interval'&&!lapse)||
+   (!video&&name==='Shutter angle')||(name==='Shutter angle'&&id.startsWith('mission'))||
+   (name==='MISSION shutter'&&!id.startsWith('mission'))||(name==='MISSION ISO'&&!id.startsWith('mission'))||
+   (name==='ISO range'&&id.startsWith('mission'))||(name==='Noise reduction preset'&&id!=='hero13')||
+   (name==='Touch screen'&&!['hero13','max2'].includes(id))||
+   (name==='Front screen'&&!['hero9','hero10','hero11','hero12','hero13'].includes(id))||
+   (name==='External microphone'&&!['hero10','hero11','hero12','hero13'].includes(id));
+  f.e.disabled=disabled;
+  if(disabled)f.e.value='';
+  f.e.parentElement.hidden=labsUnsupported||(name==='GPS'&&['hero11mini','hero10bones'].includes(id))||
+   (disabled&&['RAW photos','Night photo shutter','Hindsight','MISSION shutter','MISSION ISO','ISO range','Shutter angle','Noise reduction preset','Touch screen','Front screen','External microphone'].includes(name));
+ }
 }
 function refreshCamera(){const c=camera();if(!c)return;const matrixInfo=recordingMatrixData?.cameras?.[c.id];const rows=Object.keys(matrixInfo?.modes||{}).length;const officialCount=labsFeatureData?.features?.filter(x=>x.support?.[c.id]==='supported').length;$('cameraInfo').textContent=c.notes+' • Recording matrix: '+(rows?rows+' documented resolution rows (partial; unlisted combinations not necessarily unsupported)':'not yet validated')+(officialCount!==undefined?' • GoPro Labs: '+officialCount+' features confirmed in the official table':'')+'.';for(const f of fields)f.e.value='';applyConstraints();render()}
 function updateSetting(e){if(e?.target===field('Mode')?.e||e?.target===field('Resolution')?.e||e?.target===field('Frame rate')?.e)applyConstraints();render()}
