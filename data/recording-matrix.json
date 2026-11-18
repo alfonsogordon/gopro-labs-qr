@@ -787,7 +787,16 @@
           "fps": [
             50,
             60
-          ]
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH",
+            "fN"
+          ],
+          "complete": true,
+          "lensComplete": true,
+          "source": "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf"
         },
         "r1T": {
           "fps": [
