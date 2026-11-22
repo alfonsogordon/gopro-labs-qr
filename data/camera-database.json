@@ -1237,6 +1237,96 @@
         "Wider Color Gamut": "grouped-check",
         "White Balance Warmer/Cooler": "grouped-check",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
+        "ALLI": "listed-in-section",
+        "BERS": "listed-in-section",
+        "BURN": "listed-in-section",
+        "BOOT": "listed-in-section",
+        "BYPS": "listed-in-section",
+        "COOL": "listed-in-section",
+        "DAUD": "listed-in-section",
+        "DBGL": "listed-in-section",
+        "DIOP": "listed-in-section",
+        "DTMF": "listed-in-section",
+        "DSPC": "listed-in-section",
+        "DSPL": "listed-in-section",
+        "EXPL": "listed-in-section",
+        "EXPX": "listed-in-section",
+        "EXPN": "listed-in-section",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "listed-in-section",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "listed-in-section",
+        "HIST": "listed-in-section",
+        "HS30": "listed-in-section",
+        "HSTO": "listed-in-section",
+        "HSTP": "listed-in-section",
+        "IFRM": "listed-in-section",
+        "LEVL": "listed-in-section",
+        "LLTZ": "listed-in-section",
+        "MMSK": "listed-in-section",
+        "NR01": "listed-in-section",
+        "PRES": "listed-in-section",
+        "PRXY": "listed-in-section",
+        "PMXY": "listed-in-section",
+        "QRDR": "listed-in-section",
+        "SPED": "listed-in-section",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "listed-in-section",
+        "WAKE": "listed-in-section",
+        "WARM": "listed-in-section",
+        "WBLK": "listed-in-section",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "mission1pro": {
@@ -1308,6 +1398,96 @@
         "Wider Color Gamut": "grouped-check",
         "White Balance Warmer/Cooler": "grouped-check",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
+        "ALLI": "listed-in-section",
+        "BERS": "listed-in-section",
+        "BURN": "listed-in-section",
+        "BOOT": "listed-in-section",
+        "BYPS": "listed-in-section",
+        "COOL": "listed-in-section",
+        "DAUD": "listed-in-section",
+        "DBGL": "listed-in-section",
+        "DIOP": "listed-in-section",
+        "DTMF": "listed-in-section",
+        "DSPC": "listed-in-section",
+        "DSPL": "listed-in-section",
+        "EXPL": "listed-in-section",
+        "EXPX": "listed-in-section",
+        "EXPN": "listed-in-section",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "listed-in-section",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "listed-in-section",
+        "HIST": "listed-in-section",
+        "HS30": "listed-in-section",
+        "HSTO": "listed-in-section",
+        "HSTP": "listed-in-section",
+        "IFRM": "listed-in-section",
+        "LEVL": "listed-in-section",
+        "LLTZ": "listed-in-section",
+        "MMSK": "listed-in-section",
+        "NR01": "listed-in-section",
+        "PRES": "listed-in-section",
+        "PRXY": "listed-in-section",
+        "PMXY": "listed-in-section",
+        "QRDR": "listed-in-section",
+        "SPED": "listed-in-section",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "listed-in-section",
+        "WAKE": "listed-in-section",
+        "WARM": "listed-in-section",
+        "WBLK": "listed-in-section",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "mission1": {
@@ -1379,6 +1559,96 @@
         "Wider Color Gamut": "supported",
         "White Balance Warmer/Cooler": "supported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
+        "ALLI": "listed-in-section",
+        "BERS": "listed-in-section",
+        "BURN": "listed-in-section",
+        "BOOT": "listed-in-section",
+        "BYPS": "listed-in-section",
+        "COOL": "listed-in-section",
+        "DAUD": "listed-in-section",
+        "DBGL": "listed-in-section",
+        "DIOP": "listed-in-section",
+        "DTMF": "listed-in-section",
+        "DSPC": "listed-in-section",
+        "DSPL": "listed-in-section",
+        "EXPL": "listed-in-section",
+        "EXPX": "listed-in-section",
+        "EXPN": "listed-in-section",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "listed-in-section",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "listed-in-section",
+        "HIST": "listed-in-section",
+        "HS30": "listed-in-section",
+        "HSTO": "listed-in-section",
+        "HSTP": "listed-in-section",
+        "IFRM": "listed-in-section",
+        "LEVL": "listed-in-section",
+        "LLTZ": "listed-in-section",
+        "MMSK": "listed-in-section",
+        "NR01": "listed-in-section",
+        "PRES": "listed-in-section",
+        "PRXY": "listed-in-section",
+        "PMXY": "listed-in-section",
+        "QRDR": "listed-in-section",
+        "SPED": "listed-in-section",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "listed-in-section",
+        "WAKE": "listed-in-section",
+        "WARM": "listed-in-section",
+        "WBLK": "listed-in-section",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "max2": {
@@ -1516,6 +1786,96 @@
         "Wider Color Gamut": "supported",
         "White Balance Warmer/Cooler": "supported",
         "Zero to sixty timing": "supported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
+        "ALLI": "listed-in-section",
+        "BERS": "listed-in-section",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "listed-in-section",
+        "COOL": "not-resolved",
+        "DAUD": "listed-in-section",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "listed-in-section",
+        "EXPN": "not-resolved",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "listed-in-section",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "listed-in-section",
+        "IFRM": "listed-in-section",
+        "LEVL": "listed-in-section",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "listed-in-section",
+        "PRES": "not-resolved",
+        "PRXY": "listed-in-section",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "listed-in-section",
+        "DPTS": "listed-in-section",
+        "DPTP": "listed-in-section",
+        "DPTL": "listed-in-section",
+        "WBLC": "listed-in-section",
+        "LOWL": "listed-in-section",
+        "GAMA": "listed-in-section",
+        "SHEL": "listed-in-section",
+        "OPNW": "listed-in-section",
+        "DIST": "listed-in-section",
+        "GOAL": "listed-in-section",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "listed-in-section",
+        "MTRX": "listed-in-section",
+        "GCMP": "listed-in-section",
+        "EXPS": "listed-in-section",
+        "LOGB": "listed-in-section",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "hero13": {
@@ -1646,6 +2006,96 @@
         "Wider Color Gamut": "supported",
         "White Balance Warmer/Cooler": "supported",
         "Zero to sixty timing": "supported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
+        "ALLI": "listed-in-section",
+        "BERS": "listed-in-section",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "listed-in-section",
+        "COOL": "listed-in-section",
+        "DAUD": "listed-in-section",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "listed-in-section",
+        "EXPN": "not-resolved",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "listed-in-section",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "listed-in-section",
+        "IFRM": "listed-in-section",
+        "LEVL": "listed-in-section",
+        "LLTZ": "not-resolved",
+        "MMSK": "listed-in-section",
+        "NR01": "listed-in-section",
+        "PRES": "listed-in-section",
+        "PRXY": "listed-in-section",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "listed-in-section",
+        "WBLK": "listed-in-section",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "listed-in-section",
+        "GAMA": "listed-in-section",
+        "SHEL": "listed-in-section",
+        "OPNW": "listed-in-section",
+        "DIST": "listed-in-section",
+        "GOAL": "listed-in-section",
+        "WBDV": "listed-in-section",
+        "BFLK": "listed-in-section",
+        "DIVE": "listed-in-section",
+        "OLTC": "listed-in-section",
+        "RLTC": "listed-in-section",
+        "STOP": "listed-in-section",
+        "ONIO": "listed-in-section",
+        "WIDE": "listed-in-section",
+        "MTRX": "listed-in-section",
+        "GCMP": "listed-in-section",
+        "EXPS": "listed-in-section",
+        "LOGB": "listed-in-section",
+        "IWFR": "not-resolved",
+        "WG84": "listed-in-section",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
+        "BRNT": "listed-in-section",
+        "BRNX": "listed-in-section",
+        "CBAR": "listed-in-section",
+        "LBAR": "listed-in-section",
+        "LOGO": "listed-in-section",
+        "GAIN": "listed-in-section",
+        "HDMI": "listed-in-section",
+        "MUTE": "listed-in-section",
+        "SOLO": "listed-in-section"
       }
     },
     "hero12": {
@@ -1797,6 +2247,96 @@
         "Wider Color Gamut": "supported",
         "White Balance Warmer/Cooler": "supported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "listed-in-section",
+        "BRNX": "listed-in-section",
+        "CBAR": "listed-in-section",
+        "LBAR": "listed-in-section",
+        "LOGO": "listed-in-section",
+        "GAIN": "listed-in-section",
+        "HDMI": "listed-in-section",
+        "MUTE": "listed-in-section",
+        "SOLO": "listed-in-section"
       }
     },
     "hero11": {
@@ -2074,6 +2614,96 @@
         "Wider Color Gamut": "supported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "listed-in-section",
+        "BRNX": "listed-in-section",
+        "CBAR": "listed-in-section",
+        "LBAR": "listed-in-section",
+        "LOGO": "listed-in-section",
+        "GAIN": "listed-in-section",
+        "HDMI": "listed-in-section",
+        "MUTE": "listed-in-section",
+        "SOLO": "listed-in-section"
       }
     },
     "hero11mini": {
@@ -2253,6 +2883,96 @@
         "Wider Color Gamut": "grouped-check",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "listed-in-section",
+        "ALLI": "not-resolved",
+        "BERS": "listed-in-section",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "listed-in-section",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "listed-in-section",
+        "EXPN": "not-resolved",
+        "EXPQ": "listed-in-section",
+        "FAST": "not-resolved",
+        "FEAT": "listed-in-section",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "listed-in-section",
+        "IFRM": "not-resolved",
+        "LEVL": "listed-in-section",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "listed-in-section",
+        "PRES": "not-resolved",
+        "PRXY": "listed-in-section",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "listed-in-section",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "listed-in-section",
+        "MTRX": "listed-in-section",
+        "GCMP": "listed-in-section",
+        "EXPS": "listed-in-section",
+        "LOGB": "listed-in-section",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "hero10": {
@@ -2493,6 +3213,96 @@
         "Wider Color Gamut": "unsupported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "listed-in-section",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "listed-in-section",
+        "BRNX": "listed-in-section",
+        "CBAR": "listed-in-section",
+        "LBAR": "listed-in-section",
+        "LOGO": "listed-in-section",
+        "GAIN": "listed-in-section",
+        "HDMI": "listed-in-section",
+        "MUTE": "listed-in-section",
+        "SOLO": "listed-in-section"
       }
     },
     "hero10bones": {
@@ -2564,6 +3374,96 @@
         "Wider Color Gamut": "unsupported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "listed-in-section",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "listed-in-section",
+        "FEAT": "not-resolved",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "max": {
@@ -2702,6 +3602,96 @@
         "Wider Color Gamut": "unsupported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
+        "ALLI": "listed-in-section",
+        "BERS": "listed-in-section",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "listed-in-section",
+        "COOL": "not-resolved",
+        "DAUD": "listed-in-section",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "listed-in-section",
+        "EXPN": "not-resolved",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
+        "GPSL": "listed-in-section",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "listed-in-section",
+        "IFRM": "listed-in-section",
+        "LEVL": "listed-in-section",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "listed-in-section",
+        "PRES": "not-resolved",
+        "PRXY": "listed-in-section",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "listed-in-section",
+        "DPTS": "listed-in-section",
+        "DPTP": "listed-in-section",
+        "DPTL": "listed-in-section",
+        "WBLC": "listed-in-section",
+        "LOWL": "listed-in-section",
+        "GAMA": "listed-in-section",
+        "SHEL": "listed-in-section",
+        "OPNW": "listed-in-section",
+        "DIST": "listed-in-section",
+        "GOAL": "listed-in-section",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "listed-in-section",
+        "MTRX": "listed-in-section",
+        "GCMP": "listed-in-section",
+        "EXPS": "listed-in-section",
+        "LOGB": "listed-in-section",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "hero9": {
@@ -2844,6 +3834,96 @@
         "Wider Color Gamut": "unsupported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "listed-in-section",
+        "BRNX": "listed-in-section",
+        "CBAR": "listed-in-section",
+        "LBAR": "listed-in-section",
+        "LOGO": "listed-in-section",
+        "GAIN": "listed-in-section",
+        "HDMI": "listed-in-section",
+        "MUTE": "listed-in-section",
+        "SOLO": "listed-in-section"
       }
     },
     "hero8": {
@@ -3049,6 +4129,96 @@
         "Wider Color Gamut": "unsupported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "listed-in-section",
+        "BRNX": "listed-in-section",
+        "CBAR": "listed-in-section",
+        "LBAR": "listed-in-section",
+        "LOGO": "listed-in-section",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "hero7": {
@@ -3289,6 +4459,96 @@
         "Wider Color Gamut": "unsupported",
         "White Balance Warmer/Cooler": "unsupported",
         "Zero to sixty timing": "unsupported"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "hero5session": {
@@ -3360,6 +4620,96 @@
         "Wider Color Gamut": "unknown",
         "White Balance Warmer/Cooler": "unknown",
         "Zero to sixty timing": "unknown"
+      },
+      "extensionSupport": {
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
+        "BURN": "not-resolved",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
+        "DIOP": "not-resolved",
+        "DTMF": "not-resolved",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
+        "EXPL": "not-resolved",
+        "EXPX": "not-resolved",
+        "EXPN": "not-resolved",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
+        "HS30": "not-resolved",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
+        "PMXY": "not-resolved",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
+        "WBDV": "not-resolved",
+        "BFLK": "not-resolved",
+        "DIVE": "not-resolved",
+        "OLTC": "not-resolved",
+        "RLTC": "not-resolved",
+        "STOP": "not-resolved",
+        "ONIO": "not-resolved",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
+        "IWFR": "not-resolved",
+        "WG84": "not-resolved",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     }
   },
@@ -3383,7 +4733,13 @@
         "description": "- enable film standard 24.0 frame, rather than the default broadcast standard 23.976.  The existing 24p mode(s) will have the new frame rate when this is enabled, all other video modes are unaffected.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "64BT",
@@ -3391,7 +4747,13 @@
         "description": "- Enables 64GB chapters.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "ALLI",
@@ -3399,7 +4761,13 @@
         "description": "- for optionally ALL Integer frame rates: 24.0, 25.0, 30.0, 50.0, 60.0, 90.0, 100.0, 120.0, 200.0, 240.0, 400.0, 480.0, 800.0, 960.0",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BERS",
@@ -3407,7 +4775,13 @@
         "description": "- Bypass ERS compensation with stablization disabled. Not commonly used.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BURN",
@@ -3415,7 +4789,13 @@
         "description": "- overlay support (limited to 4K 24,25,30 16:9 8-bit)",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BOOT",
@@ -3423,7 +4803,13 @@
         "description": "- A command to run automatically at boot. For safety, this should only be a load script command, so that the command is dependent on the SD card presence. e.g. \\*BOOT=\"!Lboot\"  Then you can place whatever command you need in the boot script with !SAVEboot=\"your command here\".",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BYPS",
@@ -3431,7 +4817,13 @@
         "description": "- Bypass common pop-ups. Remember to set time and date if you remove the battery.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "COOL",
@@ -3439,7 +4831,13 @@
         "description": "- COOL maybe useful with DIVE, so you can decrease the blue respond for deeper dives. x range -50 to 100. Reducing or increasing blue signal only.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DAUD",
@@ -3447,7 +4845,13 @@
         "description": "- Disable audio, all video created video files will have no audio. Application: high bit-rate drones video.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DBGL",
@@ -3455,7 +4859,13 @@
         "description": "- enabled more debug logging. Labs saves it logs to the SD card under MISC/qrlog.txt. Using this extension increases the details and logged events.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DIOP",
@@ -3463,7 +4873,13 @@
         "description": "- Experimental diopter correction. Adding a diopter lens will modify the distortion, and impact stabilization, this attempts to compensate.  e.g. $DIOP=4 for +4 diopter lens.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DTMF",
@@ -3471,7 +4887,13 @@
         "description": "- DTMF detector, code auto running Macro stored in DTMA-D,0-9,S-Start(*), H-Hash(*)  DTMF=1 External USB audio, =2 Internal mics",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DSPC",
@@ -3479,7 +4901,13 @@
         "description": ", this sets that contrast for which messages are displayed.  Contrast is from 0 - transparent text background, to 6 - opaque black background",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DSPL",
@@ -3487,7 +4915,13 @@
         "description": ", this will control the amount of time messages are displayed. For users who want there own information displayed longer. The default is 1 second.  DSPL=1 thru 9 is in seconds.  DSPL = 10 thru 9999 is in milliseconds.  So for much faster messages set DSPL to 100. Set this before setting the owner information, as metadata commands are processed in the order they are stored.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPL",
@@ -3495,7 +4929,13 @@
         "description": "- Exposure lock on capture",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPX",
@@ -3503,7 +4943,13 @@
         "description": "- Max Shutter speed e.g. $EXPX=200 for 1/200",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPN",
@@ -3511,7 +4957,13 @@
         "description": "-  Min Shutter speed e.g. $EXPX=1000 for 1/1000",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPQ",
@@ -3519,7 +4971,13 @@
         "description": "-  Manual Shutter speed e.g. $EXPQ=50 for 1/50",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FAST",
@@ -3527,7 +4985,13 @@
         "description": "For fewer Labs notifications on boot. Useful for any script that repeats after a shutdown, and the script will run sooner, and reducting battery consumption.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FEAT",
@@ -3535,7 +4999,13 @@
         "description": "- Display the permanent Labs feature active for x seconds. It is easy to miss the start-up message, this QR command redisplays that message.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FONT",
@@ -3543,7 +5013,13 @@
         "description": "Select the old fonts (if you only want the dot matrix font)",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FRNT",
@@ -3551,7 +5027,13 @@
         "description": "For front screen equipped cameras, display most LCD Labs message on the front screen. Practicular useful for FPV useful not using the touchscreen.  e.g.  \\*FRNT=1\\*EXPS=1 will display the ISO and shutter speed on the front LCD.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GPSL",
@@ -3559,7 +5041,13 @@
         "description": "- to enabled continous GPS location logging, even when not capturing, so the capture can log more of you path and adventures. Path is saved by day into",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GRAB",
@@ -3567,7 +5055,13 @@
         "description": "- Screen grab 'x'-frames, grab next 'x' Labs overlays - frame grab the UI. Useful for education and bug reporting.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GUID",
@@ -3575,7 +5069,13 @@
         "description": "- Displays an on-scene shooting guide for different aspect ratios, independent from the camera's current video mode.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GUIC",
@@ -3583,7 +5083,13 @@
         "description": "- The shooting guides default to white at 255, but you can select their luma level. e.g. GUIC=255,0, will be white for the first guide and black the for second.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HNDL",
@@ -3591,7 +5097,13 @@
         "description": ", where x is 1 to 31, setting the camera ID for a camera. This is for rare scenarios where multiple cameras see the same QR Code, and you only want particular cameras to respond. This combined with **hZ** command where Z is the bit mask for which cameras will follow the command.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HIST",
@@ -3599,7 +5111,13 @@
         "description": "- Displays a histogram with contrast from 1 to 11. e.g. try setting HIST to 5. HIST=0 will disable it.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HS30",
@@ -3607,7 +5125,13 @@
         "description": "- default Hindsight shortcut to 30s",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HSTO",
@@ -3615,7 +5139,13 @@
         "description": "- minutes - controlling the length of the Hindsight timeout, changing from the default for 15 minutes. e.g. !MHSTO=60 for a 60 minute Hindsight timeout.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HSTP",
@@ -3623,7 +5153,13 @@
         "description": "- Used with HIST=1, this sets the size (40-100) and position (x,y as 1-100) of the histogram.  A negative position will place the histogram on the front LCD.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "IFRM",
@@ -3631,7 +5167,13 @@
         "description": "- for I-frame only encoding. Recommend to run at least 240Mb/s using BITR. Still very experimental.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LEVL",
@@ -3639,7 +5181,13 @@
         "description": "- Add a spirit level to the rear LCD, where the size can be 1-9. e.g. $LEVL=6.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LLTZ",
@@ -3647,7 +5195,13 @@
         "description": "for those want to use Sunset/Sunrise timelapse without using GPS, or for when you are shooting a sunset timelapse from indoors. The metadata is used to store your GPS Location and timezone e.g. !MLLTZ=33.126,-117.327,-8.0  In this case you must used the !M command, permanent storage, as solar event timers will shutdown the camera.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "MMSK",
@@ -3655,7 +5209,13 @@
         "description": "- for auto generating a mask for the new motion detector.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "NR01",
@@ -3663,7 +5223,13 @@
         "description": "- Noise Reduction control. e.g. $NR01=50 range 1-100, 100 being 100% active (default), so 1 is the noisest. Mainly if you want noise reduction complete off, or lower than Low.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "PRES",
@@ -3671,7 +5237,13 @@
         "description": "- Added creating, naming and sharing presets where x 0-32 for icon selection (-1 for delete), and 'name' is your named preset. e.g, QR Command **$PRES=\"14,Scuba\"**",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "PRXY",
@@ -3679,7 +5251,13 @@
         "description": "- Normally a camera will encode a LRV (Low Res Video) for every MP4, this extension stores LRVs as Proxy files. 1 - moves LRVs as Adobe Premiere Pro™ style, 2 - moves THMs, 3 moves both into the proxies folder, 4 - uses DaVinci Resolve™ style proxies folder.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "PMXY",
@@ -3687,7 +5265,13 @@
         "description": "- processing message screen position",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "QRDR",
@@ -3695,7 +5279,13 @@
         "description": "- detect QR Codes while recording, or even Quik Preview. This also enables Labs BOOT commands to work with QuikCapture in recent models. Normally this feature is disabled to ensure the lowest computing load impact, so not enabling this is the safest. However, it is needed for some cool ideas, like changing a video burnin message in the middle of a live-stream, or changing its exposure with BIAS (see below.) This also allows you to end a capture via a QR Code (command: !E). oMQRDR=0 will disable it.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "SPED",
@@ -3703,7 +5293,13 @@
         "description": "- SD Card Speed Test.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "STDL",
@@ -3711,7 +5307,13 @@
         "description": "- Start Delay is milliseconds (default 2000ms, wait before any other commands.) $STDL=100 for less wait. Experimental to improve scripting performance.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TUSB",
@@ -3719,7 +5321,13 @@
         "description": "- Trust USB power. Limited implementation on Mission.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TCAL",
@@ -3727,7 +5335,13 @@
         "description": "- Timecode CALibration, help to increase the precision of setting timecode via QR Code. The milliseconds can be positive or negative as needed.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WAKE",
@@ -3735,7 +5349,13 @@
         "description": "- This will make the camera wake on any power addition.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WARM",
@@ -3743,7 +5363,13 @@
         "description": "- WARM maybe useful with DIVE, so you can improve the red respond for deeper dives. x range -50 to 100. Reducing or increasing red signal only.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WBLK",
@@ -3751,7 +5377,13 @@
         "description": "- This is an auto lock for white balance, it auto WB until the capture starts. The feature was added for scuba users, as fixed white balance are computed for above water, and while the auto works great in dive scenarios, some prefer a fixed white balance per clip.",
         "section": "MISSION 1 Series cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "mission1",
+          "mission1pro",
+          "mission1proils"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DPTS",
@@ -3759,7 +5391,12 @@
         "description": "- (1-15) depth change smoother, 1 - fast, 15 - smooth. 360 experimental.",
         "section": "MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DPTP",
@@ -3767,7 +5404,12 @@
         "description": "- (1-7) depth change speed, 1 - slow, 7 - fast (like DPTS with a different implementation). 360 experimental.",
         "section": "MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DPTL",
@@ -3775,7 +5417,12 @@
         "description": "- depth lock stitch after x seconds, 1 - immediate, 2-99 - seconds, 100-99999 - milliseconds. 360 experimental.",
         "section": "MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WBLC",
@@ -3783,7 +5430,12 @@
         "description": "- (same as wC) for white balance lock NOW, where recording on not. To scan while recording use *QRDR=1.",
         "section": "MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "ALLI",
@@ -3791,7 +5443,13 @@
         "description": "- for optionally ALL Integer frame rates: 24.0, 25.0, 30.0, 50.0, 60.0, 90.0, 100.0",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "IFRM",
@@ -3799,7 +5457,13 @@
         "description": "- for I-frame only encoding. Likely the first action camera with an all I-frame encoding option in HEVC. Recommend to run at least 180Mb/s using BITR. Still very experimental.",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LOWL",
@@ -3807,7 +5471,13 @@
         "description": "- for a low light mode, technically it is the same a GCMP=1, but easier to remember. All this does is bias the camera to use a longer shutter when shooting video.",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GAMA",
@@ -3815,7 +5485,13 @@
         "description": "- Useful for HDRI work, gamma equivalent of LOGB.",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "SHEL",
@@ -3823,7 +5499,13 @@
         "description": "- Using $SHEL=1 enables a command shell for Labs over a USB serial port. Every experimental, and looking for feedback. Connect to COM at 115200 8N1. All QR code command work, just type them. Used $ commands will report their data back to the shell, e.g. $BITR or $A or $p:T to read variables.",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "OPNW",
@@ -3831,7 +5513,13 @@
         "description": "- Open Network (allows of faster non-secure http vs https to be used with Open GoPro)",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DIST",
@@ -3839,7 +5527,13 @@
         "description": "- Time-Lapse Video Distance, x is a GPS travel distance between exposures in meters, rather than time for an in-camera computed timelapse. So $DIST=5 will set a 5 meter interval for TLV. One exception is when x=1, 10 meters will be used, 1 meter is too noisy (GPS errors.) So this feature is good for 2 meters of larger. For shorter distances or a higher speed, you the new TLV sample rate for 4Hz (p4), for the best distance precision. e.g. mTr5Xp4$DIST=5",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GOAL",
@@ -3847,7 +5541,13 @@
         "description": "- 0 to 60 (or x) MPH speed timing. Not for precision timing, just for fun. Drive safe. It currents a JPEG in MISC for you speed award. All very crude, from a recent hackathon.",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GPSL",
@@ -3855,7 +5555,13 @@
         "description": "- to enabled continous GPS location logging, even when not capturing, so the capture can log more of you path and adventures. Path is saved by day into",
         "section": "HERO13/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WBDV",
@@ -3863,7 +5569,11 @@
         "description": "- White Balance DiVe improvements. Rather than WARM for improving diving white balance, which effects WB the same at all depths, WBDV is more automatic – as the scene get more blue, the more the red channel is gain up. Currently $WBDV=1 is uses =2.33,4.0 internally (gaining red 4x after red gain hits 2.33), so you can try tuning this yourself e.g. $WBDV=2.4,5.0",
         "section": "HERO13 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BFLK",
@@ -3871,7 +5581,11 @@
         "description": "- to bypass deflicker controls for 50/60Hz lightinh, to allow for continuous shutter speeds from 1/fps. Useful if you are locking ISO by setting min and max ISO to the same value, but using an auto shutter.",
         "section": "HERO13 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DIVE",
@@ -3879,7 +5593,11 @@
         "description": "- optimizing the Hypersmooth stabilization for underwater. It might be no surprise, but HyperSmooth is designed for the camera operation above the water's surface,",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WARM",
@@ -3887,7 +5605,11 @@
         "description": "- WARM maybe useful with DIVE, so you can improve the red respond for deeper dives. x range -50 to 100. Reducing or increasing red signal only.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "COOL",
@@ -3895,7 +5617,11 @@
         "description": "- COOL maybe useful with DIVE, so you can decrease the blue respond for deeper dives. x range -50 to 100. Reducing or increasing blue signal only.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "MMSK",
@@ -3903,7 +5629,11 @@
         "description": "- for auto generating a mask for the new motion detector.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "OLTC",
@@ -3911,7 +5641,11 @@
         "description": "- frame offset to LTC, enabling calibration you are seeing any offset.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "RLTC",
@@ -3919,7 +5653,11 @@
         "description": "- to enable LTC timecode reading from line-in audio.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "STOP",
@@ -3927,7 +5665,11 @@
         "description": "- A Stop Motion extension where is x the number for frames to store per shutter press. This modify timelapse video. It is recommend to make a stop motion preset with this command ```mT$PRES=\"0,STOP\"mTr5Xp4``` Works great with the remote. Mode button ends capture.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "ONIO",
@@ -3935,7 +5677,11 @@
         "description": "- Onion percentage used for Stop Motion where is x the precentage of transparency of the onion skin.",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "PRES",
@@ -3943,7 +5689,11 @@
         "description": "- Added creating, naming and sharing presets where x 0-32 for icon selection (-1 for delete), and 'name' is your named preset. e.g, QR Command **oMPRES=\"14,Scuba\"**",
         "section": "HERO13/12 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WIDE",
@@ -3951,7 +5701,14 @@
         "description": "This offers a color gamut like setting white balance to Native (wider gamut), while enabling auto whitebalance, or user controlled whitebalance. With WIDE off (0 - the default), the camera saturates color to the Rec709 gamut (basically sRGB), so some extreme real-world color saturations are clipped by the gamut. With WIDE=1, the gamut is sensor native, not Rec709, not Rec2020, just what the sensor sees.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WBLK",
@@ -3959,7 +5716,14 @@
         "description": "This is an auto lock for balance, it auto white balances until the capture starts. The feature was added for scuba users, as fixed white balance are computed for above water, and while the auto works great in dive scenarios, some prefer a fixed white balance per clip.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "MTRX",
@@ -3967,7 +5731,14 @@
         "description": "This is the RGB to YUV matrix, new ways to mess up your video. e.g. For an B/W effect in camera try oMMTRX=50,175,25,0,0,0,0,0,0",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GCMP",
@@ -3975,7 +5746,14 @@
         "description": "Disables gyro compensated exposure. This is users not concerned about Hypersmooth stabilization, and would prefer the auto exposure to use a longer shutter, rather than more sensor gain.  Longer shutters are worse for stabilization, so the HERO11-13 is smart, it will shorten the shutter if it detects the camera's movement.  GCMP=1 disables this feature.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "64BT",
@@ -3983,7 +5761,14 @@
         "description": "HERO11-13 cameras default to 12GB chapters when using 64GB card (or larger media), but you can use the 64BT command to specify even larger chapters like 32GB or even 64GB. There has been very limited testing, so experiment first before committing to super large chapters.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "PRXY",
@@ -3991,7 +5776,14 @@
         "description": "Normally a camera will encode a LRV (Low Res Video) for every MP4, this extension stores LRVs as Proxy files. 1 - moves LRVs as Adobe Premiere Pro™ style, 2 - moves THMs, 3 moves both into the proxies folder, 4 - uses DaVinci Resolve™ style proxies folder.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GUID",
@@ -3999,7 +5791,14 @@
         "description": "- Displays an on-scene shooting guide for different aspect ratios, independent from the camera's current video mode.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GUIC",
@@ -4007,7 +5806,14 @@
         "description": "- The shooting guides default to white at 255, but you can select their luma level. e.g. GUIC=255,0, will be white for the first guide and black the for second.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPS",
@@ -4015,7 +5821,14 @@
         "description": "- Display the current ISO and shutter speed being used during preview and capture. For 11-Mini EXPS=num,",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPX",
@@ -4023,7 +5836,14 @@
         "description": "and **EXPN=n** - exposure shutter time mi(n) and ma(x). e.g. oMEXPX=48 (for 1/48) and oMEXPN=500 (for 1/500)",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EXPQ",
@@ -4031,7 +5851,14 @@
         "description": "- exposure Quick shutter, same as $EXPX=x$EXPN=x, setting min and max shutter to the same value",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FEAT",
@@ -4039,7 +5866,14 @@
         "description": "- Display the permanent Labs feature active for x seconds. It is easy to miss the start-up message, this QR command redisplays that message.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GRAB",
@@ -4047,7 +5881,14 @@
         "description": "- Screen grab 'x'-frames, grab next 'x' Labs overlays - frame grab the UI. Useful for education and bug reporting.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HSTP",
@@ -4055,7 +5896,14 @@
         "description": "- Used with HIST=1, this sets the size (40-100) and position (x,y as 1-100) of the histogram.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LEVL",
@@ -4063,7 +5911,14 @@
         "description": "- Add a spirit level to the rear LCD, where the size can be 1-9. e.g. oMLEVL=6. Color for the spirit level line was added for HERO11 and HERO12. LEVL has three colors with no controls. White - nothing is level. Yellow - the horizon is level. Green - the horizon and pitch is level",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LOGB",
@@ -4071,7 +5926,14 @@
         "description": "- Super experimental, alter the log encoding for more dynamic range, or for a closer match with other camera's log curves.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "NR01",
@@ -4079,7 +5941,14 @@
         "description": "- Noise Reduction control, which should be combined with the LOGB control. e.g. oMNR01=50 range 1-100, 100 being 100% active (default), so 1 is the noisest.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BYPS",
@@ -4087,7 +5956,14 @@
         "description": "- Bypass common pop-ups, such as resetting the time and date. Remember to set time and date if you remove the battery.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BERS",
@@ -4095,7 +5971,14 @@
         "description": "- 1 - Bypass ERS compensation. 2 - Bypass ERS only with stablization disabled. Not commonly used.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TUSB",
@@ -4103,7 +5986,14 @@
         "description": "- Trust USB power.  Some USB power sources may report less than they are capable. This modification assumes the USB Power source is 2A minimum, and disables the testing. This can help with some USB power sources that the camera can reject, but are otherwise sufficient to run all camera operations. If you use TUSB with an inadequate power source, expect capture failures.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "STDL",
@@ -4111,7 +6001,14 @@
         "description": "- Start Delay is milliseconds (default 2000ms, wait before any other commands.) $STDL=100 for less wait. Experimental to improve scripting performance.",
         "section": "HERO13/12/11/Mini/MAX2 cameras",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero11mini"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "IWFR",
@@ -4119,7 +6016,11 @@
         "description": "- Increased Write FRequency to support for higher precision file recoveries (this is also defaulted on with !MBITR=x bitrate changes). If you have ever had a big crash that ejects the battery, you may have noticed the file recovery will miss 5-15 seconds of your video. Missing even the lead up to the great moment. This hack increases the rate in which video data is flushed to the SD Card, improving the recoverability for footage. With this enabled, battery ejects will not lose more than 1-2 seconds of footage.  Great for FPV users. Not commonly used.",
         "section": "HERO10/11 only",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero10"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "WG84",
@@ -4127,7 +6028,11 @@
         "description": "to switch GPS altitude from Mean Sea Level to WGS84 elipsoid.",
         "section": "HERO13/11 only (GPS feature)",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "24HZ",
@@ -4135,7 +6040,14 @@
         "description": "- enable film standard 24.0 frame, rather than the default broadcast standard 23.976.  The existing 24p mode(s) will have the new frame rate when this is enabled, all other video modes are unaffected.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "AUDS",
@@ -4143,7 +6055,14 @@
         "description": "display the approximate audio levels in dB SPL.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BITH",
@@ -4151,7 +6070,14 @@
         "description": "- set the compression in Mb/s for the H264 encodes. Normally this would be for LRVs at around 4Mb/s. No guaranteed capture reliability using this feature. Input range in Mb/s from 1 to 100.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BITR",
@@ -4159,7 +6085,14 @@
         "description": "- set the compression in Mb/s for the Protune High Bitrate setting (HEVC only). Normally this would be around 100Mb/s, however higher (or lower) rates may be achieved with newer SD Cards. No guaranteed capture reliability using this feature. Input range in Mb/s from 2 to 200. Counterintuitively, lower frame rates like 24/25/30fps can use higher bitrates than faster frame rates.  e.g. A camera that is reliable doing 180Mb/s at 24fps, will likely need to drop to 150Mb/s for 120fps. Most GP2 cameras can do 150Mb/s for all video modes, but your testing is still required. Use at your own risk.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DAMP",
@@ -4167,7 +6100,14 @@
         "description": "- Control over the auto-exposure damping. When moving a camera through dramatically changing lighting, like biking through a forest, in and out of sunlight, or flying a drone through a short tunnel, the exposure will adjust automatically, correctly in most scenarios, but sometimes not optimal for some rapidly changing light levels. The camera's auto-exposure currently takes about one second to adjust from sunlight to indoor conditions, but if you are flying a drone through indoors for only a few seconds, the camera would over-expose on exit. In this scenario using an exposure lock might be preferable, maintaining an outdoor exposure throwout, but exposure lock is risky for shooting under variable lighting conditions. Changing the damping might be what you need. Setting the DAMP=1 is the de",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DAUD",
@@ -4175,7 +6115,14 @@
         "description": "- Disable audio, all video created video files will have no audio. Application: high bit-rate drones video.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "DLRV",
@@ -4183,7 +6130,14 @@
         "description": "- Disable LRV, all videos will have an MP4 only. This is not good idea for Quik uses, as the LRV video helps in video preview. Note: There is currently a bug in this feature (HERO10 as requires a restart after two captures.) (not supported on H12-13)",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "EVBS",
@@ -4191,7 +6145,14 @@
         "description": "Global EV comp bias for all video modes that also works with Live-Stream and web-cam, and can be changed during capture if QRDR=1 is set. As this is global offset, it will add to EV comp settings with your presets.  So if EVBS=-1 and a preset has EV set to -0.5, the effective EV will be -1.5.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FAST",
@@ -4199,7 +6160,14 @@
         "description": "For fewer Labs notifications on boot. Useful for any script that repeats after a shutdown, and the script will run sooner, and reducting battery consumption.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FONT",
@@ -4207,7 +6175,14 @@
         "description": "Select the old fonts (if you only want the dot matrix font)",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FRNT",
@@ -4215,7 +6190,14 @@
         "description": "For front screen equipped cameras, display most LCD Labs message on the front screen. Practicular useful for FPV useful not using the touchscreen.  e.g.  !MFRNT=1!MEXPS=1 will display the ISO and shutter speed on the front LCD.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "STDL",
@@ -4223,7 +6205,14 @@
         "description": "All scripts running the **!S** start command, will wait a second or two before the next action. STDL allow you to set this wait time in millisecond, for scripts needing a faster reponse time.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TONE",
@@ -4231,7 +6220,14 @@
         "description": "- Tone-mapping controls. Tone-mapping is the in-camera contrast control, dynamically adjusting the video to look good under a range of lighting conditions.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TONE",
@@ -4239,7 +6235,14 @@
         "description": "- using the cameras default",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TONE",
@@ -4247,7 +6250,14 @@
         "description": "- use GTM only",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TONE",
@@ -4255,7 +6265,14 @@
         "description": "- use GTM+LTM",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "TONE",
@@ -4263,7 +6280,14 @@
         "description": "- disable all tone-mapping",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "FSOS",
@@ -4271,7 +6295,14 @@
         "description": "- Scan the SD for files that can be repaired (truncated). Normal file recovery checks only the last file captured, this checks and fixes them all.",
         "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "max2",
+          "max",
+          "hero13",
+          "hero10bones"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BOOT",
@@ -4279,7 +6310,9 @@
         "description": "- A command to run automatically at boot. For safety, this should only be a load script command, so that the command is dependent on the SD card presence. e.g. !MBOOT=\"!Lboot\"  Then you can place whatever command you need in the boot script with !SAVEboot=\"your command here\". See an example in [IMU Triggers for Drones](../imutrigger)",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "DBGL",
@@ -4287,7 +6320,9 @@
         "description": "- enabled more debug logging. Labs saves it logs to the SD card under MISC/qrlog.txt. Using this extension increases the details and logged events.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "DSPC",
@@ -4295,7 +6330,9 @@
         "description": ", this sets that contrast for which messages are displayed.  Contrast is from 0 - transparent text background, to 6 - opaque black background",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "DSPL",
@@ -4303,7 +6340,9 @@
         "description": ", this will control the amount of time messages are displayed. For users who want there own information displayed longer. The default is 1 second.  DSPL=1 thru 9 is in seconds.  DSPL = 10 thru 9999 is in milliseconds.  So for much faster messages set DSPL to 100. Set this before setting the owner information, as metadata commands are processed in the order they are stored.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "HNDL",
@@ -4311,7 +6350,9 @@
         "description": ", where x is 1 to 31, setting the camera ID for a camera. This is for rare scenarios where multiple cameras see the same QR Code, and you only want particular cameras to respond. This combined with **hZ** command where Z is the bit mask for which cameras will follow the command.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "HIST",
@@ -4319,7 +6360,9 @@
         "description": "- Displays a histogram with contrast from 1 to 11. e.g. try setting HIST to 5. HIST=0 will disable it.  On 11-Mini the number is a display duratrion.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "HSTO",
@@ -4327,7 +6370,9 @@
         "description": "- minutes - controlling the length of the Hindsight timeout, changing from the default for 15 minutes. e.g. !MHSTO=60 for a 60 minute Hindsight timeout.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "LLTZ",
@@ -4335,7 +6380,9 @@
         "description": "for those want to use Sunset/Sunrise timelapse without GPS, or for when you are shooting a sunset timelapse from indoors. The metadata is used to store your GPS Location and timezone e.g. !MLLTZ=33.126,-117.327,-8.0  In this case you must used the !M command, permanent storage, as solar event timers will shutdown the camera.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "QRDR",
@@ -4343,7 +6390,9 @@
         "description": "- detect QR Codes while recording, or even Quik Preview. This also enables Labs BOOT commands to work with QuikCapture in recent models. Normally this feature is disabled to ensure the lowest computing load impact, so not enabling this is the safest. However, it is needed for some cool ideas, like changing a video burnin message in the middle of a live-stream, or changing its exposure with BIAS (see below.) This also allows you to end a capture via a QR Code (command: !E). oMQRDR=0 will disable it.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "SPED",
@@ -4351,7 +6400,9 @@
         "description": "- SD Card Speed Test, only really useful on older cameras (HERO9 or older.) GP2 cameras are faster and generally require faster SD cards anyway. It still works on newer cameras, but the results are misleading, are often way higher than what the encoder can support (i.e. don't set BITR to 200 because you card writes at 500Mb/s.)",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "TCAL",
@@ -4359,7 +6410,9 @@
         "description": "- Timecode CALibration, help to increase the precision of setting timecode via QR Code. The milliseconds can be positive or negative as needed.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "WAKE",
@@ -4367,7 +6420,9 @@
         "description": "- This will make the camera wake on any power addition, but only if there is a delay action pending (determined by a delay.txt file in the MISC folder, created automatically with wake timer events.) Inserting a battery or the connection of USB power, will boot up the camera to continue a script after a power failure. With some experimentation, this may be used to improve very long time-lapse reliability, by cycling USB power every 24 hours -- reseting the camera to restart scripts.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "WAKE",
@@ -4375,7 +6430,9 @@
         "description": "- (HERO8/10-13 only) Same as WAKE=1, except it will ignore any pending actions, and wake of any power addition. This is useful with combined with a boot command.",
         "section": "Miscellaneous controls for most Labs cameras.",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [],
+        "supportInterpretation": "not-resolved"
       },
       {
         "code": "BRNT",
@@ -4383,7 +6440,16 @@
         "description": "- The overlays or burn-in display time in seconds. e.g. BRNT=0.016 will display the logo or text overlays only on the first frame (1/60th of a second.)",
         "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9",
+          "hero8"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "BRNX",
@@ -4391,7 +6457,16 @@
         "description": "- This is an upgrade to BRNO (Burn-ins Offset), allowing you to offset the burn-ins with X,Y pixel coordinates. e.g. BRNX=120,40",
         "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9",
+          "hero8"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "CBAR",
@@ -4399,7 +6474,16 @@
         "description": "- enable a small 75% saturated color bars for video tools evaluation (HERO10-13 has a GP2 limitation: only works 4Kp30 or lower res/fps.)",
         "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9",
+          "hero8"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LBAR",
@@ -4407,7 +6491,16 @@
         "description": "- enable a small luma sweep for video tools evaluation  (HERO10/11 limitation: only works 4Kp30 or lower res/fps.)",
         "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9",
+          "hero8"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "LOGO",
@@ -4415,7 +6508,16 @@
         "description": "- overlay a small logo or icon on the encoded video. The logo must be stored on the SD card in the MISC folder. The alpha channel is supported. The PNG files must be less than 64kBytes with fewer than 64k pixels, e.g. Logo overlay of 400x100 works, but 400x200 will not. The smaller the better for demanding video modes like 4K60 and 1080p240.  (HERO10/11 limitation: only works 4Kp30 or lower res/fps.)",
         "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9",
+          "hero8"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "GAIN",
@@ -4423,7 +6525,15 @@
         "description": "- Digitally gain up the audio. e.g. oMGAIN=12, increase audio by 12dB.  Will likely reduce the dynamic range.-",
         "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "HDMI",
@@ -4431,7 +6541,15 @@
         "description": "- Media Mod users can change the output default from Gallery (0) to clean monitoring with no overlays (1), or monitoring live video with overlays (2).",
         "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "MUTE",
@@ -4439,7 +6557,15 @@
         "description": "- Mute one or more channels of audio (microphones). For HERO9 cameras, there are four channels, although three microphones. The mask is binary mask for channels 4321. e.g. oMMUTE=15 mute all channels (15 = 1111B), oMMUTE=8 mute the fourth channel (8 = 1000B), oMMUTE=7 mutes the first 3 channels (7 = 0111B).",
         "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9"
+        ],
+        "supportInterpretation": "listed-in-section"
       },
       {
         "code": "SOLO",
@@ -4447,7 +6573,15 @@
         "description": "- Use only one channel of audio. e.g. oMSOLO=1 use only channel 1, oMSOLO=4 only use the fourth channel.",
         "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
         "source": "https://gopro.github.io/labs/control/extensions/",
-        "verification": "official-documentation-transcription"
+        "verification": "official-documentation-transcription",
+        "explicitlyNamedModels": [
+          "hero13",
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero9"
+        ],
+        "supportInterpretation": "listed-in-section"
       }
     ],
     "notice": "Entries transcribed from official documentation. Section grouping does not prove support for every camera. Values are examples or parameter placeholders, not validated QR payloads."
