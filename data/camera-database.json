@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 1,
   "notice": "Unified compatibility data. A documented candidate is not necessarily verified. No command payload is marked verified by this database.",
   "sources": {
     "recording": "data/recording-matrix.json",
