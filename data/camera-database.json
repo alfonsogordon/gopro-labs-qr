@@ -8122,5 +8122,4023 @@
       ]
     },
     "notes": "The app previously used r1/r1T/r2/r2T; GoPro official QR creator uses r1080/r1440/r27/r27T. App serialization must translate these internal identifiers. MAX 360 command mapping requires separate verification."
+  },
+  "officialDocumentation": {
+    "pages": {
+      "mission": {
+        "source": "https://gopro.github.io/labs/control/mission/",
+        "sourceSha": "42a237386b8c64474f642cd884aa5f3a8b4da9ee",
+        "sourcePath": "docs/control/mission/README.md",
+        "controlInputs": [
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mV"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mVN"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mVL"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mVB"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mTW"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mT"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mST"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mLP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mLT"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mPB"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r1"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r14"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4T"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r8"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r8T"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r1V"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4V"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r1"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r1T"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r4"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r4T"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r8"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r8T"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": "r4"
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": "r4T"
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": "r8"
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": "r8T"
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p24"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p25"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p30"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p50"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p60"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p100"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p120"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p200"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p240"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p400"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p480"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "bfps",
+            "type": "radio",
+            "value": "p800"
+          },
+          {
+            "name": "bfps",
+            "type": "radio",
+            "value": "p960"
+          },
+          {
+            "name": "bfps",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e0"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e1"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e4"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fS"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": "fS"
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "zoom",
+            "type": "range",
+            "value": "0"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "bA"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b3N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b5N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b10N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b25N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b10N2"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b10N3"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b30N3"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b30N6"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b60N6"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b60N10"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b60N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p15"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p6"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p3"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p2"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p1"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "pA"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p2"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p1"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.2"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.5"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.10"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.30"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.60"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.120"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.300"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.1800"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.3600"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.4"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.5"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.10"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.15"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.20"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.30"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.60"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.120"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.300"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.1800"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.3600"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "eA"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e2"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e5"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e10"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e15"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e20"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e30"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "hind",
+            "type": "radio",
+            "value": "hS0"
+          },
+          {
+            "name": "hind",
+            "type": "radio",
+            "value": "hS1"
+          },
+          {
+            "name": "hind",
+            "type": "radio",
+            "value": "hS2"
+          },
+          {
+            "name": "hind",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR0"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR15"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR30"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR60"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR300"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR900"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR1800"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR3600"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR7200"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR9999"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "raw",
+            "type": "radio",
+            "value": "r0"
+          },
+          {
+            "name": "raw",
+            "type": "radio",
+            "value": "r"
+          },
+          {
+            "name": "raw",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": "aA"
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": "aS"
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": "aW"
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "25,25"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "50,25"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "75,25"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "25,50"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "50,50"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "75,50"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "25,75"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "50,75"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "75,75"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "0"
+          },
+          {
+            "name": "tune",
+            "type": "radio",
+            "value": "tB"
+          },
+          {
+            "name": "tune",
+            "type": "radio",
+            "value": "tF"
+          },
+          {
+            "name": "tune",
+            "type": "radio",
+            "value": "tS"
+          },
+          {
+            "name": "tune",
+            "type": "radio",
+            "value": "tD"
+          },
+          {
+            "name": "tune",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ptd",
+            "type": "radio",
+            "value": "d0"
+          },
+          {
+            "name": "ptd",
+            "type": "radio",
+            "value": "d1"
+          },
+          {
+            "name": "ptd",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": "bS"
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": "bH"
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": "bM"
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "hlg",
+            "type": "radio",
+            "value": "hH1"
+          },
+          {
+            "name": "hlg",
+            "type": "radio",
+            "value": "hH0"
+          },
+          {
+            "name": "hlg",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cG"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cN"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cC"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cF"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cL"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ptch",
+            "type": "radio",
+            "value": "cG"
+          },
+          {
+            "name": "ptch",
+            "type": "radio",
+            "value": "cN"
+          },
+          {
+            "name": "ptch",
+            "type": "radio",
+            "value": "cC"
+          },
+          {
+            "name": "ptch",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ptcb",
+            "type": "radio",
+            "value": "cG"
+          },
+          {
+            "name": "ptcb",
+            "type": "radio",
+            "value": "cN"
+          },
+          {
+            "name": "ptcb",
+            "type": "radio",
+            "value": "cC"
+          },
+          {
+            "name": "ptcb",
+            "type": "radio",
+            "value": "cF"
+          },
+          {
+            "name": "ptcb",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s0"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s360"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s180"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s90"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s45"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s22"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s10"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s5"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "s2"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "shutmin",
+            "type": "radio",
+            "value": "s180M"
+          },
+          {
+            "name": "shutmin",
+            "type": "radio",
+            "value": "s90M"
+          },
+          {
+            "name": "shutmin",
+            "type": "radio",
+            "value": "s45M"
+          },
+          {
+            "name": "shutmin",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "blur",
+            "type": "radio",
+            "value": "bA"
+          },
+          {
+            "name": "blur",
+            "type": "radio",
+            "value": "bR"
+          },
+          {
+            "name": "blur",
+            "type": "radio",
+            "value": "bX"
+          },
+          {
+            "name": "blur",
+            "type": "radio",
+            "value": "bY"
+          },
+          {
+            "name": "blur",
+            "type": "radio",
+            "value": "bC"
+          },
+          {
+            "name": "blur",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x0"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-1"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-1.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x1"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x1.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "wA"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w23"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w28"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w32"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w40"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w45"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w50"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w55"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w60"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w65"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "wN"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i0"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i1M1"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i2M2"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i4M4"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i8M8"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i16M16"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i32M32"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": "i64M64"
+          },
+          {
+            "name": "isofix",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i0"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i1"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i2"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i4"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i8"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i16"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i32"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": "i64"
+          },
+          {
+            "name": "isor",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sL"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sM"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sH"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "denoise",
+            "type": "radio",
+            "value": "dL"
+          },
+          {
+            "name": "denoise",
+            "type": "radio",
+            "value": "dM"
+          },
+          {
+            "name": "denoise",
+            "type": "radio",
+            "value": "dH"
+          },
+          {
+            "name": "denoise",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "a"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "aL"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "aM"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "aH"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "gps",
+            "type": "radio",
+            "value": "g0"
+          },
+          {
+            "name": "gps",
+            "type": "radio",
+            "value": "g1"
+          },
+          {
+            "name": "gps",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": "v0"
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": "v1"
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "qc",
+            "type": "radio",
+            "value": "q0"
+          },
+          {
+            "name": "qc",
+            "type": "radio",
+            "value": "q1"
+          },
+          {
+            "name": "qc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "bv",
+            "type": "range",
+            "value": "9"
+          },
+          {
+            "name": "db",
+            "type": "range",
+            "value": "9"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D0"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D2"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D4"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R1"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R2"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R3"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R4"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R0"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C1"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C5"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C15"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C30"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C0"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S1"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S2"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S3"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S5"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W0"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W1"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W2"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W5"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L0"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L01"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L02"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L03"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L4"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L41"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L1"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L3"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L5"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L6"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L7"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L2"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L8"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L9"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L91"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!1S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!3S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!30S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!5E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!10E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!60E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!600E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": ""
+          }
+        ],
+        "commandExamples": [
+          "oMPRES"
+        ],
+        "documentationLength": 77356,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "max2": {
+        "source": "https://gopro.github.io/labs/control/max2/",
+        "sourceSha": "15a65c6af7a219b7da9c04a36b9476eca0efed6f",
+        "sourcePath": "docs/control/max2/README.md",
+        "controlInputs": [
+          {
+            "name": "max",
+            "type": "radio",
+            "value": "M"
+          },
+          {
+            "name": "max",
+            "type": "radio",
+            "value": "HF"
+          },
+          {
+            "name": "max",
+            "type": "radio",
+            "value": "HR"
+          },
+          {
+            "name": "max",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mV"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mVL"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mVS"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mTW"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mT"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mNL"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mST"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mLP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mLT"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mPB"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mPN"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mTP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mNP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r8"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r5"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4T"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r1V"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4V"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r8"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r5"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": "r8"
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": "r5"
+          },
+          {
+            "name": "comptlv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p24"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p25"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p30"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p50"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p60"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p100"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e0"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e1"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e4"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fX"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": "fX"
+          },
+          {
+            "name": "pfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fX"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": "fX"
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": "fM"
+          },
+          {
+            "name": "twfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "bA"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b3N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b5N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b10N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b25N1"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b10N2"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b10N3"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b30N3"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b30N6"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": "b30N10"
+          },
+          {
+            "name": "burst",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p15"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p6"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p3"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p2"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "p1"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": "pA"
+          },
+          {
+            "name": "fpswarp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p2"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p1"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.2"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.5"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.10"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.30"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.60"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.120"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.300"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.1800"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.3600"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.4"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.5"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.10"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.15"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.20"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.30"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.60"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.120"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.300"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.1800"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": "p.3600"
+          },
+          {
+            "name": "fpsnight",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "eA"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e2"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e5"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e10"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e15"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e20"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": "e30"
+          },
+          {
+            "name": "nightexp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR0"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR15"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR30"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR60"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR300"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR900"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR1800"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR3600"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR7200"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": "dR9999"
+          },
+          {
+            "name": "dur",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "raw",
+            "type": "radio",
+            "value": "r0"
+          },
+          {
+            "name": "raw",
+            "type": "radio",
+            "value": "r"
+          },
+          {
+            "name": "raw",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": "aA"
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": "aS"
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": "aW"
+          },
+          {
+            "name": "audt",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "25,25"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "50,25"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "75,25"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "25,50"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "50,50"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "75,50"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "25,75"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "50,75"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "75,75"
+          },
+          {
+            "name": "placement",
+            "type": "radio",
+            "value": "0"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cG"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cN"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cF"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ptd",
+            "type": "radio",
+            "value": "d0"
+          },
+          {
+            "name": "ptd",
+            "type": "radio",
+            "value": "d1"
+          },
+          {
+            "name": "ptd",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": "b0"
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": "b1"
+          },
+          {
+            "name": "br",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "wA"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w23"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w28"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w32"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w40"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w45"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w50"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w55"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w60"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w65"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "wN"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M1"
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M2"
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M4"
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M8"
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M16"
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M32"
+          },
+          {
+            "name": "isomin",
+            "type": "radio",
+            "value": "M64"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i1"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i2"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i4"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i8"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i16"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i32"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i64"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S360"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S180"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S90"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S45"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S22"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S0"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S10"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S5"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-1.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-1"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x0"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x1"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x1.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sL"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sM"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sH"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "a"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "aL"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "aM"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": "aH"
+          },
+          {
+            "name": "aud",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "gps",
+            "type": "radio",
+            "value": "g0"
+          },
+          {
+            "name": "gps",
+            "type": "radio",
+            "value": "g1"
+          },
+          {
+            "name": "gps",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": "v0"
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": "v1"
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "qc",
+            "type": "radio",
+            "value": "q0"
+          },
+          {
+            "name": "qc",
+            "type": "radio",
+            "value": "q1"
+          },
+          {
+            "name": "qc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "dm",
+            "type": "radio",
+            "value": "dL"
+          },
+          {
+            "name": "dm",
+            "type": "radio",
+            "value": "dV"
+          },
+          {
+            "name": "dm",
+            "type": "radio",
+            "value": "dP"
+          },
+          {
+            "name": "dm",
+            "type": "radio",
+            "value": "dT"
+          },
+          {
+            "name": "dm",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V0"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V1"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V4"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V7"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V8"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V9"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "db",
+            "type": "radio",
+            "value": "B1"
+          },
+          {
+            "name": "db",
+            "type": "radio",
+            "value": "B4"
+          },
+          {
+            "name": "db",
+            "type": "radio",
+            "value": "B7"
+          },
+          {
+            "name": "db",
+            "type": "radio",
+            "value": "B9"
+          },
+          {
+            "name": "db",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D0"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D2"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D4"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R1"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R2"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R3"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R4"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": "R0"
+          },
+          {
+            "name": "or",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C1"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C5"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C15"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C30"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": "C0"
+          },
+          {
+            "name": "ao",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S1"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S2"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S3"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": "S"
+          },
+          {
+            "name": "so",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W0"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W1"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W2"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W5"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L0"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L01"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L02"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L03"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L4"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L41"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L1"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L3"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L5"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L6"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L7"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L2"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L8"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L9"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L91"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!1S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!3S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!30S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!5E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!10E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!60E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!600E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": ""
+          }
+        ],
+        "commandExamples": [
+          "oMPRES"
+        ],
+        "documentationLength": 66295,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "tech": {
+        "source": "https://gopro.github.io/labs/control/tech/",
+        "sourceSha": "a1c04e32458e8dad539ca43c8229256508091627",
+        "sourcePath": "docs/control/tech/README.md",
+        "controlInputs": [],
+        "commandExamples": [
+          "$BITR=150",
+          "$LEVL=6",
+          "*OWNR",
+          "*OWNS",
+          "*OWNA",
+          "*OWNZ",
+          "*CAMR=53",
+          "*ABCD=45.234",
+          "*UNIT=-1723",
+          "*LLTZ=32.707,-117.1576,-7",
+          "$CAMA=53",
+          "$AAAA=45.234",
+          "$UNTS=-1723",
+          "$LLTZ=32.707,-117.1576,-7",
+          "*ALLI",
+          "*ALLI=1",
+          "*ARCH",
+          "*ARCH=1",
+          "*AUDS",
+          "$AUDS=1",
+          "*B001",
+          "*B999",
+          "*BASE",
+          "*BERS",
+          "*BERS=2",
+          "*BFLK",
+          "*BIAS",
+          "*BITR",
+          "*BITR=180",
+          "*BITH",
+          "*BITL",
+          "*BOOT",
+          "*BURN",
+          "*BRNP",
+          "*BRNT",
+          "*BRNX",
+          "*BYPS",
+          "*BYPS=1",
+          "*CBAR",
+          "*COOL",
+          "$COOL=40",
+          "*DAMP",
+          "$DAMP=10",
+          "*DAUD",
+          "*DBGL",
+          "*DBGL=1",
+          "*DIST",
+          "$DIST=5",
+          "*DIVE",
+          "$DIVE=1",
+          "$PRES",
+          "*DLRV",
+          "*DLRV=1",
+          "*DPTS",
+          "*DPTP",
+          "*DPTL",
+          "*DSPC",
+          "*DSPL",
+          "*ENCR",
+          "*DECR",
+          "*EVBS",
+          "*EXPQ",
+          "$EXPQ=120",
+          "*EXPS",
+          "*EXPX",
+          "$EXPX=120",
+          "*EXPN",
+          "$EXPN=240",
+          "*EXPT",
+          "*FAST",
+          "*FAST=1",
+          "*FEAT",
+          "$FEAT=4",
+          "*GAIN",
+          "$GAIN=12,",
+          "*GAMA",
+          "$GAMA=2.2",
+          "*GCMP",
+          "*GPSL",
+          "$GPSL=10",
+          "*GUID",
+          "$GUID=2.35,",
+          "$GUID=1.778,0.5625",
+          "*GUIC",
+          "$GUIC=10,255",
+          "*HDMI",
+          "*HDMI=1",
+          "*HIST",
+          "$HIST=5",
+          "*HSTP",
+          "$HSTP=16,8,44",
+          "*HNDL",
+          "*HSTO",
+          "*HSTO=180",
+          "*IFRM",
+          "*IFRM=1",
+          "*IWFR",
+          "*BITR=x",
+          "*JOIN",
+          "*LBAR",
+          "*LEVL",
+          "*LEVL=5",
+          "*LLTZ",
+          "$LLTZ=33.126,-117.327,-8.0",
+          "*LOGB",
+          "$LOGB=400",
+          "*LOGO",
+          "*LOWL",
+          "*LOWL=1",
+          "*MUTE",
+          "$MUTE=15",
+          "*NR01",
+          "$NR01=1",
+          "*NR02",
+          "*NR09",
+          "*OLTC",
+          "*PMSG",
+          "*PRES",
+          "oMPRES",
+          "*PRXY",
+          "*QRDR",
+          "*RLTC",
+          "*RLTC=1",
+          "*RTMP",
+          "*SHMX",
+          "*SOLO",
+          "$SOLO=1",
+          "$SOLO=4",
+          "*SPED",
+          "*STOP",
+          "*SYNC",
+          "*SYNC=1",
+          "*TCAL",
+          "*TONE",
+          "*TUSB",
+          "*TUSB=1",
+          "*WAKE",
+          "*WAKE=2",
+          "*WARM",
+          "$WARM=50",
+          "*WBDV",
+          "$WBDV=1",
+          "$WBDV=2.4,3.0",
+          "*WBLK",
+          "*WIDE",
+          "$WIDE=1",
+          "*ZONE",
+          "*SUBA",
+          "$EXPN=120.",
+          "*STUF",
+          "$EXPN=120",
+          "$GCMP=1",
+          "$BITR=180",
+          "$EXPN=0",
+          "$GCMP=0",
+          "$BITR=0",
+          "*RUNN",
+          "$PMSG",
+          "oMFRMA=latt,long",
+          "oMFRMZ",
+          "*CMD1",
+          "$BITR",
+          "$EVBS=E",
+          "*VARC=C",
+          "$VARA",
+          "*VARA=A"
+        ],
+        "documentationLength": 62827,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "session5": {
+        "source": "https://gopro.github.io/labs/control/session5/",
+        "sourceSha": "ce46a5d577945141470232870a21eb4342eab898",
+        "sourcePath": "docs/control/session5/README.md",
+        "controlInputs": [
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mV"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mP"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mT"
+          },
+          {
+            "name": "mode",
+            "type": "radio",
+            "value": "mTP"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r720"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r960"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r1080"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r1440"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r27"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r27T"
+          },
+          {
+            "name": "res",
+            "type": "radio",
+            "value": "r4"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p24"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p25"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p30"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p48"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p50"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p60"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p90"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p100"
+          },
+          {
+            "name": "fps",
+            "type": "radio",
+            "value": "p120"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fM"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fN"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": "fS"
+          },
+          {
+            "name": "fov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fW"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": "fL"
+          },
+          {
+            "name": "tlvfov",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p2"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p1"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.2"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.5"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.10"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.30"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": "p.60"
+          },
+          {
+            "name": "fpslapse",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r1080"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r1440"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r27T"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": "r4"
+          },
+          {
+            "name": "restlv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e0"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": "e1"
+          },
+          {
+            "name": "eis",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cG"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": "cF"
+          },
+          {
+            "name": "ptc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "wA"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w30"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w48"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w55"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "w65"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": "wN"
+          },
+          {
+            "name": "wb",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i4"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i8"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": "i16"
+          },
+          {
+            "name": "iso",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S360"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S180"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S90"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S45"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S22"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S0"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S10"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S5"
+          },
+          {
+            "name": "shut",
+            "type": "radio",
+            "value": "S2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-1.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-1"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x-.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x0"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x1"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x1.5"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": "x2"
+          },
+          {
+            "name": "ev",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sL"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sM"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": "sH"
+          },
+          {
+            "name": "sharp",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": "v0"
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": "v1"
+          },
+          {
+            "name": "vc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V0"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V4"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V7"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": "V9"
+          },
+          {
+            "name": "bv",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D0"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D2"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": "D4"
+          },
+          {
+            "name": "lo",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W0"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": "W1"
+          },
+          {
+            "name": "wc",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L0"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L01"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L02"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L4"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L41"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L2"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L3"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L1"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L5"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L7"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L6"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L8"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": "L9"
+          },
+          {
+            "name": "ln",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!1S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!3S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": "!30S"
+          },
+          {
+            "name": "as",
+            "type": "radio",
+            "value": ""
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!5E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!10E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!60E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": "!600E"
+          },
+          {
+            "name": "ae",
+            "type": "radio",
+            "value": ""
+          }
+        ],
+        "commandExamples": [],
+        "documentationLength": 27930,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "usb": {
+        "source": "https://gopro.github.io/labs/control/usb/",
+        "sourceSha": "2993f4e2f29d1ea7d90f664dfdec5d26dbf68160",
+        "sourcePath": "docs/control/usb/README.md",
+        "controlInputs": [
+          {
+            "name": "tlendsec",
+            "type": "range",
+            "value": "2"
+          },
+          {
+            "name": "enablenew",
+            "type": "checkbox"
+          },
+          {
+            "name": "usefast",
+            "type": "checkbox"
+          },
+          {
+            "name": "disablenew",
+            "type": "checkbox"
+          }
+        ],
+        "commandExamples": [
+          "oMBURN",
+          "*WAKE=0",
+          "*FAST=0",
+          "*BOOT=0",
+          "*WAKE=2",
+          "*BOOT",
+          "*FAST=1"
+        ],
+        "documentationLength": 6296,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "motion": {
+        "source": "https://gopro.github.io/labs/control/motion/",
+        "sourceSha": "98091df974eeaa5ecddc146427c1664e014b618c",
+        "sourcePath": "docs/control/motion/README.md",
+        "controlInputs": [
+          {
+            "name": "snstvty",
+            "type": "range",
+            "value": "3"
+          },
+          {
+            "name": "delay",
+            "type": "range",
+            "value": "4"
+          },
+          {
+            "name": "hold",
+            "type": "range",
+            "value": "5"
+          },
+          {
+            "name": "mask",
+            "type": "range",
+            "value": "0"
+          },
+          {
+            "name": "camoff",
+            "type": "checkbox"
+          },
+          {
+            "name": "h10lcd",
+            "type": "checkbox"
+          },
+          {
+            "name": "h10lcdon",
+            "type": "checkbox"
+          },
+          {
+            "name": "repeat",
+            "type": "checkbox"
+          }
+        ],
+        "commandExamples": [
+          "*HERO",
+          "*MISC",
+          "*DCIM",
+          "oMBURN"
+        ],
+        "documentationLength": 9632,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "imutrigger": {
+        "source": "https://gopro.github.io/labs/control/imutrigger/",
+        "sourceSha": "a5943b7a5d8afd2b93329415b3266c59bbf957b2",
+        "sourcePath": "docs/control/imutrigger/README.md",
+        "controlInputs": [
+          {
+            "name": "imu",
+            "type": "radio",
+            "value": "G"
+          },
+          {
+            "name": "imu",
+            "type": "radio",
+            "value": "A"
+          },
+          {
+            "name": "imu",
+            "type": "radio",
+            "value": "I"
+          },
+          {
+            "name": "snstvty",
+            "type": "range",
+            "value": "6"
+          },
+          {
+            "name": "esnstvty",
+            "type": "range",
+            "value": "0"
+          },
+          {
+            "name": "delay",
+            "type": "range",
+            "value": "1"
+          },
+          {
+            "name": "hold",
+            "type": "range",
+            "value": "5"
+          },
+          {
+            "name": "repeat",
+            "type": "checkbox"
+          }
+        ],
+        "commandExamples": [
+          "!MQRDR=1",
+          "!MBOOT"
+        ],
+        "documentationLength": 9414,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "spltrigger": {
+        "source": "https://gopro.github.io/labs/control/spltrigger/",
+        "sourceSha": "bcfbd1eb97e1b969137df151667913a4ab4f7fd4",
+        "sourcePath": "docs/control/spltrigger/README.md",
+        "controlInputs": [
+          {
+            "name": "snstvty",
+            "type": "range",
+            "value": "80"
+          },
+          {
+            "name": "esnstvty",
+            "type": "range",
+            "value": "80"
+          },
+          {
+            "name": "delay",
+            "type": "range",
+            "value": "1"
+          },
+          {
+            "name": "hold",
+            "type": "range",
+            "value": "5"
+          },
+          {
+            "name": "repeat",
+            "type": "checkbox"
+          }
+        ],
+        "commandExamples": [
+          "oMBURN"
+        ],
+        "documentationLength": 5827,
+        "verification": "source-transcribed-not-camera-tested"
+      }
+    }
   }
 }
