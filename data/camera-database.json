@@ -12823,6 +12823,171 @@
         ],
         "documentationLength": 6945,
         "verification": "source-transcribed-not-camera-tested"
+      },
+      "ltc": {
+        "source": "https://gopro.github.io/labs/control/ltc/",
+        "sourceSha": "0c52761a2f3f45242165cdf77da2a94b8780fc7d",
+        "sourcePath": "docs/control/ltc/README.md",
+        "controlInputs": [],
+        "commandExamples": [
+          "*RLTC=1"
+        ],
+        "documentationLength": 1660,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "proxies": {
+        "source": "https://gopro.github.io/labs/control/proxies/",
+        "sourceSha": "233fae2f0d598d47e94cd77c3bc6b3fc36e461f5",
+        "sourcePath": "docs/control/proxies/README.md",
+        "controlInputs": [
+          {
+            "name": "proxies",
+            "value": null
+          },
+          {
+            "name": "davinci",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "!MPRXY=0",
+          "!MPRXY=4",
+          "!MPRXY=1"
+        ],
+        "documentationLength": 4961,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "hdri": {
+        "source": "https://gopro.github.io/labs/control/hdri/",
+        "sourceSha": "847ac2d0deca802f854f855624de100051936399",
+        "sourcePath": "docs/control/hdri/README.md",
+        "controlInputs": [
+          {
+            "name": "moon",
+            "value": null
+          },
+          {
+            "name": "lname",
+            "value": null
+          },
+          {
+            "name": "delay",
+            "value": "0"
+          },
+          {
+            "name": "color",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "*HDRI",
+          "$BASE",
+          "$GAMA=2.2",
+          "$EXPQ=A",
+          "$EXPQ=0",
+          "$GAMA=0",
+          "$PRES"
+        ],
+        "documentationLength": 49962,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "bracket": {
+        "source": "https://gopro.github.io/labs/control/bracket/",
+        "sourceSha": "4ee39ed189daa1f7dafbba6aab0a9529f577c3b5",
+        "sourcePath": "docs/control/bracket/README.md",
+        "controlInputs": [
+          {
+            "name": "ev4",
+            "value": null
+          },
+          {
+            "name": "ev3",
+            "value": null
+          },
+          {
+            "name": "ev2",
+            "value": null
+          },
+          {
+            "name": "ev1",
+            "value": null
+          },
+          {
+            "name": "ev0",
+            "value": null
+          },
+          {
+            "name": "ev-1",
+            "value": null
+          },
+          {
+            "name": "ev-2",
+            "value": null
+          },
+          {
+            "name": "ev-3",
+            "value": null
+          },
+          {
+            "name": "ev-4",
+            "value": null
+          },
+          {
+            "name": "delay",
+            "value": "0"
+          },
+          {
+            "name": "lname",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "*BRKT",
+          "$GAMA=2.2",
+          "$GAMA=0",
+          "$BASE",
+          "$PRES"
+        ],
+        "documentationLength": 5915,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "owner": {
+        "source": "https://gopro.github.io/labs/control/owner/",
+        "sourceSha": "b98a93f5c6cca745a4c46975dce77b683ae47c9e",
+        "sourcePath": "docs/control/owner/README.md",
+        "controlInputs": [],
+        "commandExamples": [
+          "!MOWNR"
+        ],
+        "documentationLength": 4165,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "precisiontime": {
+        "source": "https://gopro.github.io/labs/control/precisiontime/",
+        "sourceSha": "2adf286e7098adce0b88254170ec7a956de908b6",
+        "sourcePath": "docs/control/precisiontime/README.md",
+        "controlInputs": [
+          {
+            "name": "tzid",
+            "value": "0"
+          },
+          {
+            "name": "tdid",
+            "value": null
+          }
+        ],
+        "commandExamples": [],
+        "documentationLength": 10181,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "metadata": {
+        "source": "https://gopro.github.io/labs/control/metadata/",
+        "sourceSha": "a1b6c6fde976a23395e70ed428dd149ffc38fdec",
+        "sourcePath": "docs/control/metadata/README.md",
+        "controlInputs": [],
+        "commandExamples": [],
+        "documentationLength": 14351,
+        "verification": "source-transcribed-not-camera-tested"
       }
     }
   }
