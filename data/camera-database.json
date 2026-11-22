@@ -1239,53 +1239,53 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "listed-in-section",
-        "64BT": "listed-in-section",
-        "ALLI": "listed-in-section",
-        "BERS": "listed-in-section",
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
         "BURN": "listed-in-section",
-        "BOOT": "listed-in-section",
-        "BYPS": "listed-in-section",
-        "COOL": "listed-in-section",
-        "DAUD": "listed-in-section",
-        "DBGL": "listed-in-section",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
         "DIOP": "listed-in-section",
         "DTMF": "listed-in-section",
-        "DSPC": "listed-in-section",
-        "DSPL": "listed-in-section",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
         "EXPL": "listed-in-section",
-        "EXPX": "listed-in-section",
+        "EXPX": "not-resolved",
         "EXPN": "listed-in-section",
-        "EXPQ": "listed-in-section",
-        "FAST": "listed-in-section",
-        "FEAT": "listed-in-section",
-        "FONT": "listed-in-section",
-        "FRNT": "listed-in-section",
-        "GPSL": "listed-in-section",
-        "GRAB": "listed-in-section",
-        "GUID": "listed-in-section",
-        "GUIC": "listed-in-section",
-        "HNDL": "listed-in-section",
-        "HIST": "listed-in-section",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
         "HS30": "listed-in-section",
-        "HSTO": "listed-in-section",
-        "HSTP": "listed-in-section",
-        "IFRM": "listed-in-section",
-        "LEVL": "listed-in-section",
-        "LLTZ": "listed-in-section",
-        "MMSK": "listed-in-section",
-        "NR01": "listed-in-section",
-        "PRES": "listed-in-section",
-        "PRXY": "listed-in-section",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
         "PMXY": "listed-in-section",
-        "QRDR": "listed-in-section",
-        "SPED": "listed-in-section",
-        "STDL": "listed-in-section",
-        "TUSB": "listed-in-section",
-        "TCAL": "listed-in-section",
-        "WAKE": "listed-in-section",
-        "WARM": "listed-in-section",
-        "WBLK": "listed-in-section",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
         "DPTS": "not-resolved",
         "DPTP": "not-resolved",
         "DPTL": "not-resolved",
@@ -1400,53 +1400,53 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "listed-in-section",
-        "64BT": "listed-in-section",
-        "ALLI": "listed-in-section",
-        "BERS": "listed-in-section",
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
         "BURN": "listed-in-section",
-        "BOOT": "listed-in-section",
-        "BYPS": "listed-in-section",
-        "COOL": "listed-in-section",
-        "DAUD": "listed-in-section",
-        "DBGL": "listed-in-section",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
         "DIOP": "listed-in-section",
         "DTMF": "listed-in-section",
-        "DSPC": "listed-in-section",
-        "DSPL": "listed-in-section",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
         "EXPL": "listed-in-section",
-        "EXPX": "listed-in-section",
+        "EXPX": "not-resolved",
         "EXPN": "listed-in-section",
-        "EXPQ": "listed-in-section",
-        "FAST": "listed-in-section",
-        "FEAT": "listed-in-section",
-        "FONT": "listed-in-section",
-        "FRNT": "listed-in-section",
-        "GPSL": "listed-in-section",
-        "GRAB": "listed-in-section",
-        "GUID": "listed-in-section",
-        "GUIC": "listed-in-section",
-        "HNDL": "listed-in-section",
-        "HIST": "listed-in-section",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
         "HS30": "listed-in-section",
-        "HSTO": "listed-in-section",
-        "HSTP": "listed-in-section",
-        "IFRM": "listed-in-section",
-        "LEVL": "listed-in-section",
-        "LLTZ": "listed-in-section",
-        "MMSK": "listed-in-section",
-        "NR01": "listed-in-section",
-        "PRES": "listed-in-section",
-        "PRXY": "listed-in-section",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
         "PMXY": "listed-in-section",
-        "QRDR": "listed-in-section",
-        "SPED": "listed-in-section",
-        "STDL": "listed-in-section",
-        "TUSB": "listed-in-section",
-        "TCAL": "listed-in-section",
-        "WAKE": "listed-in-section",
-        "WARM": "listed-in-section",
-        "WBLK": "listed-in-section",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
         "DPTS": "not-resolved",
         "DPTP": "not-resolved",
         "DPTL": "not-resolved",
@@ -1561,53 +1561,53 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "listed-in-section",
-        "64BT": "listed-in-section",
-        "ALLI": "listed-in-section",
-        "BERS": "listed-in-section",
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
         "BURN": "listed-in-section",
-        "BOOT": "listed-in-section",
-        "BYPS": "listed-in-section",
-        "COOL": "listed-in-section",
-        "DAUD": "listed-in-section",
-        "DBGL": "listed-in-section",
+        "BOOT": "not-resolved",
+        "BYPS": "not-resolved",
+        "COOL": "not-resolved",
+        "DAUD": "not-resolved",
+        "DBGL": "not-resolved",
         "DIOP": "listed-in-section",
         "DTMF": "listed-in-section",
-        "DSPC": "listed-in-section",
-        "DSPL": "listed-in-section",
+        "DSPC": "not-resolved",
+        "DSPL": "not-resolved",
         "EXPL": "listed-in-section",
-        "EXPX": "listed-in-section",
+        "EXPX": "not-resolved",
         "EXPN": "listed-in-section",
-        "EXPQ": "listed-in-section",
-        "FAST": "listed-in-section",
-        "FEAT": "listed-in-section",
-        "FONT": "listed-in-section",
-        "FRNT": "listed-in-section",
-        "GPSL": "listed-in-section",
-        "GRAB": "listed-in-section",
-        "GUID": "listed-in-section",
-        "GUIC": "listed-in-section",
-        "HNDL": "listed-in-section",
-        "HIST": "listed-in-section",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
+        "HNDL": "not-resolved",
+        "HIST": "not-resolved",
         "HS30": "listed-in-section",
-        "HSTO": "listed-in-section",
-        "HSTP": "listed-in-section",
-        "IFRM": "listed-in-section",
-        "LEVL": "listed-in-section",
-        "LLTZ": "listed-in-section",
-        "MMSK": "listed-in-section",
-        "NR01": "listed-in-section",
-        "PRES": "listed-in-section",
-        "PRXY": "listed-in-section",
+        "HSTO": "not-resolved",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
+        "LLTZ": "not-resolved",
+        "MMSK": "not-resolved",
+        "NR01": "not-resolved",
+        "PRES": "not-resolved",
+        "PRXY": "not-resolved",
         "PMXY": "listed-in-section",
-        "QRDR": "listed-in-section",
-        "SPED": "listed-in-section",
-        "STDL": "listed-in-section",
-        "TUSB": "listed-in-section",
-        "TCAL": "listed-in-section",
-        "WAKE": "listed-in-section",
-        "WARM": "listed-in-section",
-        "WBLK": "listed-in-section",
+        "QRDR": "not-resolved",
+        "SPED": "not-resolved",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
+        "TCAL": "not-resolved",
+        "WAKE": "not-resolved",
+        "WARM": "not-resolved",
+        "WBLK": "not-resolved",
         "DPTS": "not-resolved",
         "DPTP": "not-resolved",
         "DPTL": "not-resolved",
@@ -2249,53 +2249,53 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "not-resolved",
-        "64BT": "not-resolved",
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
         "ALLI": "not-resolved",
-        "BERS": "not-resolved",
+        "BERS": "listed-in-section",
         "BURN": "not-resolved",
         "BOOT": "not-resolved",
-        "BYPS": "not-resolved",
-        "COOL": "not-resolved",
-        "DAUD": "not-resolved",
+        "BYPS": "listed-in-section",
+        "COOL": "listed-in-section",
+        "DAUD": "listed-in-section",
         "DBGL": "not-resolved",
         "DIOP": "not-resolved",
         "DTMF": "not-resolved",
         "DSPC": "not-resolved",
         "DSPL": "not-resolved",
         "EXPL": "not-resolved",
-        "EXPX": "not-resolved",
+        "EXPX": "listed-in-section",
         "EXPN": "not-resolved",
-        "EXPQ": "not-resolved",
-        "FAST": "not-resolved",
-        "FEAT": "not-resolved",
-        "FONT": "not-resolved",
-        "FRNT": "not-resolved",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
         "GPSL": "not-resolved",
-        "GRAB": "not-resolved",
-        "GUID": "not-resolved",
-        "GUIC": "not-resolved",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
         "HNDL": "not-resolved",
         "HIST": "not-resolved",
         "HS30": "not-resolved",
         "HSTO": "not-resolved",
-        "HSTP": "not-resolved",
+        "HSTP": "listed-in-section",
         "IFRM": "not-resolved",
-        "LEVL": "not-resolved",
+        "LEVL": "listed-in-section",
         "LLTZ": "not-resolved",
-        "MMSK": "not-resolved",
-        "NR01": "not-resolved",
-        "PRES": "not-resolved",
-        "PRXY": "not-resolved",
+        "MMSK": "listed-in-section",
+        "NR01": "listed-in-section",
+        "PRES": "listed-in-section",
+        "PRXY": "listed-in-section",
         "PMXY": "not-resolved",
         "QRDR": "not-resolved",
         "SPED": "not-resolved",
-        "STDL": "not-resolved",
-        "TUSB": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
         "TCAL": "not-resolved",
         "WAKE": "not-resolved",
-        "WARM": "not-resolved",
-        "WBLK": "not-resolved",
+        "WARM": "listed-in-section",
+        "WBLK": "listed-in-section",
         "DPTS": "not-resolved",
         "DPTP": "not-resolved",
         "DPTL": "not-resolved",
@@ -2308,26 +2308,26 @@
         "GOAL": "not-resolved",
         "WBDV": "not-resolved",
         "BFLK": "not-resolved",
-        "DIVE": "not-resolved",
-        "OLTC": "not-resolved",
-        "RLTC": "not-resolved",
-        "STOP": "not-resolved",
-        "ONIO": "not-resolved",
-        "WIDE": "not-resolved",
-        "MTRX": "not-resolved",
-        "GCMP": "not-resolved",
-        "EXPS": "not-resolved",
-        "LOGB": "not-resolved",
+        "DIVE": "listed-in-section",
+        "OLTC": "listed-in-section",
+        "RLTC": "listed-in-section",
+        "STOP": "listed-in-section",
+        "ONIO": "listed-in-section",
+        "WIDE": "listed-in-section",
+        "MTRX": "listed-in-section",
+        "GCMP": "listed-in-section",
+        "EXPS": "listed-in-section",
+        "LOGB": "listed-in-section",
         "IWFR": "not-resolved",
         "WG84": "not-resolved",
-        "AUDS": "not-resolved",
-        "BITH": "not-resolved",
-        "BITR": "not-resolved",
-        "DAMP": "not-resolved",
-        "DLRV": "not-resolved",
-        "EVBS": "not-resolved",
-        "TONE": "not-resolved",
-        "FSOS": "not-resolved",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
         "BRNT": "listed-in-section",
         "BRNX": "listed-in-section",
         "CBAR": "listed-in-section",
@@ -2616,53 +2616,53 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "not-resolved",
-        "64BT": "not-resolved",
+        "24HZ": "listed-in-section",
+        "64BT": "listed-in-section",
         "ALLI": "not-resolved",
-        "BERS": "not-resolved",
+        "BERS": "listed-in-section",
         "BURN": "not-resolved",
         "BOOT": "not-resolved",
-        "BYPS": "not-resolved",
+        "BYPS": "listed-in-section",
         "COOL": "not-resolved",
-        "DAUD": "not-resolved",
+        "DAUD": "listed-in-section",
         "DBGL": "not-resolved",
         "DIOP": "not-resolved",
         "DTMF": "not-resolved",
         "DSPC": "not-resolved",
         "DSPL": "not-resolved",
         "EXPL": "not-resolved",
-        "EXPX": "not-resolved",
+        "EXPX": "listed-in-section",
         "EXPN": "not-resolved",
-        "EXPQ": "not-resolved",
-        "FAST": "not-resolved",
-        "FEAT": "not-resolved",
-        "FONT": "not-resolved",
-        "FRNT": "not-resolved",
+        "EXPQ": "listed-in-section",
+        "FAST": "listed-in-section",
+        "FEAT": "listed-in-section",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
         "GPSL": "not-resolved",
-        "GRAB": "not-resolved",
-        "GUID": "not-resolved",
-        "GUIC": "not-resolved",
+        "GRAB": "listed-in-section",
+        "GUID": "listed-in-section",
+        "GUIC": "listed-in-section",
         "HNDL": "not-resolved",
         "HIST": "not-resolved",
         "HS30": "not-resolved",
         "HSTO": "not-resolved",
-        "HSTP": "not-resolved",
+        "HSTP": "listed-in-section",
         "IFRM": "not-resolved",
-        "LEVL": "not-resolved",
+        "LEVL": "listed-in-section",
         "LLTZ": "not-resolved",
         "MMSK": "not-resolved",
-        "NR01": "not-resolved",
+        "NR01": "listed-in-section",
         "PRES": "not-resolved",
-        "PRXY": "not-resolved",
+        "PRXY": "listed-in-section",
         "PMXY": "not-resolved",
         "QRDR": "not-resolved",
         "SPED": "not-resolved",
-        "STDL": "not-resolved",
-        "TUSB": "not-resolved",
+        "STDL": "listed-in-section",
+        "TUSB": "listed-in-section",
         "TCAL": "not-resolved",
         "WAKE": "not-resolved",
         "WARM": "not-resolved",
-        "WBLK": "not-resolved",
+        "WBLK": "listed-in-section",
         "DPTS": "not-resolved",
         "DPTP": "not-resolved",
         "DPTL": "not-resolved",
@@ -2680,21 +2680,21 @@
         "RLTC": "not-resolved",
         "STOP": "not-resolved",
         "ONIO": "not-resolved",
-        "WIDE": "not-resolved",
-        "MTRX": "not-resolved",
-        "GCMP": "not-resolved",
-        "EXPS": "not-resolved",
-        "LOGB": "not-resolved",
-        "IWFR": "not-resolved",
-        "WG84": "not-resolved",
-        "AUDS": "not-resolved",
-        "BITH": "not-resolved",
-        "BITR": "not-resolved",
-        "DAMP": "not-resolved",
-        "DLRV": "not-resolved",
-        "EVBS": "not-resolved",
-        "TONE": "not-resolved",
-        "FSOS": "not-resolved",
+        "WIDE": "listed-in-section",
+        "MTRX": "listed-in-section",
+        "GCMP": "listed-in-section",
+        "EXPS": "listed-in-section",
+        "LOGB": "listed-in-section",
+        "IWFR": "listed-in-section",
+        "WG84": "listed-in-section",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
         "BRNT": "listed-in-section",
         "BRNX": "listed-in-section",
         "CBAR": "listed-in-section",
@@ -2926,7 +2926,7 @@
         "PMXY": "not-resolved",
         "QRDR": "not-resolved",
         "SPED": "not-resolved",
-        "STDL": "listed-in-section",
+        "STDL": "not-resolved",
         "TUSB": "listed-in-section",
         "TCAL": "not-resolved",
         "WAKE": "not-resolved",
@@ -3215,7 +3215,7 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "not-resolved",
+        "24HZ": "listed-in-section",
         "64BT": "not-resolved",
         "ALLI": "not-resolved",
         "BERS": "not-resolved",
@@ -3223,7 +3223,7 @@
         "BOOT": "not-resolved",
         "BYPS": "not-resolved",
         "COOL": "not-resolved",
-        "DAUD": "not-resolved",
+        "DAUD": "listed-in-section",
         "DBGL": "not-resolved",
         "DIOP": "not-resolved",
         "DTMF": "not-resolved",
@@ -3233,10 +3233,10 @@
         "EXPX": "not-resolved",
         "EXPN": "not-resolved",
         "EXPQ": "not-resolved",
-        "FAST": "not-resolved",
+        "FAST": "listed-in-section",
         "FEAT": "not-resolved",
-        "FONT": "not-resolved",
-        "FRNT": "not-resolved",
+        "FONT": "listed-in-section",
+        "FRNT": "listed-in-section",
         "GPSL": "not-resolved",
         "GRAB": "not-resolved",
         "GUID": "not-resolved",
@@ -3256,7 +3256,7 @@
         "PMXY": "not-resolved",
         "QRDR": "not-resolved",
         "SPED": "not-resolved",
-        "STDL": "not-resolved",
+        "STDL": "listed-in-section",
         "TUSB": "not-resolved",
         "TCAL": "not-resolved",
         "WAKE": "not-resolved",
@@ -3286,14 +3286,14 @@
         "LOGB": "not-resolved",
         "IWFR": "listed-in-section",
         "WG84": "not-resolved",
-        "AUDS": "not-resolved",
-        "BITH": "not-resolved",
-        "BITR": "not-resolved",
-        "DAMP": "not-resolved",
-        "DLRV": "not-resolved",
-        "EVBS": "not-resolved",
-        "TONE": "not-resolved",
-        "FSOS": "not-resolved",
+        "AUDS": "listed-in-section",
+        "BITH": "listed-in-section",
+        "BITR": "listed-in-section",
+        "DAMP": "listed-in-section",
+        "DLRV": "listed-in-section",
+        "EVBS": "listed-in-section",
+        "TONE": "listed-in-section",
+        "FSOS": "listed-in-section",
         "BRNT": "listed-in-section",
         "BRNX": "listed-in-section",
         "CBAR": "listed-in-section",
@@ -3604,63 +3604,63 @@
         "Zero to sixty timing": "unsupported"
       },
       "extensionSupport": {
-        "24HZ": "listed-in-section",
-        "64BT": "listed-in-section",
-        "ALLI": "listed-in-section",
-        "BERS": "listed-in-section",
+        "24HZ": "not-resolved",
+        "64BT": "not-resolved",
+        "ALLI": "not-resolved",
+        "BERS": "not-resolved",
         "BURN": "not-resolved",
         "BOOT": "not-resolved",
-        "BYPS": "listed-in-section",
+        "BYPS": "not-resolved",
         "COOL": "not-resolved",
-        "DAUD": "listed-in-section",
+        "DAUD": "not-resolved",
         "DBGL": "not-resolved",
         "DIOP": "not-resolved",
         "DTMF": "not-resolved",
         "DSPC": "not-resolved",
         "DSPL": "not-resolved",
         "EXPL": "not-resolved",
-        "EXPX": "listed-in-section",
+        "EXPX": "not-resolved",
         "EXPN": "not-resolved",
-        "EXPQ": "listed-in-section",
-        "FAST": "listed-in-section",
-        "FEAT": "listed-in-section",
-        "FONT": "listed-in-section",
-        "FRNT": "listed-in-section",
-        "GPSL": "listed-in-section",
-        "GRAB": "listed-in-section",
-        "GUID": "listed-in-section",
-        "GUIC": "listed-in-section",
+        "EXPQ": "not-resolved",
+        "FAST": "not-resolved",
+        "FEAT": "not-resolved",
+        "FONT": "not-resolved",
+        "FRNT": "not-resolved",
+        "GPSL": "not-resolved",
+        "GRAB": "not-resolved",
+        "GUID": "not-resolved",
+        "GUIC": "not-resolved",
         "HNDL": "not-resolved",
         "HIST": "not-resolved",
         "HS30": "not-resolved",
         "HSTO": "not-resolved",
-        "HSTP": "listed-in-section",
-        "IFRM": "listed-in-section",
-        "LEVL": "listed-in-section",
+        "HSTP": "not-resolved",
+        "IFRM": "not-resolved",
+        "LEVL": "not-resolved",
         "LLTZ": "not-resolved",
         "MMSK": "not-resolved",
-        "NR01": "listed-in-section",
+        "NR01": "not-resolved",
         "PRES": "not-resolved",
-        "PRXY": "listed-in-section",
+        "PRXY": "not-resolved",
         "PMXY": "not-resolved",
         "QRDR": "not-resolved",
         "SPED": "not-resolved",
-        "STDL": "listed-in-section",
-        "TUSB": "listed-in-section",
+        "STDL": "not-resolved",
+        "TUSB": "not-resolved",
         "TCAL": "not-resolved",
         "WAKE": "not-resolved",
         "WARM": "not-resolved",
-        "WBLK": "listed-in-section",
-        "DPTS": "listed-in-section",
-        "DPTP": "listed-in-section",
-        "DPTL": "listed-in-section",
-        "WBLC": "listed-in-section",
-        "LOWL": "listed-in-section",
-        "GAMA": "listed-in-section",
-        "SHEL": "listed-in-section",
-        "OPNW": "listed-in-section",
-        "DIST": "listed-in-section",
-        "GOAL": "listed-in-section",
+        "WBLK": "not-resolved",
+        "DPTS": "not-resolved",
+        "DPTP": "not-resolved",
+        "DPTL": "not-resolved",
+        "WBLC": "not-resolved",
+        "LOWL": "not-resolved",
+        "GAMA": "not-resolved",
+        "SHEL": "not-resolved",
+        "OPNW": "not-resolved",
+        "DIST": "not-resolved",
+        "GOAL": "not-resolved",
         "WBDV": "not-resolved",
         "BFLK": "not-resolved",
         "DIVE": "not-resolved",
@@ -3668,21 +3668,21 @@
         "RLTC": "not-resolved",
         "STOP": "not-resolved",
         "ONIO": "not-resolved",
-        "WIDE": "listed-in-section",
-        "MTRX": "listed-in-section",
-        "GCMP": "listed-in-section",
-        "EXPS": "listed-in-section",
-        "LOGB": "listed-in-section",
+        "WIDE": "not-resolved",
+        "MTRX": "not-resolved",
+        "GCMP": "not-resolved",
+        "EXPS": "not-resolved",
+        "LOGB": "not-resolved",
         "IWFR": "not-resolved",
         "WG84": "not-resolved",
-        "AUDS": "listed-in-section",
-        "BITH": "listed-in-section",
-        "BITR": "listed-in-section",
-        "DAMP": "listed-in-section",
-        "DLRV": "listed-in-section",
-        "EVBS": "listed-in-section",
-        "TONE": "listed-in-section",
-        "FSOS": "listed-in-section",
+        "AUDS": "not-resolved",
+        "BITH": "not-resolved",
+        "BITR": "not-resolved",
+        "DAMP": "not-resolved",
+        "DLRV": "not-resolved",
+        "EVBS": "not-resolved",
+        "TONE": "not-resolved",
+        "FSOS": "not-resolved",
         "BRNT": "not-resolved",
         "BRNX": "not-resolved",
         "CBAR": "not-resolved",
@@ -3920,10 +3920,10 @@
         "CBAR": "listed-in-section",
         "LBAR": "listed-in-section",
         "LOGO": "listed-in-section",
-        "GAIN": "listed-in-section",
-        "HDMI": "listed-in-section",
-        "MUTE": "listed-in-section",
-        "SOLO": "listed-in-section"
+        "GAIN": "not-resolved",
+        "HDMI": "not-resolved",
+        "MUTE": "not-resolved",
+        "SOLO": "not-resolved"
       }
     },
     "hero8": {
@@ -4210,11 +4210,11 @@
         "EVBS": "not-resolved",
         "TONE": "not-resolved",
         "FSOS": "not-resolved",
-        "BRNT": "listed-in-section",
-        "BRNX": "listed-in-section",
-        "CBAR": "listed-in-section",
-        "LBAR": "listed-in-section",
-        "LOGO": "listed-in-section",
+        "BRNT": "not-resolved",
+        "BRNX": "not-resolved",
+        "CBAR": "not-resolved",
+        "LBAR": "not-resolved",
+        "LOGO": "not-resolved",
         "GAIN": "not-resolved",
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
@@ -5393,8 +5393,7 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max"
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5406,8 +5405,7 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max"
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5419,8 +5417,7 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max"
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5432,8 +5429,7 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max"
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5445,9 +5441,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5459,9 +5454,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5473,9 +5467,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5487,9 +5480,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5501,9 +5493,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5515,9 +5506,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5529,9 +5519,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5543,9 +5532,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5557,9 +5545,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
-          "hero13"
+          "hero13",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5595,7 +5582,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5607,7 +5595,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5619,7 +5608,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5631,7 +5621,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5643,7 +5634,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5655,7 +5647,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5667,7 +5660,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5679,7 +5673,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5691,7 +5686,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero12"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5703,10 +5699,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5718,10 +5715,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5733,10 +5731,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5748,10 +5747,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5763,10 +5763,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5778,10 +5779,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5793,10 +5795,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5808,10 +5811,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5823,10 +5827,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5838,10 +5843,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5853,10 +5859,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5868,10 +5875,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5883,10 +5891,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5898,10 +5907,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5913,10 +5923,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5928,10 +5939,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5943,10 +5955,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5958,10 +5971,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5973,10 +5987,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -5988,10 +6003,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6003,10 +6019,11 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero11mini"
+          "hero12",
+          "hero11",
+          "hero11mini",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6018,7 +6035,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero10"
+          "hero10",
+          "hero11"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6030,7 +6048,8 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "hero13"
+          "hero13",
+          "hero11"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6042,10 +6061,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6057,10 +6078,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6072,10 +6095,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6087,10 +6112,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6102,10 +6129,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6117,10 +6146,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6132,10 +6163,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6147,10 +6180,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6162,10 +6197,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6177,10 +6214,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6192,10 +6231,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6207,10 +6248,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6222,10 +6265,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6237,10 +6282,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6252,10 +6299,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6267,10 +6316,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6282,10 +6333,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6297,10 +6350,12 @@
         "source": "https://gopro.github.io/labs/control/extensions/",
         "verification": "official-documentation-transcription",
         "explicitlyNamedModels": [
-          "max2",
-          "max",
           "hero13",
-          "hero10bones"
+          "hero12",
+          "hero11",
+          "hero10",
+          "hero10bones",
+          "max2"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6446,8 +6501,7 @@
           "hero12",
           "hero11",
           "hero10",
-          "hero9",
-          "hero8"
+          "hero9"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6463,8 +6517,7 @@
           "hero12",
           "hero11",
           "hero10",
-          "hero9",
-          "hero8"
+          "hero9"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6480,8 +6533,7 @@
           "hero12",
           "hero11",
           "hero10",
-          "hero9",
-          "hero8"
+          "hero9"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6497,8 +6549,7 @@
           "hero12",
           "hero11",
           "hero10",
-          "hero9",
-          "hero8"
+          "hero9"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6514,8 +6565,7 @@
           "hero12",
           "hero11",
           "hero10",
-          "hero9",
-          "hero8"
+          "hero9"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6530,8 +6580,7 @@
           "hero13",
           "hero12",
           "hero11",
-          "hero10",
-          "hero9"
+          "hero10"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6546,8 +6595,7 @@
           "hero13",
           "hero12",
           "hero11",
-          "hero10",
-          "hero9"
+          "hero10"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6562,8 +6610,7 @@
           "hero13",
           "hero12",
           "hero11",
-          "hero10",
-          "hero9"
+          "hero10"
         ],
         "supportInterpretation": "listed-in-section"
       },
@@ -6578,8 +6625,7 @@
           "hero13",
           "hero12",
           "hero11",
-          "hero10",
-          "hero9"
+          "hero10"
         ],
         "supportInterpretation": "listed-in-section"
       }
