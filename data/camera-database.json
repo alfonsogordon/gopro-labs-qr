@@ -1327,7 +1327,15 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "mission",
+        "usb",
+        "spltrigger",
+        "construction",
+        "overlays",
+        "logo"
+      ]
     },
     "mission1pro": {
       "name": "MISSION 1 PRO",
@@ -1488,7 +1496,15 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "mission",
+        "usb",
+        "spltrigger",
+        "construction",
+        "overlays",
+        "logo"
+      ]
     },
     "mission1": {
       "name": "MISSION 1",
@@ -1649,7 +1665,15 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "mission",
+        "usb",
+        "spltrigger",
+        "construction",
+        "overlays",
+        "logo"
+      ]
     },
     "max2": {
       "name": "MAX2",
@@ -1876,7 +1900,17 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "max2",
+        "usb",
+        "maxshut",
+        "overlays",
+        "archive",
+        "proxies",
+        "hdri",
+        "bracket"
+      ]
     },
     "hero13": {
       "name": "HERO13 Black",
@@ -2096,7 +2130,24 @@
         "HDMI": "listed-in-section",
         "MUTE": "listed-in-section",
         "SOLO": "listed-in-section"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "construction",
+        "divemode",
+        "stopmotion",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename",
+        "ltc",
+        "proxies",
+        "bracket"
+      ]
     },
     "hero12": {
       "name": "HERO12 Black",
@@ -2337,7 +2388,24 @@
         "HDMI": "listed-in-section",
         "MUTE": "listed-in-section",
         "SOLO": "listed-in-section"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "construction",
+        "divemode",
+        "stopmotion",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename",
+        "ltc",
+        "proxies",
+        "bracket"
+      ]
     },
     "hero11": {
       "name": "HERO11 Black",
@@ -2704,7 +2772,20 @@
         "HDMI": "listed-in-section",
         "MUTE": "listed-in-section",
         "SOLO": "listed-in-section"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename",
+        "ltc",
+        "proxies"
+      ]
     },
     "hero11mini": {
       "name": "HERO11 Black Mini",
@@ -2973,7 +3054,19 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename",
+        "proxies"
+      ]
     },
     "hero10": {
       "name": "HERO10 Black",
@@ -3303,7 +3396,20 @@
         "HDMI": "listed-in-section",
         "MUTE": "listed-in-section",
         "SOLO": "listed-in-section"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename",
+        "ltc",
+        "proxies"
+      ]
     },
     "hero10bones": {
       "name": "HERO10 Bones",
@@ -3464,7 +3570,16 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "maxshut",
+        "rtmp",
+        "chapters",
+        "basename",
+        "proxies"
+      ]
     },
     "max": {
       "name": "MAX",
@@ -3692,7 +3807,13 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "maxshut",
+        "overlays",
+        "archive"
+      ]
     },
     "hero9": {
       "name": "HERO9 Black",
@@ -3924,7 +4045,19 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "spltrigger",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename",
+        "ltc"
+      ]
     },
     "hero8": {
       "name": "HERO8 Black",
@@ -4219,7 +4352,17 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "maxshut",
+        "overlays",
+        "logo",
+        "archive",
+        "rtmp",
+        "chapters",
+        "basename"
+      ]
     },
     "hero7": {
       "name": "HERO7 Black",
@@ -4549,7 +4692,11 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "usb",
+        "archive"
+      ]
     },
     "hero5session": {
       "name": "HERO5 Session",
@@ -4710,7 +4857,10 @@
         "HDMI": "not-resolved",
         "MUTE": "not-resolved",
         "SOLO": "not-resolved"
-      }
+      },
+      "officialDocumentationPages": [
+        "session5"
+      ]
     }
   },
   "commands": {
@@ -9730,7 +9880,15 @@
           "oMPRES"
         ],
         "documentationLength": 77356,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "mission1",
+            "mission1pro",
+            "mission1proils"
+          ]
+        }
       },
       "max2": {
         "source": "https://gopro.github.io/labs/control/max2/",
@@ -11152,7 +11310,13 @@
           "oMPRES"
         ],
         "documentationLength": 66295,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "max2"
+          ]
+        }
       },
       "tech": {
         "source": "https://gopro.github.io/labs/control/tech/",
@@ -11328,7 +11492,11 @@
           "*VARA=A"
         ],
         "documentationLength": 62827,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "session5": {
         "source": "https://gopro.github.io/labs/control/session5/",
@@ -11963,7 +12131,13 @@
         ],
         "commandExamples": [],
         "documentationLength": 27930,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero5session"
+          ]
+        }
       },
       "usb": {
         "source": "https://gopro.github.io/labs/control/usb/",
@@ -11998,7 +12172,26 @@
           "*FAST=1"
         ],
         "documentationLength": 6296,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero7",
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "max",
+            "max2",
+            "mission1",
+            "mission1pro",
+            "mission1proils"
+          ]
+        }
       },
       "motion": {
         "source": "https://gopro.github.io/labs/control/motion/",
@@ -12049,7 +12242,11 @@
           "oMBURN"
         ],
         "documentationLength": 9632,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "imutrigger": {
         "source": "https://gopro.github.io/labs/control/imutrigger/",
@@ -12101,7 +12298,11 @@
           "!MBOOT"
         ],
         "documentationLength": 9414,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "spltrigger": {
         "source": "https://gopro.github.io/labs/control/spltrigger/",
@@ -12137,7 +12338,22 @@
           "oMBURN"
         ],
         "documentationLength": 5827,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero9",
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "mission1",
+            "mission1pro",
+            "mission1proils"
+          ]
+        }
       },
       "speedtrigger": {
         "source": "https://gopro.github.io/labs/control/speedtrigger/",
@@ -12178,7 +12394,11 @@
           "oMBURN"
         ],
         "documentationLength": 5818,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "longtimelapse": {
         "source": "https://gopro.github.io/labs/control/longtimelapse/",
@@ -12198,7 +12418,11 @@
           "oMBURN"
         ],
         "documentationLength": 6916,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "dailytl": {
         "source": "https://gopro.github.io/labs/control/dailytl/",
@@ -12286,7 +12510,11 @@
           "oMBURN"
         ],
         "documentationLength": 8767,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "solartimelapse": {
         "source": "https://gopro.github.io/labs/control/solartimelapse/",
@@ -12324,7 +12552,11 @@
           "oMBURN"
         ],
         "documentationLength": 5726,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "construction": {
         "source": "https://gopro.github.io/labs/control/construction/",
@@ -12352,7 +12584,17 @@
           "oMBURN"
         ],
         "documentationLength": 7288,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "mission1",
+            "mission1pro",
+            "mission1proils",
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "eclipse": {
         "source": "https://gopro.github.io/labs/control/eclipse/",
@@ -12433,7 +12675,11 @@
           "oMEXPX=1"
         ],
         "documentationLength": 20471,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "divemode": {
         "source": "https://gopro.github.io/labs/control/divemode/",
@@ -12477,7 +12723,14 @@
           "$WIDE=0"
         ],
         "documentationLength": 7002,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "stopmotion": {
         "source": "https://gopro.github.io/labs/control/stopmotion/",
@@ -12517,7 +12770,14 @@
           "$STOP=0"
         ],
         "documentationLength": 5606,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "maxshut": {
         "source": "https://gopro.github.io/labs/control/maxshut/",
@@ -12585,7 +12845,22 @@
           "oMBURN"
         ],
         "documentationLength": 7341,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "max",
+            "max2"
+          ]
+        }
       },
       "overlays": {
         "source": "https://gopro.github.io/labs/control/overlays/",
@@ -12665,7 +12940,24 @@
           "oMBURN"
         ],
         "documentationLength": 9842,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "max",
+            "max2",
+            "mission1",
+            "mission1pro",
+            "mission1proils"
+          ]
+        }
       },
       "logo": {
         "source": "https://gopro.github.io/labs/control/logo/",
@@ -12729,7 +13021,22 @@
           "oMLOGO"
         ],
         "documentationLength": 6819,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "mission1",
+            "mission1pro",
+            "mission1proils"
+          ]
+        }
       },
       "archive": {
         "source": "https://gopro.github.io/labs/control/archive/",
@@ -12748,7 +13055,22 @@
           "!MARCH=1"
         ],
         "documentationLength": 3334,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero7",
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "max",
+            "max2"
+          ]
+        }
       },
       "rtmp": {
         "source": "https://gopro.github.io/labs/control/rtmp/",
@@ -12773,7 +13095,20 @@
           "!MRTMP"
         ],
         "documentationLength": 5436,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "gpssync": {
         "source": "https://gopro.github.io/labs/control/gpssync/",
@@ -12790,7 +13125,11 @@
           "!MSYNC=0"
         ],
         "documentationLength": 3949,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "chapters": {
         "source": "https://gopro.github.io/labs/control/chapters/",
@@ -12804,7 +13143,20 @@
         ],
         "commandExamples": [],
         "documentationLength": 5330,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "basename": {
         "source": "https://gopro.github.io/labs/control/basename/",
@@ -12822,7 +13174,20 @@
           "!MOWNR"
         ],
         "documentationLength": 6945,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero8",
+            "hero9",
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "ltc": {
         "source": "https://gopro.github.io/labs/control/ltc/",
@@ -12833,7 +13198,17 @@
           "*RLTC=1"
         ],
         "documentationLength": 1660,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero9",
+            "hero10",
+            "hero11",
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "proxies": {
         "source": "https://gopro.github.io/labs/control/proxies/",
@@ -12855,7 +13230,19 @@
           "!MPRXY=1"
         ],
         "documentationLength": 4961,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "hero10",
+            "hero10bones",
+            "hero11",
+            "hero11mini",
+            "hero12",
+            "hero13",
+            "max2"
+          ]
+        }
       },
       "hdri": {
         "source": "https://gopro.github.io/labs/control/hdri/",
@@ -12889,7 +13276,13 @@
           "$PRES"
         ],
         "documentationLength": 49962,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "max2"
+          ]
+        }
       },
       "bracket": {
         "source": "https://gopro.github.io/labs/control/bracket/",
@@ -12949,7 +13342,15 @@
           "$PRES"
         ],
         "documentationLength": 5915,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "official-control-index-model-heading",
+          "explicitlyListedModels": [
+            "max2",
+            "hero12",
+            "hero13"
+          ]
+        }
       },
       "owner": {
         "source": "https://gopro.github.io/labs/control/owner/",
@@ -12960,7 +13361,11 @@
           "!MOWNR"
         ],
         "documentationLength": 4165,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "precisiontime": {
         "source": "https://gopro.github.io/labs/control/precisiontime/",
@@ -12978,7 +13383,11 @@
         ],
         "commandExamples": [],
         "documentationLength": 10181,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       },
       "metadata": {
         "source": "https://gopro.github.io/labs/control/metadata/",
@@ -12987,8 +13396,13 @@
         "controlInputs": [],
         "commandExamples": [],
         "documentationLength": 14351,
-        "verification": "source-transcribed-not-camera-tested"
+        "verification": "source-transcribed-not-camera-tested",
+        "applicability": {
+          "basis": "not-explicitly-model-scoped",
+          "explicitlyListedModels": []
+        }
       }
-    }
+    },
+    "note": "The official control index identifies model families for selected features. Unlisted does not imply unsupported; indexed controls are not independently QR-tested."
   }
 }
