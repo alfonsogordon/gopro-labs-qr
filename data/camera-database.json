@@ -6631,5 +6631,1438 @@
       }
     ],
     "notice": "Entries transcribed from official documentation. Section grouping does not prove support for every camera. Values are examples or parameter placeholders, not validated QR payloads."
+  },
+  "officialQrControls": {
+    "source": "https://gopro.github.io/labs/control/custom/",
+    "repository": "gopro/labs",
+    "path": "docs/control/custom/README.md",
+    "sourceSha": "abe437ae8e6ebe434213ca3131be75ace71409d7",
+    "groups": {
+      "mode": [
+        {
+          "token": "mV",
+          "label": "Video"
+        },
+        {
+          "token": "mVP",
+          "label": "Performance10/11"
+        },
+        {
+          "token": "mVE",
+          "label": "Endurance10/11"
+        },
+        {
+          "token": "mVS",
+          "label": "Stationary10"
+        },
+        {
+          "token": "mS",
+          "label": "Standard12/13"
+        },
+        {
+          "token": "mH",
+          "label": "HDR12/13"
+        },
+        {
+          "token": "mL",
+          "label": "Log12/13"
+        },
+        {
+          "token": "mV0",
+          "label": "Standard10/11"
+        },
+        {
+          "token": "mV1",
+          "label": "Activity10/11"
+        },
+        {
+          "token": "mV2",
+          "label": "Cinematic10/11"
+        },
+        {
+          "token": "mV4",
+          "label": "SloMo10/11"
+        },
+        {
+          "token": "mV3",
+          "label": "Full Frame11"
+        },
+        {
+          "token": "mTW",
+          "label": "TimeWarp"
+        },
+        {
+          "token": "mT",
+          "label": "Timelapse"
+        },
+        {
+          "token": "mNL",
+          "label": "Nightlapse"
+        },
+        {
+          "token": "mST",
+          "label": "Star Trails11"
+        },
+        {
+          "token": "mLP",
+          "label": "Light Painting11"
+        },
+        {
+          "token": "mLT",
+          "label": "Vehicle Lights11"
+        },
+        {
+          "token": "mP",
+          "label": "Photo"
+        },
+        {
+          "token": "mPB",
+          "label": "Burst"
+        },
+        {
+          "token": "mL",
+          "label": "Live Burst10"
+        },
+        {
+          "token": "mPN",
+          "label": "Night"
+        },
+        {
+          "token": "mTP",
+          "label": "Timelapse"
+        },
+        {
+          "token": "mNP",
+          "label": "Nightlapse"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "res": [
+        {
+          "token": "r1080",
+          "label": "1080p"
+        },
+        {
+          "token": "r1440",
+          "label": "1440p"
+        },
+        {
+          "token": "r27",
+          "label": "2.7k"
+        },
+        {
+          "token": "r27T",
+          "label": "2.7k 4:3"
+        },
+        {
+          "token": "r3",
+          "label": "3k 360°"
+        },
+        {
+          "token": "r4",
+          "label": "4k"
+        },
+        {
+          "token": "r4T",
+          "label": "4k 4:3"
+        },
+        {
+          "token": "r4X",
+          "label": "4k 8:711-13"
+        },
+        {
+          "token": "r4S",
+          "label": "4k 1:113"
+        },
+        {
+          "token": "r5",
+          "label": "5k"
+        },
+        {
+          "token": "r5T",
+          "label": "5k 4:311"
+        },
+        {
+          "token": "r5X",
+          "label": "5k 8:711-13"
+        },
+        {
+          "token": "r1V",
+          "label": "HD Vertical13"
+        },
+        {
+          "token": "r4V",
+          "label": "4k Vertical13"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "restlv": [
+        {
+          "token": "r1080",
+          "label": "1080p"
+        },
+        {
+          "token": "r27",
+          "label": "2.7k"
+        },
+        {
+          "token": "r27T",
+          "label": "2.7k 4:3"
+        },
+        {
+          "token": "r4",
+          "label": "4k"
+        },
+        {
+          "token": "r4T",
+          "label": "4k 4:310/11"
+        },
+        {
+          "token": "r4X",
+          "label": "4k 8:712-13"
+        },
+        {
+          "token": "r5",
+          "label": "5k11-13"
+        },
+        {
+          "token": "r5T",
+          "label": "5k 4:311"
+        },
+        {
+          "token": "r5X",
+          "label": "5k 8:712-13"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "comptlv": [
+        {
+          "token": "r4",
+          "label": "4k"
+        },
+        {
+          "token": "r4T",
+          "label": "4k 4:311"
+        },
+        {
+          "token": "r4X",
+          "label": "4k 8:712-13"
+        },
+        {
+          "token": "r5",
+          "label": "5k"
+        },
+        {
+          "token": "r5T",
+          "label": "5k 4:311"
+        },
+        {
+          "token": "r5X",
+          "label": "5k 8:712-13"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "fps": [
+        {
+          "token": "p24",
+          "label": "24"
+        },
+        {
+          "token": "p25",
+          "label": "25"
+        },
+        {
+          "token": "p30",
+          "label": "30"
+        },
+        {
+          "token": "p50",
+          "label": "50"
+        },
+        {
+          "token": "p60",
+          "label": "60"
+        },
+        {
+          "token": "p100",
+          "label": "100"
+        },
+        {
+          "token": "p120",
+          "label": "120"
+        },
+        {
+          "token": "p200",
+          "label": "200"
+        },
+        {
+          "token": "p240",
+          "label": "240"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "eis": [
+        {
+          "token": "e0",
+          "label": "Off"
+        },
+        {
+          "token": "e1",
+          "label": "On"
+        },
+        {
+          "token": "e2",
+          "label": "High"
+        },
+        {
+          "token": "e3",
+          "label": "Boost"
+        },
+        {
+          "token": "e4",
+          "label": "Auto11"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "fov": [
+        {
+          "token": "fW",
+          "label": "Wide"
+        },
+        {
+          "token": "fM",
+          "label": "Medium"
+        },
+        {
+          "token": "fN",
+          "label": "Narrow"
+        },
+        {
+          "token": "fL",
+          "label": "Linear"
+        },
+        {
+          "token": "fS",
+          "label": "Superview"
+        },
+        {
+          "token": "fH",
+          "label": "Linear+HL"
+        },
+        {
+          "token": "fV",
+          "label": "Hyperview11/12"
+        },
+        {
+          "token": "oX1fW",
+          "label": "Enable Wide"
+        },
+        {
+          "token": "oX1fX",
+          "label": "Enable Superview"
+        },
+        {
+          "token": "oX2fW",
+          "label": "Enable Wide12"
+        },
+        {
+          "token": "oX2fX",
+          "label": "Enable MSV12-13"
+        },
+        {
+          "token": "oX2fY",
+          "label": "Enable MHV12-13"
+        },
+        {
+          "token": "oX0",
+          "label": "Disable MLM"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "pfov": [
+        {
+          "token": "fW",
+          "label": "Wide"
+        },
+        {
+          "token": "fL",
+          "label": "Linear"
+        },
+        {
+          "token": "fN",
+          "label": "Narrow"
+        },
+        {
+          "token": "oX1fW",
+          "label": "Enable Wide"
+        },
+        {
+          "token": "oX1fX",
+          "label": "Enable Superview"
+        },
+        {
+          "token": "oX0",
+          "label": "Disable MLM"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "tlvfov": [
+        {
+          "token": "fW",
+          "label": "Wide"
+        },
+        {
+          "token": "fL",
+          "label": "Linear"
+        },
+        {
+          "token": "fN",
+          "label": "Narrow"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "twfov": [
+        {
+          "token": "fW",
+          "label": "Wide"
+        },
+        {
+          "token": "fL",
+          "label": "Linear"
+        },
+        {
+          "token": "fH",
+          "label": "Linear+HL"
+        },
+        {
+          "token": "fN",
+          "label": "Narrow"
+        },
+        {
+          "token": "oX1fW",
+          "label": "Enable Wide"
+        },
+        {
+          "token": "oX1fX",
+          "label": "Enable Superview"
+        },
+        {
+          "token": "oX0",
+          "label": "Disable MLM"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "burst": [
+        {
+          "token": "bA",
+          "label": "Auto"
+        },
+        {
+          "token": "b3N1",
+          "label": "3/1"
+        },
+        {
+          "token": "b5N1",
+          "label": "5/1"
+        },
+        {
+          "token": "b10N1",
+          "label": "10/1"
+        },
+        {
+          "token": "b25N1",
+          "label": "25/1"
+        },
+        {
+          "token": "b10N2",
+          "label": "10/2"
+        },
+        {
+          "token": "b10N3",
+          "label": "10/3"
+        },
+        {
+          "token": "b30N3",
+          "label": "30/3"
+        },
+        {
+          "token": "b30N6",
+          "label": "30/6"
+        },
+        {
+          "token": "b30N10",
+          "label": "30/10"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "fpswarp": [
+        {
+          "token": "p15",
+          "label": "2X"
+        },
+        {
+          "token": "p6",
+          "label": "5X"
+        },
+        {
+          "token": "p3",
+          "label": "10X"
+        },
+        {
+          "token": "p2",
+          "label": "15X"
+        },
+        {
+          "token": "p1",
+          "label": "30X"
+        },
+        {
+          "token": "pA",
+          "label": "Auto"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "fpslapse": [
+        {
+          "token": "p2",
+          "label": "0.5s"
+        },
+        {
+          "token": "p1",
+          "label": "1s"
+        },
+        {
+          "token": "p.2",
+          "label": "2s"
+        },
+        {
+          "token": "p.5",
+          "label": "5s"
+        },
+        {
+          "token": "p.10",
+          "label": "10s"
+        },
+        {
+          "token": "p.30",
+          "label": "30s"
+        },
+        {
+          "token": "p.60",
+          "label": "60s"
+        },
+        {
+          "token": "p.120",
+          "label": "2min"
+        },
+        {
+          "token": "p.300",
+          "label": "5min"
+        },
+        {
+          "token": "p.1800",
+          "label": "30min"
+        },
+        {
+          "token": "p.3600",
+          "label": "60min"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "fpsnight": [
+        {
+          "token": "p",
+          "label": "Auto"
+        },
+        {
+          "token": "p.4",
+          "label": "4s"
+        },
+        {
+          "token": "p.5",
+          "label": "5s"
+        },
+        {
+          "token": "p.10",
+          "label": "10s"
+        },
+        {
+          "token": "p.15",
+          "label": "15s"
+        },
+        {
+          "token": "p.20",
+          "label": "20s"
+        },
+        {
+          "token": "p.30",
+          "label": "30s"
+        },
+        {
+          "token": "p.60",
+          "label": "60s"
+        },
+        {
+          "token": "p.120",
+          "label": "2min"
+        },
+        {
+          "token": "p.300",
+          "label": "5min"
+        },
+        {
+          "token": "p.1800",
+          "label": "30min"
+        },
+        {
+          "token": "p.3600",
+          "label": "60min"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "nightexp": [
+        {
+          "token": "eA",
+          "label": "auto"
+        },
+        {
+          "token": "e2",
+          "label": "2s"
+        },
+        {
+          "token": "e5",
+          "label": "5s"
+        },
+        {
+          "token": "e10",
+          "label": "10s"
+        },
+        {
+          "token": "e15",
+          "label": "15s"
+        },
+        {
+          "token": "e20",
+          "label": "20s"
+        },
+        {
+          "token": "e30",
+          "label": "30s"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "hind": [
+        {
+          "token": "hS0",
+          "label": "Off"
+        },
+        {
+          "token": "hS1",
+          "label": "15s"
+        },
+        {
+          "token": "hS2",
+          "label": "30s"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "dur": [
+        {
+          "token": "dR0",
+          "label": "Off"
+        },
+        {
+          "token": "dR15",
+          "label": "15s"
+        },
+        {
+          "token": "dR30",
+          "label": "30s"
+        },
+        {
+          "token": "dR60",
+          "label": "1min"
+        },
+        {
+          "token": "dR300",
+          "label": "5min"
+        },
+        {
+          "token": "dR900",
+          "label": "15min"
+        },
+        {
+          "token": "dR1800",
+          "label": "30min"
+        },
+        {
+          "token": "dR3600",
+          "label": "1hour"
+        },
+        {
+          "token": "dR7200",
+          "label": "2hour"
+        },
+        {
+          "token": "dR9999",
+          "label": "3hour"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "raw": [
+        {
+          "token": "r0",
+          "label": "JPEG only"
+        },
+        {
+          "token": "r",
+          "label": "Raw + JPEG"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "audt": [
+        {
+          "token": "aA",
+          "label": "Auto"
+        },
+        {
+          "token": "aS",
+          "label": "Off"
+        },
+        {
+          "token": "aW",
+          "label": "On"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "placement": [
+        {
+          "token": "25,25",
+          "label": "Top Left"
+        },
+        {
+          "token": "50,25",
+          "label": "Top Center"
+        },
+        {
+          "token": "75,25",
+          "label": "Top Right"
+        },
+        {
+          "token": "25,50",
+          "label": "Mid Left"
+        },
+        {
+          "token": "50,50",
+          "label": "Center"
+        },
+        {
+          "token": "75,50",
+          "label": "Mid Right"
+        },
+        {
+          "token": "25,75",
+          "label": "Lower Left"
+        },
+        {
+          "token": "50,75",
+          "label": "Lower Center"
+        },
+        {
+          "token": "75,75",
+          "label": "Lower Right"
+        },
+        {
+          "token": "0",
+          "label": "Disable"
+        }
+      ],
+      "ptc": [
+        {
+          "token": "cG",
+          "label": "Vibrant"
+        },
+        {
+          "token": "cN",
+          "label": "Natural10-13"
+        },
+        {
+          "token": "cF",
+          "label": "Flat"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "ptd": [
+        {
+          "token": "d0",
+          "label": "8-bit11"
+        },
+        {
+          "token": "d1",
+          "label": "10-bit11"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "br": [
+        {
+          "token": "b0",
+          "label": "Standard"
+        },
+        {
+          "token": "b1",
+          "label": "High"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "wb": [
+        {
+          "token": "wA",
+          "label": "Auto"
+        },
+        {
+          "token": "w23",
+          "label": "2300K"
+        },
+        {
+          "token": "w28",
+          "label": "2800K"
+        },
+        {
+          "token": "w32",
+          "label": "3200K"
+        },
+        {
+          "token": "w40",
+          "label": "4000K"
+        },
+        {
+          "token": "w45",
+          "label": "4500K"
+        },
+        {
+          "token": "w50",
+          "label": "5000K"
+        },
+        {
+          "token": "w55",
+          "label": "5500K"
+        },
+        {
+          "token": "w60",
+          "label": "6000K"
+        },
+        {
+          "token": "w65",
+          "label": "6500K"
+        },
+        {
+          "token": "wN",
+          "label": "Native"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "isomin": [
+        {
+          "token": "M1",
+          "label": "100 (def)"
+        },
+        {
+          "token": "M2",
+          "label": "200"
+        },
+        {
+          "token": "M4",
+          "label": "400"
+        },
+        {
+          "token": "M8",
+          "label": "800"
+        },
+        {
+          "token": "M16",
+          "label": "1600"
+        },
+        {
+          "token": "M32",
+          "label": "3200"
+        },
+        {
+          "token": "M64",
+          "label": "6400"
+        },
+        {
+          "token": "M1",
+          "label": "not set"
+        }
+      ],
+      "iso": [
+        {
+          "token": "i1",
+          "label": "100"
+        },
+        {
+          "token": "i2",
+          "label": "200"
+        },
+        {
+          "token": "i4",
+          "label": "400"
+        },
+        {
+          "token": "i8",
+          "label": "800"
+        },
+        {
+          "token": "i16",
+          "label": "1600 (def)"
+        },
+        {
+          "token": "i32",
+          "label": "3200"
+        },
+        {
+          "token": "i64",
+          "label": "6400"
+        },
+        {
+          "token": "i16",
+          "label": "not set"
+        }
+      ],
+      "shut": [
+        {
+          "token": "S360",
+          "label": "360&deg;"
+        },
+        {
+          "token": "S180",
+          "label": "180&deg;"
+        },
+        {
+          "token": "S90",
+          "label": "90&deg;"
+        },
+        {
+          "token": "S45",
+          "label": "45&deg;"
+        },
+        {
+          "token": "S22",
+          "label": "22&deg;"
+        },
+        {
+          "token": "S0",
+          "label": "Auto"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        },
+        {
+          "token": "S10",
+          "label": "10&deg;"
+        },
+        {
+          "token": "S5",
+          "label": "5&deg;"
+        },
+        {
+          "token": "S2",
+          "label": "2&deg;"
+        }
+      ],
+      "ev": [
+        {
+          "token": "x-2",
+          "label": "-2"
+        },
+        {
+          "token": "x-1.5",
+          "label": "-1.5"
+        },
+        {
+          "token": "x-1",
+          "label": "-1"
+        },
+        {
+          "token": "x-.5",
+          "label": "-0.5"
+        },
+        {
+          "token": "x0",
+          "label": "0"
+        },
+        {
+          "token": "x.5",
+          "label": "+0.5"
+        },
+        {
+          "token": "x1",
+          "label": "+1"
+        },
+        {
+          "token": "x1.5",
+          "label": "+1.5"
+        },
+        {
+          "token": "x2",
+          "label": "+2"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "sharp": [
+        {
+          "token": "sL",
+          "label": "Low"
+        },
+        {
+          "token": "sM",
+          "label": "Medium"
+        },
+        {
+          "token": "sH",
+          "label": "High"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "aud": [
+        {
+          "token": "a",
+          "label": "Off"
+        },
+        {
+          "token": "aL",
+          "label": "Low"
+        },
+        {
+          "token": "aM",
+          "label": "Medium"
+        },
+        {
+          "token": "aH",
+          "label": "High"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "gps": [
+        {
+          "token": "g0",
+          "label": "off"
+        },
+        {
+          "token": "g1",
+          "label": "on"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "vc": [
+        {
+          "token": "v0",
+          "label": "off"
+        },
+        {
+          "token": "v1",
+          "label": "on"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "qc": [
+        {
+          "token": "q0",
+          "label": "off"
+        },
+        {
+          "token": "q1",
+          "label": "on"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "dm": [
+        {
+          "token": "dL",
+          "label": "Last Used"
+        },
+        {
+          "token": "dV",
+          "label": "Video"
+        },
+        {
+          "token": "dP",
+          "label": "Photo"
+        },
+        {
+          "token": "dT",
+          "label": "Timelapse"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "bv": [
+        {
+          "token": "V0",
+          "label": "0%"
+        },
+        {
+          "token": "V1",
+          "label": "10%"
+        },
+        {
+          "token": "V4",
+          "label": "40%"
+        },
+        {
+          "token": "V7",
+          "label": "70%"
+        },
+        {
+          "token": "V8",
+          "label": "85%"
+        },
+        {
+          "token": "V9",
+          "label": "100%"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "db": [
+        {
+          "token": "B1",
+          "label": "10%"
+        },
+        {
+          "token": "B4",
+          "label": "40%"
+        },
+        {
+          "token": "B7",
+          "label": "70%"
+        },
+        {
+          "token": "B9",
+          "label": "100%"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "lo": [
+        {
+          "token": "D0",
+          "label": "All Off"
+        },
+        {
+          "token": "D2",
+          "label": "Rear Only"
+        },
+        {
+          "token": "D4",
+          "label": "All On"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "or": [
+        {
+          "token": "R1",
+          "label": "↑"
+        },
+        {
+          "token": "R2",
+          "label": "↓"
+        },
+        {
+          "token": "R3",
+          "label": "←"
+        },
+        {
+          "token": "R4",
+          "label": "→"
+        },
+        {
+          "token": "R0",
+          "label": "Unlocked"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "ao": [
+        {
+          "token": "C1",
+          "label": "1 mins"
+        },
+        {
+          "token": "C5",
+          "label": "5 mins"
+        },
+        {
+          "token": "C15",
+          "label": "15 mins"
+        },
+        {
+          "token": "C30",
+          "label": "30 mins"
+        },
+        {
+          "token": "C0",
+          "label": "Never"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "so": [
+        {
+          "token": "S1",
+          "label": "1 mins"
+        },
+        {
+          "token": "S2",
+          "label": "2 mins"
+        },
+        {
+          "token": "S3",
+          "label": "3 mins"
+        },
+        {
+          "token": "S",
+          "label": "Never"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "wc": [
+        {
+          "token": "W0",
+          "label": "Off"
+        },
+        {
+          "token": "W1",
+          "label": "On"
+        },
+        {
+          "token": "W2",
+          "label": "On 2.4GHz"
+        },
+        {
+          "token": "W5",
+          "label": "On 5GHz"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "ln": [
+        {
+          "token": "L0",
+          "label": "English US"
+        },
+        {
+          "token": "L01",
+          "label": "English UK"
+        },
+        {
+          "token": "L02",
+          "label": "English AUS"
+        },
+        {
+          "token": "L03",
+          "label": "English IND"
+        },
+        {
+          "token": "L4",
+          "label": "Spanish EU"
+        },
+        {
+          "token": "L41",
+          "label": "Spanish NA"
+        },
+        {
+          "token": "L1",
+          "label": "German"
+        },
+        {
+          "token": "L3",
+          "label": "Italian"
+        },
+        {
+          "token": "L5",
+          "label": "Chinese"
+        },
+        {
+          "token": "L6",
+          "label": "Japanese"
+        },
+        {
+          "token": "L7",
+          "label": "Korean"
+        },
+        {
+          "token": "L2",
+          "label": "French"
+        },
+        {
+          "token": "L8",
+          "label": "Portuguese"
+        },
+        {
+          "token": "L9",
+          "label": "Russian"
+        },
+        {
+          "token": "L91",
+          "label": "Swedish"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "as": [
+        {
+          "token": "!S",
+          "label": "Now"
+        },
+        {
+          "token": "!1S",
+          "label": "in 1 sec"
+        },
+        {
+          "token": "!3S",
+          "label": "in 3 secs"
+        },
+        {
+          "token": "!30S",
+          "label": "in 30 secs"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ],
+      "ae": [
+        {
+          "token": "!5E",
+          "label": "End after 5 secs"
+        },
+        {
+          "token": "!10E",
+          "label": "End after 10 secs"
+        },
+        {
+          "token": "!60E",
+          "label": "End after 1 min"
+        },
+        {
+          "token": "!600E",
+          "label": "End after 10 min"
+        },
+        {
+          "token": "",
+          "label": "not set"
+        }
+      ]
+    },
+    "notice": "Tokens are from official QR creator controls; availability is conditional on camera model and mode. Do not union all tokens into all cameras."
   }
 }
