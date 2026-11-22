@@ -1,0 +1,3068 @@
+{
+  "schemaVersion": 1,
+  "notice": "Unified compatibility data. A documented candidate is not necessarily verified. No command payload is marked verified by this database.",
+  "sources": {
+    "recording": "data/recording-matrix.json",
+    "labs": "https://github.com/gopro/labs#overview-of-labs-functionality-and-device-compatibility",
+    "labsUpdated": "2026-07-23"
+  },
+  "features": {
+    "24.0Hz capture vs 23.976": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "All Integer frame rates 30.0 vs 29.97": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "NLE proxies": {
+      "reference": "https://gopro.github.io/labs/control/proxies",
+      "support": {
+        "mission1": "supported",
+        "max2": "partial",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Altered File Naming": {
+      "reference": "https://gopro.github.io/labs/control/basename",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Archive Mode (locked settings)": {
+      "reference": "https://gopro.github.io/labs/control/archive",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Audio Channels Gain/Solo/Mute": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Audio Disable": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Bitrate Controls": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Boot Command": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Command Shell via USB Comms": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Commands over Open GoPro WiFi links": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Distance-Lapse": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Dive Mode": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Exposure Display current ISO and shutter": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Exposure Damping control": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Exposure Curve custom log encoding": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Exposure Min/Max Times": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Extra Long time-lapse": {
+      "reference": "https://gopro.github.io/labs/control/longtimelapse",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "GPS Log without capture": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "GPS time sync": {
+      "reference": "https://gopro.github.io/labs/control/gpssync",
+      "support": {
+        "mission1": "partial",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Guidelines Display on rear LCD": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "HDMI display settings": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Hindsight Timeout Extension": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Histogram (on display)": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Histogram Position/Size (either screen)": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "I-Frame only HEVC Encoding": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Large Chapter Support (12GB)": {
+      "reference": "https://gopro.github.io/labs/control/chapters",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Live Stream Initiation": {
+      "reference": "https://gopro.github.io/labs/control/rtmp",
+      "support": {
+        "mission1": "unknown",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Low Light mode": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "LRV Disable": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "unsupported",
+        "hero12": "unsupported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "LTC Time support (via MediaMod/Pro Mic Adapter)": {
+      "reference": "https://gopro.github.io/labs/control/ltc",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Max Shutter Angle exposure control": {
+      "reference": "https://gopro.github.io/labs/control/maxshut",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Metadata Injections": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Noise Reduction control": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Overlay - Burn-ins e.g. Time/Date": {
+      "reference": "https://gopro.github.io/labs/control/overlays",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Overlay - Color Bar": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Overlays - Logo Burn-In": {
+      "reference": "https://gopro.github.io/labs/control/logo",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Overlays - Luma Sweep": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "unsupported",
+        "hero13": "partial",
+        "hero12": "partial",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Owner Information": {
+      "reference": "https://gopro.github.io/labs/control/owner",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Preset names with Labs commands": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "QR decoding while recording": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "SD card speed test": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Spirit Level Display on rear LCD": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Stop Motion": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "unsupported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Sunrise/Sunset starts": {
+      "reference": "https://gopro.github.io/labs/control/solartimelapse",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Time delayed Starts": {
+      "reference": "https://gopro.github.io/labs/control/custom",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Time/date/timecode QR Code": {
+      "reference": "https://gopro.github.io/labs/control/precisiontime",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Tone Mapping Controls": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Trigger - Accelerometer": {
+      "reference": "https://gopro.github.io/labs/control/imutrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Trigger - GPS speed": {
+      "reference": "https://gopro.github.io/labs/control/speedtrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Trigger - Gyroscope": {
+      "reference": "https://gopro.github.io/labs/control/imutrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Trigger - IMU Motion": {
+      "reference": "https://gopro.github.io/labs/control/imutrigger",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Trigger - Motion detection": {
+      "reference": "https://gopro.github.io/labs/control/motion",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "supported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Trigger - USB Power": {
+      "reference": "https://gopro.github.io/labs/control/usb",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "partial",
+        "hero10": "partial",
+        "hero9": "supported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Upload scripting": {
+      "reference": "https://gopro.github.io/labs/control/dailytl",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "supported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "USB power trust override": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "partial",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Visual Scripting Blockly": {
+      "reference": "https://gopro.github.io/labs/build",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "partial",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Wake on Power": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "supported",
+        "hero9": "unsupported",
+        "hero8": "supported",
+        "hero7": "unsupported",
+        "max": "supported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "grouped-check"
+      }
+    },
+    "Wider Color Gamut": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "supported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "grouped-check",
+        "hero10bones": "unsupported"
+      }
+    },
+    "White Balance Warmer/Cooler": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "supported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "supported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "grouped-check",
+        "mission1proils": "grouped-check",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    },
+    "Zero to sixty timing": {
+      "reference": "https://gopro.github.io/labs/control/extensions",
+      "support": {
+        "mission1": "unsupported",
+        "max2": "supported",
+        "hero13": "supported",
+        "hero12": "unsupported",
+        "hero11": "unsupported",
+        "hero10": "unsupported",
+        "hero9": "unsupported",
+        "hero8": "unsupported",
+        "hero7": "unsupported",
+        "max": "unsupported",
+        "mission1pro": "unsupported",
+        "mission1proils": "unsupported",
+        "hero11mini": "unsupported",
+        "hero10bones": "unsupported"
+      }
+    }
+  },
+  "cameras": {
+    "mission1proils": {
+      "name": "MISSION 1 PRO ILS",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "grouped-check",
+        "All Integer frame rates 30.0 vs 29.97": "grouped-check",
+        "NLE proxies": "grouped-check",
+        "Altered File Naming": "grouped-check",
+        "Archive Mode (locked settings)": "unsupported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "grouped-check",
+        "Bitrate Controls": "grouped-check",
+        "Boot Command": "grouped-check",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "grouped-check",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "grouped-check",
+        "Exposure Display current ISO and shutter": "grouped-check",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "grouped-check",
+        "Extra Long time-lapse": "grouped-check",
+        "GPS Log without capture": "grouped-check",
+        "GPS time sync": "grouped-check",
+        "Guidelines Display on rear LCD": "grouped-check",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "grouped-check",
+        "Histogram (on display)": "grouped-check",
+        "Histogram Position/Size (either screen)": "grouped-check",
+        "I-Frame only HEVC Encoding": "grouped-check",
+        "Large Chapter Support (12GB)": "grouped-check",
+        "Live Stream Initiation": "grouped-check",
+        "Low Light mode": "grouped-check",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "grouped-check",
+        "Metadata Injections": "grouped-check",
+        "Noise Reduction control": "grouped-check",
+        "Overlay - Burn-ins e.g. Time/Date": "grouped-check",
+        "Overlay - Color Bar": "grouped-check",
+        "Overlays - Logo Burn-In": "grouped-check",
+        "Overlays - Luma Sweep": "grouped-check",
+        "Owner Information": "grouped-check",
+        "Preset names with Labs commands": "grouped-check",
+        "QR decoding while recording": "grouped-check",
+        "SD card speed test": "grouped-check",
+        "Spirit Level Display on rear LCD": "grouped-check",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "grouped-check",
+        "Time delayed Starts": "grouped-check",
+        "Time/date/timecode QR Code": "grouped-check",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "grouped-check",
+        "Trigger - GPS speed": "grouped-check",
+        "Trigger - Gyroscope": "grouped-check",
+        "Trigger - IMU Motion": "grouped-check",
+        "Trigger - Motion detection": "grouped-check",
+        "Trigger - USB Power": "grouped-check",
+        "Upload scripting": "grouped-check",
+        "USB power trust override": "grouped-check",
+        "Visual Scripting Blockly": "grouped-check",
+        "Wake on Power": "grouped-check",
+        "Wider Color Gamut": "grouped-check",
+        "White Balance Warmer/Cooler": "grouped-check",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "mission1pro": {
+      "name": "MISSION 1 PRO",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "grouped-check",
+        "All Integer frame rates 30.0 vs 29.97": "grouped-check",
+        "NLE proxies": "grouped-check",
+        "Altered File Naming": "grouped-check",
+        "Archive Mode (locked settings)": "unsupported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "grouped-check",
+        "Bitrate Controls": "grouped-check",
+        "Boot Command": "grouped-check",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "grouped-check",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "grouped-check",
+        "Exposure Display current ISO and shutter": "grouped-check",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "grouped-check",
+        "Extra Long time-lapse": "grouped-check",
+        "GPS Log without capture": "grouped-check",
+        "GPS time sync": "grouped-check",
+        "Guidelines Display on rear LCD": "grouped-check",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "grouped-check",
+        "Histogram (on display)": "grouped-check",
+        "Histogram Position/Size (either screen)": "grouped-check",
+        "I-Frame only HEVC Encoding": "grouped-check",
+        "Large Chapter Support (12GB)": "grouped-check",
+        "Live Stream Initiation": "grouped-check",
+        "Low Light mode": "grouped-check",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "grouped-check",
+        "Metadata Injections": "grouped-check",
+        "Noise Reduction control": "grouped-check",
+        "Overlay - Burn-ins e.g. Time/Date": "grouped-check",
+        "Overlay - Color Bar": "grouped-check",
+        "Overlays - Logo Burn-In": "grouped-check",
+        "Overlays - Luma Sweep": "grouped-check",
+        "Owner Information": "grouped-check",
+        "Preset names with Labs commands": "grouped-check",
+        "QR decoding while recording": "grouped-check",
+        "SD card speed test": "grouped-check",
+        "Spirit Level Display on rear LCD": "grouped-check",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "grouped-check",
+        "Time delayed Starts": "grouped-check",
+        "Time/date/timecode QR Code": "grouped-check",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "grouped-check",
+        "Trigger - GPS speed": "grouped-check",
+        "Trigger - Gyroscope": "grouped-check",
+        "Trigger - IMU Motion": "grouped-check",
+        "Trigger - Motion detection": "grouped-check",
+        "Trigger - USB Power": "grouped-check",
+        "Upload scripting": "grouped-check",
+        "USB power trust override": "grouped-check",
+        "Visual Scripting Blockly": "grouped-check",
+        "Wake on Power": "grouped-check",
+        "Wider Color Gamut": "grouped-check",
+        "White Balance Warmer/Cooler": "grouped-check",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "mission1": {
+      "name": "MISSION 1",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "supported",
+        "All Integer frame rates 30.0 vs 29.97": "supported",
+        "NLE proxies": "supported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "unsupported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "supported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "supported",
+        "Exposure Display current ISO and shutter": "supported",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "supported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "supported",
+        "GPS time sync": "partial",
+        "Guidelines Display on rear LCD": "supported",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "supported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "supported",
+        "I-Frame only HEVC Encoding": "supported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "unknown",
+        "Low Light mode": "supported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "supported",
+        "Overlay - Burn-ins e.g. Time/Date": "supported",
+        "Overlay - Color Bar": "supported",
+        "Overlays - Logo Burn-In": "supported",
+        "Overlays - Luma Sweep": "supported",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "supported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "supported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "supported",
+        "USB power trust override": "partial",
+        "Visual Scripting Blockly": "supported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "supported",
+        "White Balance Warmer/Cooler": "supported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "max2": {
+      "name": "MAX2",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "supported",
+        "All Integer frame rates 30.0 vs 29.97": "supported",
+        "NLE proxies": "partial",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "supported",
+        "Commands over Open GoPro WiFi links": "supported",
+        "Distance-Lapse": "supported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "supported",
+        "Exposure Damping control": "supported",
+        "Exposure Curve custom log encoding": "supported",
+        "Exposure Min/Max Times": "supported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "supported",
+        "GPS time sync": "supported",
+        "Guidelines Display on rear LCD": "supported",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "unsupported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "supported",
+        "I-Frame only HEVC Encoding": "supported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "unsupported",
+        "Low Light mode": "supported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "supported",
+        "Overlay - Burn-ins e.g. Time/Date": "unsupported",
+        "Overlay - Color Bar": "unsupported",
+        "Overlays - Logo Burn-In": "unsupported",
+        "Overlays - Luma Sweep": "unsupported",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "supported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "supported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "supported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "supported",
+        "USB power trust override": "supported",
+        "Visual Scripting Blockly": "supported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "supported",
+        "White Balance Warmer/Cooler": "supported",
+        "Zero to sixty timing": "supported"
+      }
+    },
+    "hero13": {
+      "name": "HERO13 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://community.gopro.com/s/article/HERO13-Black-Camera-Battery-Life?language=en_US",
+        "modes": {
+          "r5X": {
+            "fps": [
+              24,
+              30
+            ]
+          },
+          "r5": {
+            "fps": [
+              24,
+              30,
+              60
+            ]
+          },
+          "r4X": {
+            "fps": [
+              24,
+              30,
+              60
+            ]
+          },
+          "r4V": {
+            "fps": [
+              30,
+              60
+            ]
+          },
+          "r4": {
+            "fps": [
+              24,
+              30,
+              60,
+              120
+            ]
+          },
+          "r2T": {
+            "fps": [
+              120
+            ]
+          },
+          "r2": {
+            "fps": [
+              240
+            ]
+          },
+          "r1V": {
+            "fps": [
+              30,
+              60
+            ]
+          },
+          "r1": {
+            "fps": [
+              30,
+              60,
+              120,
+              240
+            ]
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "supported",
+        "All Integer frame rates 30.0 vs 29.97": "supported",
+        "NLE proxies": "supported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "supported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "supported",
+        "Commands over Open GoPro WiFi links": "supported",
+        "Distance-Lapse": "supported",
+        "Dive Mode": "supported",
+        "Exposure Display current ISO and shutter": "supported",
+        "Exposure Damping control": "supported",
+        "Exposure Curve custom log encoding": "supported",
+        "Exposure Min/Max Times": "supported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "supported",
+        "GPS time sync": "supported",
+        "Guidelines Display on rear LCD": "supported",
+        "HDMI display settings": "supported",
+        "Hindsight Timeout Extension": "supported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "supported",
+        "I-Frame only HEVC Encoding": "supported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "supported",
+        "Low Light mode": "supported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "supported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "supported",
+        "Overlay - Burn-ins e.g. Time/Date": "partial",
+        "Overlay - Color Bar": "partial",
+        "Overlays - Logo Burn-In": "partial",
+        "Overlays - Luma Sweep": "partial",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "supported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "supported",
+        "Stop Motion": "supported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "supported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "supported",
+        "USB power trust override": "supported",
+        "Visual Scripting Blockly": "supported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "supported",
+        "White Balance Warmer/Cooler": "supported",
+        "Zero to sixty timing": "supported"
+      }
+    },
+    "hero12": {
+      "name": "HERO12 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://gopro.com/en/us/shop/cameras/hero12-black/CHDHX-121-master.html",
+        "modes": {
+          "r5X": {
+            "fps": [
+              24,
+              25,
+              30
+            ]
+          },
+          "r5": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r4X": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r4V": {
+            "fps": [
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r4": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ]
+          },
+          "r2T": {
+            "fps": [
+              50,
+              60,
+              100,
+              120
+            ]
+          },
+          "r2": {
+            "fps": [
+              200,
+              240
+            ]
+          },
+          "r1V": {
+            "fps": [
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r1": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ]
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "supported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "supported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "supported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "supported",
+        "Exposure Display current ISO and shutter": "supported",
+        "Exposure Damping control": "supported",
+        "Exposure Curve custom log encoding": "supported",
+        "Exposure Min/Max Times": "supported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "unsupported",
+        "Guidelines Display on rear LCD": "supported",
+        "HDMI display settings": "supported",
+        "Hindsight Timeout Extension": "supported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "supported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "supported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "supported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "supported",
+        "Overlay - Burn-ins e.g. Time/Date": "partial",
+        "Overlay - Color Bar": "partial",
+        "Overlays - Logo Burn-In": "partial",
+        "Overlays - Luma Sweep": "partial",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "supported",
+        "Stop Motion": "supported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "supported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "unsupported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "supported",
+        "USB power trust override": "supported",
+        "Visual Scripting Blockly": "supported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "supported",
+        "White Balance Warmer/Cooler": "supported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero11": {
+      "name": "HERO11 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://community.gopro.com/s/article/HERO11-Black-Video-Settings-And-Resolutions?language=en_US",
+        "modes": {
+          "r5X": {
+            "fps": [
+              24,
+              25,
+              30
+            ],
+            "lens": [
+              "fW"
+            ],
+            "stabilization": [
+              "on",
+              "off"
+            ]
+          },
+          "r5T": {
+            "fps": [
+              24,
+              25,
+              30
+            ],
+            "lens": [
+              "fW",
+              "fL",
+              "fH"
+            ]
+          },
+          "r5": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ],
+            "lens": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fV"
+            ],
+            "lensByFps": {
+              "50": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "60": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ]
+            }
+          },
+          "r4X": {
+            "fps": [
+              50,
+              60
+            ],
+            "lens": [
+              "fW"
+            ],
+            "stabilization": [
+              "on",
+              "off"
+            ]
+          },
+          "r4T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ],
+            "lens": [
+              "fW",
+              "fL",
+              "fH"
+            ]
+          },
+          "r4": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ],
+            "lens": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fV"
+            ],
+            "lensByFps": {
+              "24": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "25": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "30": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "100": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "120": [
+                "fS",
+                "fW",
+                "fL",
+                "fH"
+              ]
+            }
+          },
+          "r2T": {
+            "fps": [
+              50,
+              60,
+              100,
+              120
+            ],
+            "lens": [
+              "fW",
+              "fL",
+              "fH"
+            ]
+          },
+          "r2": {
+            "fps": [
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ],
+            "lens": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "lensByFps": {
+              "200": [
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "240": [
+                "fW",
+                "fL",
+                "fH"
+              ]
+            }
+          },
+          "r1": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ],
+            "lens": [
+              "fS",
+              "fW",
+              "fL",
+              "fH"
+            ],
+            "lensByFps": {
+              "200": [
+                "fW",
+                "fL",
+                "fH"
+              ],
+              "240": [
+                "fW",
+                "fL",
+                "fH"
+              ]
+            }
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "supported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "supported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "supported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "supported",
+        "Exposure Damping control": "supported",
+        "Exposure Curve custom log encoding": "supported",
+        "Exposure Min/Max Times": "supported",
+        "Extra Long time-lapse": "partial",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "partial",
+        "Guidelines Display on rear LCD": "partial",
+        "HDMI display settings": "partial",
+        "Hindsight Timeout Extension": "supported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "partial",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "supported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "supported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "supported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "supported",
+        "Overlay - Burn-ins e.g. Time/Date": "partial",
+        "Overlay - Color Bar": "partial",
+        "Overlays - Logo Burn-In": "partial",
+        "Overlays - Luma Sweep": "partial",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "partial",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "supported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "partial",
+        "Upload scripting": "supported",
+        "USB power trust override": "supported",
+        "Visual Scripting Blockly": "supported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "supported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero11mini": {
+      "name": "HERO11 Black Mini",
+      "recording": {
+        "status": "partial",
+        "source": "https://gopro.com/en/us/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+        "modes": {
+          "r5X": {
+            "fps": [
+              24,
+              25,
+              30
+            ]
+          },
+          "r5": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r5T": {
+            "fps": [
+              24,
+              25,
+              30
+            ]
+          },
+          "r4X": {
+            "fps": [
+              50,
+              60
+            ]
+          },
+          "r4": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ]
+          },
+          "r4T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r2": {
+            "fps": [
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ]
+          },
+          "r2T": {
+            "fps": [
+              50,
+              60,
+              100,
+              120
+            ]
+          },
+          "r1": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ]
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "grouped-check",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "grouped-check",
+        "Altered File Naming": "grouped-check",
+        "Archive Mode (locked settings)": "grouped-check",
+        "Audio Channels Gain/Solo/Mute": "grouped-check",
+        "Audio Disable": "grouped-check",
+        "Bitrate Controls": "grouped-check",
+        "Boot Command": "grouped-check",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "grouped-check",
+        "Exposure Damping control": "grouped-check",
+        "Exposure Curve custom log encoding": "grouped-check",
+        "Exposure Min/Max Times": "grouped-check",
+        "Extra Long time-lapse": "grouped-check",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "grouped-check",
+        "Guidelines Display on rear LCD": "grouped-check",
+        "HDMI display settings": "grouped-check",
+        "Hindsight Timeout Extension": "grouped-check",
+        "Histogram (on display)": "grouped-check",
+        "Histogram Position/Size (either screen)": "grouped-check",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "grouped-check",
+        "Live Stream Initiation": "grouped-check",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "grouped-check",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "grouped-check",
+        "Max Shutter Angle exposure control": "grouped-check",
+        "Metadata Injections": "grouped-check",
+        "Noise Reduction control": "grouped-check",
+        "Overlay - Burn-ins e.g. Time/Date": "grouped-check",
+        "Overlay - Color Bar": "grouped-check",
+        "Overlays - Logo Burn-In": "grouped-check",
+        "Overlays - Luma Sweep": "grouped-check",
+        "Owner Information": "grouped-check",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "grouped-check",
+        "SD card speed test": "grouped-check",
+        "Spirit Level Display on rear LCD": "grouped-check",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "grouped-check",
+        "Time delayed Starts": "grouped-check",
+        "Time/date/timecode QR Code": "grouped-check",
+        "Tone Mapping Controls": "grouped-check",
+        "Trigger - Accelerometer": "grouped-check",
+        "Trigger - GPS speed": "grouped-check",
+        "Trigger - Gyroscope": "grouped-check",
+        "Trigger - IMU Motion": "grouped-check",
+        "Trigger - Motion detection": "grouped-check",
+        "Trigger - USB Power": "grouped-check",
+        "Upload scripting": "grouped-check",
+        "USB power trust override": "grouped-check",
+        "Visual Scripting Blockly": "grouped-check",
+        "Wake on Power": "grouped-check",
+        "Wider Color Gamut": "grouped-check",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero10": {
+      "name": "HERO10 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://gopro.com/en/gb/news/guide-to-hero10-black-frame-rates",
+        "modes": {
+          "r5": {
+            "fps": [
+              60
+            ]
+          },
+          "r4": {
+            "fps": [
+              60,
+              120
+            ]
+          },
+          "r4T": {
+            "fps": [
+              60
+            ]
+          },
+          "r2": {
+            "fps": [
+              240
+            ]
+          },
+          "r2T": {
+            "fps": [
+              120
+            ]
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "supported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "partial",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "supported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "unsupported",
+        "Exposure Damping control": "supported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "unsupported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "partial",
+        "Guidelines Display on rear LCD": "unsupported",
+        "HDMI display settings": "supported",
+        "Hindsight Timeout Extension": "supported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "unsupported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "supported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "partial",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "partial",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "unsupported",
+        "Overlay - Burn-ins e.g. Time/Date": "partial",
+        "Overlay - Color Bar": "partial",
+        "Overlays - Logo Burn-In": "partial",
+        "Overlays - Luma Sweep": "partial",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "unsupported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "partial",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "supported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "partial",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "partial",
+        "Upload scripting": "supported",
+        "USB power trust override": "partial",
+        "Visual Scripting Blockly": "partial",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "unsupported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero10bones": {
+      "name": "HERO10 Bones",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "grouped-check",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "grouped-check",
+        "Altered File Naming": "grouped-check",
+        "Archive Mode (locked settings)": "grouped-check",
+        "Audio Channels Gain/Solo/Mute": "grouped-check",
+        "Audio Disable": "grouped-check",
+        "Bitrate Controls": "grouped-check",
+        "Boot Command": "grouped-check",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "unsupported",
+        "Exposure Damping control": "grouped-check",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "unsupported",
+        "Extra Long time-lapse": "grouped-check",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "grouped-check",
+        "Guidelines Display on rear LCD": "unsupported",
+        "HDMI display settings": "grouped-check",
+        "Hindsight Timeout Extension": "grouped-check",
+        "Histogram (on display)": "grouped-check",
+        "Histogram Position/Size (either screen)": "unsupported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "grouped-check",
+        "Live Stream Initiation": "grouped-check",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "grouped-check",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "grouped-check",
+        "Max Shutter Angle exposure control": "grouped-check",
+        "Metadata Injections": "grouped-check",
+        "Noise Reduction control": "unsupported",
+        "Overlay - Burn-ins e.g. Time/Date": "grouped-check",
+        "Overlay - Color Bar": "grouped-check",
+        "Overlays - Logo Burn-In": "grouped-check",
+        "Overlays - Luma Sweep": "grouped-check",
+        "Owner Information": "grouped-check",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "grouped-check",
+        "SD card speed test": "grouped-check",
+        "Spirit Level Display on rear LCD": "unsupported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "grouped-check",
+        "Time delayed Starts": "grouped-check",
+        "Time/date/timecode QR Code": "grouped-check",
+        "Tone Mapping Controls": "grouped-check",
+        "Trigger - Accelerometer": "grouped-check",
+        "Trigger - GPS speed": "grouped-check",
+        "Trigger - Gyroscope": "grouped-check",
+        "Trigger - IMU Motion": "grouped-check",
+        "Trigger - Motion detection": "grouped-check",
+        "Trigger - USB Power": "grouped-check",
+        "Upload scripting": "grouped-check",
+        "USB power trust override": "grouped-check",
+        "Visual Scripting Blockly": "grouped-check",
+        "Wake on Power": "grouped-check",
+        "Wider Color Gamut": "unsupported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "max": {
+      "name": "MAX",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "unsupported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "unsupported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "unsupported",
+        "Bitrate Controls": "supported",
+        "Boot Command": "unsupported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "unsupported",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "unsupported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "unsupported",
+        "Guidelines Display on rear LCD": "unsupported",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "unsupported",
+        "Histogram (on display)": "unsupported",
+        "Histogram Position/Size (either screen)": "unsupported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "unsupported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "unsupported",
+        "Overlay - Burn-ins e.g. Time/Date": "unsupported",
+        "Overlay - Color Bar": "supported",
+        "Overlays - Logo Burn-In": "supported",
+        "Overlays - Luma Sweep": "unsupported",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "unsupported",
+        "Spirit Level Display on rear LCD": "unsupported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "unsupported",
+        "USB power trust override": "unsupported",
+        "Visual Scripting Blockly": "supported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "unsupported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero9": {
+      "name": "HERO9 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf",
+        "modes": {
+          "r5": {
+            "fps": [
+              24,
+              25,
+              30
+            ]
+          },
+          "r4": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ]
+          },
+          "r4T": {
+            "fps": [
+              24,
+              25,
+              30
+            ]
+          },
+          "r2": {
+            "fps": [
+              50,
+              60,
+              100,
+              120
+            ]
+          },
+          "r2T": {
+            "fps": [
+              50,
+              60
+            ],
+            "lens": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "complete": true,
+            "lensComplete": true,
+            "source": "https://gopro.com/content/dam/help/hero9-black/manuals/HERO9Black_UM_ENG_REVA.pdf"
+          },
+          "r1T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ]
+          },
+          "r1": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ]
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "unsupported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "unsupported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "supported",
+        "Audio Disable": "supported",
+        "Bitrate Controls": "unsupported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "unsupported",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "unsupported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "supported",
+        "Guidelines Display on rear LCD": "unsupported",
+        "HDMI display settings": "supported",
+        "Hindsight Timeout Extension": "unsupported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "unsupported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "supported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "supported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "unsupported",
+        "Overlay - Burn-ins e.g. Time/Date": "supported",
+        "Overlay - Color Bar": "supported",
+        "Overlays - Logo Burn-In": "supported",
+        "Overlays - Luma Sweep": "supported",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "unsupported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "supported",
+        "USB power trust override": "unsupported",
+        "Visual Scripting Blockly": "unsupported",
+        "Wake on Power": "unsupported",
+        "Wider Color Gamut": "unsupported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero8": {
+      "name": "HERO8 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://community.gopro.com/s/article/HERO8-Black-Video-Resolutions?language=en_US",
+        "modes": {
+          "r4": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ],
+            "lens": [
+              "fS",
+              "fW",
+              "fL"
+            ],
+            "lensByFps": {
+              "50": [
+                "fW",
+                "fL"
+              ],
+              "60": [
+                "fW",
+                "fL"
+              ]
+            }
+          },
+          "r4T": {
+            "fps": [
+              24,
+              25,
+              30
+            ],
+            "lens": [
+              "fW",
+              "fL"
+            ]
+          },
+          "r2": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ],
+            "lens": [
+              "fW",
+              "fS",
+              "fL",
+              "fN"
+            ],
+            "lensByFps": {
+              "100": [
+                "fW"
+              ],
+              "120": [
+                "fW"
+              ]
+            }
+          },
+          "r2T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ],
+            "lens": [
+              "fW",
+              "fL",
+              "fN"
+            ],
+            "lensByFps": {
+              "50": [
+                "fW"
+              ],
+              "60": [
+                "fW"
+              ]
+            }
+          },
+          "r1T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ],
+            "lens": [
+              "fW",
+              "fL",
+              "fN"
+            ],
+            "lensByFps": {
+              "100": [
+                "fW"
+              ],
+              "120": [
+                "fW"
+              ]
+            }
+          },
+          "r1": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ],
+            "lens": [
+              "fW",
+              "fS",
+              "fL",
+              "fN"
+            ],
+            "lensByFps": {
+              "200": [
+                "fW"
+              ],
+              "240": [
+                "fW"
+              ]
+            }
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "unsupported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "unsupported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "unsupported",
+        "Bitrate Controls": "unsupported",
+        "Boot Command": "supported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "unsupported",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "unsupported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "unsupported",
+        "Guidelines Display on rear LCD": "unsupported",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "unsupported",
+        "Histogram (on display)": "supported",
+        "Histogram Position/Size (either screen)": "unsupported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "supported",
+        "Live Stream Initiation": "supported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "unsupported",
+        "Overlay - Burn-ins e.g. Time/Date": "supported",
+        "Overlay - Color Bar": "supported",
+        "Overlays - Logo Burn-In": "unsupported",
+        "Overlays - Luma Sweep": "supported",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "supported",
+        "Spirit Level Display on rear LCD": "unsupported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "supported",
+        "Upload scripting": "unsupported",
+        "USB power trust override": "unsupported",
+        "Visual Scripting Blockly": "unsupported",
+        "Wake on Power": "supported",
+        "Wider Color Gamut": "unsupported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero7": {
+      "name": "HERO7 Black",
+      "recording": {
+        "status": "partial",
+        "source": "https://gopro.com/content/dam/help/hero7-black/manuals/HERO7Black_UM_ENG_REVC.pdf",
+        "modes": {
+          "r4": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ],
+            "lens": [
+              "fW",
+              "fS"
+            ],
+            "lensByFps": {
+              "24": [
+                "fW",
+                "fS"
+              ],
+              "25": [
+                "fW",
+                "fS"
+              ],
+              "30": [
+                "fW",
+                "fS"
+              ],
+              "50": [
+                "fW"
+              ],
+              "60": [
+                "fW"
+              ]
+            }
+          },
+          "r4T": {
+            "fps": [
+              24,
+              25,
+              30
+            ],
+            "lens": [
+              "fW"
+            ]
+          },
+          "r2": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ],
+            "lens": [
+              "fL",
+              "fW",
+              "fS"
+            ],
+            "lensByFps": {
+              "100": [
+                "fW"
+              ],
+              "120": [
+                "fW"
+              ]
+            }
+          },
+          "r2T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60
+            ],
+            "lens": [
+              "fL",
+              "fW"
+            ],
+            "lensByFps": {
+              "50": [
+                "fW"
+              ],
+              "60": [
+                "fW"
+              ]
+            }
+          },
+          "r1T": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120
+            ],
+            "lens": [
+              "fL",
+              "fW"
+            ],
+            "lensByFps": {
+              "100": [
+                "fW"
+              ],
+              "120": [
+                "fW"
+              ]
+            }
+          },
+          "r1": {
+            "fps": [
+              24,
+              25,
+              30,
+              50,
+              60,
+              100,
+              120,
+              200,
+              240
+            ],
+            "lens": [
+              "fL",
+              "fW",
+              "fS"
+            ],
+            "lensByFps": {
+              "200": [
+                "fW"
+              ],
+              "240": [
+                "fW"
+              ]
+            }
+          },
+          "r960": {
+            "fps": [
+              100,
+              120,
+              200,
+              240
+            ],
+            "lens": [
+              "fW"
+            ]
+          },
+          "r720": {
+            "fps": [
+              50,
+              60,
+              200,
+              240
+            ],
+            "lens": [
+              "fL",
+              "fW"
+            ],
+            "lensByFps": {
+              "200": [
+                "fW"
+              ],
+              "240": [
+                "fW"
+              ]
+            }
+          }
+        }
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "unsupported",
+        "All Integer frame rates 30.0 vs 29.97": "unsupported",
+        "NLE proxies": "unsupported",
+        "Altered File Naming": "supported",
+        "Archive Mode (locked settings)": "supported",
+        "Audio Channels Gain/Solo/Mute": "unsupported",
+        "Audio Disable": "unsupported",
+        "Bitrate Controls": "unsupported",
+        "Boot Command": "unsupported",
+        "Command Shell via USB Comms": "unsupported",
+        "Commands over Open GoPro WiFi links": "unsupported",
+        "Distance-Lapse": "unsupported",
+        "Dive Mode": "unsupported",
+        "Exposure Display current ISO and shutter": "unsupported",
+        "Exposure Damping control": "unsupported",
+        "Exposure Curve custom log encoding": "unsupported",
+        "Exposure Min/Max Times": "unsupported",
+        "Extra Long time-lapse": "supported",
+        "GPS Log without capture": "unsupported",
+        "GPS time sync": "unsupported",
+        "Guidelines Display on rear LCD": "unsupported",
+        "HDMI display settings": "unsupported",
+        "Hindsight Timeout Extension": "unsupported",
+        "Histogram (on display)": "unsupported",
+        "Histogram Position/Size (either screen)": "unsupported",
+        "I-Frame only HEVC Encoding": "unsupported",
+        "Large Chapter Support (12GB)": "unsupported",
+        "Live Stream Initiation": "unsupported",
+        "Low Light mode": "unsupported",
+        "LRV Disable": "unsupported",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unsupported",
+        "Max Shutter Angle exposure control": "supported",
+        "Metadata Injections": "supported",
+        "Noise Reduction control": "unsupported",
+        "Overlay - Burn-ins e.g. Time/Date": "unsupported",
+        "Overlay - Color Bar": "unsupported",
+        "Overlays - Logo Burn-In": "unsupported",
+        "Overlays - Luma Sweep": "unsupported",
+        "Owner Information": "supported",
+        "Preset names with Labs commands": "unsupported",
+        "QR decoding while recording": "supported",
+        "SD card speed test": "unsupported",
+        "Spirit Level Display on rear LCD": "unsupported",
+        "Stop Motion": "unsupported",
+        "Sunrise/Sunset starts": "supported",
+        "Time delayed Starts": "supported",
+        "Time/date/timecode QR Code": "supported",
+        "Tone Mapping Controls": "unsupported",
+        "Trigger - Accelerometer": "supported",
+        "Trigger - GPS speed": "supported",
+        "Trigger - Gyroscope": "supported",
+        "Trigger - IMU Motion": "supported",
+        "Trigger - Motion detection": "supported",
+        "Trigger - USB Power": "unsupported",
+        "Upload scripting": "unsupported",
+        "USB power trust override": "unsupported",
+        "Visual Scripting Blockly": "unsupported",
+        "Wake on Power": "unsupported",
+        "Wider Color Gamut": "unsupported",
+        "White Balance Warmer/Cooler": "unsupported",
+        "Zero to sixty timing": "unsupported"
+      }
+    },
+    "hero5session": {
+      "name": "HERO5 Session",
+      "recording": {
+        "status": "not-validated",
+        "source": null,
+        "modes": {}
+      },
+      "labs": {
+        "24.0Hz capture vs 23.976": "unknown",
+        "All Integer frame rates 30.0 vs 29.97": "unknown",
+        "NLE proxies": "unknown",
+        "Altered File Naming": "unknown",
+        "Archive Mode (locked settings)": "unknown",
+        "Audio Channels Gain/Solo/Mute": "unknown",
+        "Audio Disable": "unknown",
+        "Bitrate Controls": "unknown",
+        "Boot Command": "unknown",
+        "Command Shell via USB Comms": "unknown",
+        "Commands over Open GoPro WiFi links": "unknown",
+        "Distance-Lapse": "unknown",
+        "Dive Mode": "unknown",
+        "Exposure Display current ISO and shutter": "unknown",
+        "Exposure Damping control": "unknown",
+        "Exposure Curve custom log encoding": "unknown",
+        "Exposure Min/Max Times": "unknown",
+        "Extra Long time-lapse": "unknown",
+        "GPS Log without capture": "unknown",
+        "GPS time sync": "unknown",
+        "Guidelines Display on rear LCD": "unknown",
+        "HDMI display settings": "unknown",
+        "Hindsight Timeout Extension": "unknown",
+        "Histogram (on display)": "unknown",
+        "Histogram Position/Size (either screen)": "unknown",
+        "I-Frame only HEVC Encoding": "unknown",
+        "Large Chapter Support (12GB)": "unknown",
+        "Live Stream Initiation": "unknown",
+        "Low Light mode": "unknown",
+        "LRV Disable": "unknown",
+        "LTC Time support (via MediaMod/Pro Mic Adapter)": "unknown",
+        "Max Shutter Angle exposure control": "unknown",
+        "Metadata Injections": "unknown",
+        "Noise Reduction control": "unknown",
+        "Overlay - Burn-ins e.g. Time/Date": "unknown",
+        "Overlay - Color Bar": "unknown",
+        "Overlays - Logo Burn-In": "unknown",
+        "Overlays - Luma Sweep": "unknown",
+        "Owner Information": "unknown",
+        "Preset names with Labs commands": "unknown",
+        "QR decoding while recording": "unknown",
+        "SD card speed test": "unknown",
+        "Spirit Level Display on rear LCD": "unknown",
+        "Stop Motion": "unknown",
+        "Sunrise/Sunset starts": "unknown",
+        "Time delayed Starts": "unknown",
+        "Time/date/timecode QR Code": "unknown",
+        "Tone Mapping Controls": "unknown",
+        "Trigger - Accelerometer": "unknown",
+        "Trigger - GPS speed": "unknown",
+        "Trigger - Gyroscope": "unknown",
+        "Trigger - IMU Motion": "unknown",
+        "Trigger - Motion detection": "unknown",
+        "Trigger - USB Power": "unknown",
+        "Upload scripting": "unknown",
+        "USB power trust override": "unknown",
+        "Visual Scripting Blockly": "unknown",
+        "Wake on Power": "unknown",
+        "Wider Color Gamut": "unknown",
+        "White Balance Warmer/Cooler": "unknown",
+        "Zero to sixty timing": "unknown"
+      }
+    }
+  },
+  "commands": {
+    "verification": "not-validated",
+    "note": "Command tokens in app.js are not independently reference-verified; do not treat compatibility support as QR command verification."
+  }
+}
