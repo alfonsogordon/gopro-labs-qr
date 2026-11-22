@@ -2569,9 +2569,76 @@
     "max": {
       "name": "MAX",
       "recording": {
-        "status": "not-validated",
-        "source": null,
-        "modes": {}
+        "status": "partial",
+        "source": "https://community.gopro.com/s/article/MAX-Video-Settings-and-Resolutions?language=en_US",
+        "modes": {},
+        "modeVariants": {
+          "360": {
+            "source": "https://community.gopro.com/s/article/MAX-Video-Settings-and-Resolutions?language=en_US",
+            "resolutions": {
+              "r5": {
+                "fps": [
+                  24,
+                  25,
+                  30
+                ],
+                "resolutionLabel": "5.6K spherical",
+                "validation": "manufacturer-mode-table",
+                "qrTokenStatus": "unverified"
+              },
+              "r36": {
+                "fps": [
+                  50,
+                  60
+                ],
+                "resolutionLabel": "3.6K spherical",
+                "validation": "manufacturer-mode-table",
+                "qrTokenStatus": "not-mapped"
+              }
+            }
+          },
+          "singleLens": {
+            "source": "https://community.gopro.com/s/article/MAX-Video-Settings-and-Resolutions?language=en_US",
+            "resolutions": {
+              "r1T": {
+                "fps": [
+                  24,
+                  25,
+                  30,
+                  50,
+                  60
+                ],
+                "lens": [
+                  "fW",
+                  "fL",
+                  "fN"
+                ],
+                "additionalLensNames": [
+                  "Max SuperView"
+                ],
+                "validation": "manufacturer-mode-table"
+              },
+              "r1": {
+                "fps": [
+                  24,
+                  25,
+                  30,
+                  50,
+                  60
+                ],
+                "lens": [
+                  "fW",
+                  "fL",
+                  "fN"
+                ],
+                "additionalLensNames": [
+                  "Max SuperView"
+                ],
+                "validation": "manufacturer-mode-table"
+              }
+            }
+          }
+        }
       },
       "labs": {
         "24.0Hz capture vs 23.976": "unsupported",
