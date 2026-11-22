@@ -124,7 +124,7 @@ function field(name){return fields.find(f=>f.label===name)}
 function setChoices(f,allowed){if(!f||!Array.isArray(f.spec))return;const old=f.e.value;const values=f.spec.filter(([value])=>!allowed||allowed.includes(value));f.e.replaceChildren(...values.map(([v,label])=>opt(v,label)));f.e.value=values.some(x=>x[0]===old)?old:''}
 function applyConstraints(){
  const c=camera();if(!c)return;
- const id=c.id, profile=cameraProfiles[id], documented=recordingMatrixData?.cameras?.[id]?.modes||{};
+ const id=c.id, profile=cameraProfiles[id], documented=cameraDatabase?.cameras?.[id]?.recording?.modes||{};
  const resolution=field('Resolution')?.e.value, mode=field('Mode')?.e.value;
  const video=!mode||['mV','m3','mH','mHF','mHR'].includes(mode);
  const row=documented[resolution];
@@ -135,11 +135,12 @@ function applyConstraints(){
   const name=f.label;
   let allowed=profileAllowed(id,name);
   if(name==='Resolution'){
-   allowed=['',...new Set([...(profile.resolution||[]),...Object.keys(documented)])];
+   allowed=['',...(Object.keys(documented).length?Object.keys(documented):profile.resolution||[])];
   }
   if(name==='Frame rate'){
-   allowed=['',...(resolution&&row?.fps?.length?row.fps:profile.fps||[]).map(n=>'p'+n)];
+   allowed=['',...(resolution&&row?.fps?.length?row.fps:resolution&&Object.keys(documented).length?[]:profile.fps||[]).map(n=>'p'+n)];
   }
+  if(name==='Mode'&&id==='hero11mini')allowed=['','mV'];
   if(name==='Digital lens'){
    const documentedLenses=row?.lensByFps?.[fps]||row?.lens;
    allowed=['',...(documentedLenses?.length?documentedLenses:profile.lens||[])];
