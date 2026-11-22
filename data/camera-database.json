@@ -2013,15 +2013,18 @@
     "hero11mini": {
       "name": "HERO11 Black Mini",
       "recording": {
-        "status": "partial",
-        "source": "https://gopro.com/en/us/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+        "status": "fps-documented",
+        "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
         "modes": {
           "r5X": {
             "fps": [
               24,
               25,
               30
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r5": {
             "fps": [
@@ -2030,20 +2033,29 @@
               30,
               50,
               60
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r5T": {
             "fps": [
               24,
               25,
               30
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r4X": {
             "fps": [
               50,
               60
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r4": {
             "fps": [
@@ -2054,7 +2066,10 @@
               60,
               100,
               120
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r4T": {
             "fps": [
@@ -2063,7 +2078,10 @@
               30,
               50,
               60
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r2": {
             "fps": [
@@ -2073,7 +2091,10 @@
               120,
               200,
               240
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r2T": {
             "fps": [
@@ -2081,7 +2102,10 @@
               60,
               100,
               120
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           },
           "r1": {
             "fps": [
@@ -2094,7 +2118,10 @@
               120,
               200,
               240
-            ]
+            ],
+            "complete": true,
+            "source": "https://gopro.com/en/ci/shop/cameras/hero11-black-mini/CHDHF-111-master.html",
+            "validation": "manufacturer-published-resolution-fps"
           }
         }
       },
