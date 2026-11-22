@@ -25,4 +25,6 @@ for(const m of models){
 }
 assert.ok(db.extensionCatalog?.entries?.length>=100,'Official Labs extension catalog missing');
 for(const e of db.extensionCatalog.entries){assert.match(e.code,/^[A-Z0-9]{4}$/);for(const m of models)assert.ok(['listed-in-section','not-resolved'].includes(db.cameras[m.id].extensionSupport[e.code]));}
-console.log('Camera database valid:');,models.length,'cameras,',labs.length,'Labs features,',Object.values(db.cameras).reduce((n,c)=>n+Object.keys(c.recording.modes).length,0),'recording rows.');
+assert.ok(Object.keys(db.officialQrControls?.groups||{}).length>=35,'Official QR controls not imported');
+for(const [internal,official] of Object.entries(db.officialQrControls.appTokenAliases||{})){assert.ok(db.officialQrControls.verifiedTokenSets.resolution.includes(official),'Unknown official resolution token '+internal);}
+console.log('Camera database valid:'););,models.length,'cameras,',labs.length,'Labs features,',Object.values(db.cameras).reduce((n,c)=>n+Object.keys(c.recording.modes).length,0),'recording rows.');
