@@ -23,4 +23,6 @@ for(const m of models){
   assert.equal(new Set(row.fps).size,row.fps.length,'Duplicate FPS '+m.id+' '+resolution);
  }
 }
-console.log('Camera database valid:',models.length,'cameras,',labs.length,'Labs features,',Object.values(db.cameras).reduce((n,c)=>n+Object.keys(c.recording.modes).length,0),'recording rows.');
+assert.ok(db.extensionCatalog?.entries?.length>=100,'Official Labs extension catalog missing');
+for(const e of db.extensionCatalog.entries){assert.match(e.code,/^[A-Z0-9]{4}$/);for(const m of models)assert.ok(['listed-in-section','not-resolved'].includes(db.cameras[m.id].extensionSupport[e.code]));}
+console.log('Camera database valid:');,models.length,'cameras,',labs.length,'Labs features,',Object.values(db.cameras).reduce((n,c)=>n+Object.keys(c.recording.modes).length,0),'recording rows.');
