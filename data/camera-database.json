@@ -12138,6 +12138,386 @@
         ],
         "documentationLength": 5827,
         "verification": "source-transcribed-not-camera-tested"
+      },
+      "speedtrigger": {
+        "source": "https://gopro.github.io/labs/control/speedtrigger/",
+        "sourceSha": "2974fc9dedd5f3938fe4b45306c78fd6511725a6",
+        "sourcePath": "docs/control/speedtrigger/README.md",
+        "controlInputs": [
+          {
+            "name": "snstvty",
+            "value": "6"
+          },
+          {
+            "name": "esnstvty",
+            "value": "0"
+          },
+          {
+            "name": "hold",
+            "value": "5"
+          },
+          {
+            "name": "camoff",
+            "value": null
+          },
+          {
+            "name": "h10lcd",
+            "value": null
+          },
+          {
+            "name": "h10lcdon",
+            "value": null
+          },
+          {
+            "name": "repeat",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "*HERO",
+          "oMBURN"
+        ],
+        "documentationLength": 5818,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "longtimelapse": {
+        "source": "https://gopro.github.io/labs/control/longtimelapse/",
+        "sourceSha": "f948b3a830e9d18a133e9e30c6ee1e9553fcdee8",
+        "sourcePath": "docs/control/longtimelapse/README.md",
+        "controlInputs": [
+          {
+            "name": "tldays",
+            "value": "0"
+          },
+          {
+            "name": "tlhours",
+            "value": "24"
+          }
+        ],
+        "commandExamples": [
+          "oMBURN"
+        ],
+        "documentationLength": 6916,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "dailytl": {
+        "source": "https://gopro.github.io/labs/control/dailytl/",
+        "sourceSha": "0673bb72ca1d14d1171429385274093c5115d48d",
+        "sourcePath": "docs/control/dailytl/README.md",
+        "controlInputs": [
+          {
+            "name": "nltlv",
+            "value": "mT"
+          },
+          {
+            "name": "nltlv",
+            "value": "mNL"
+          },
+          {
+            "name": "nltlv",
+            "value": null
+          },
+          {
+            "name": "tlvf",
+            "value": "fW"
+          },
+          {
+            "name": "tlvf",
+            "value": "fL"
+          },
+          {
+            "name": "tlvf",
+            "value": null
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.2"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.5"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.10"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.30"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.60"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.120"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.300"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.1800"
+          },
+          {
+            "name": "fpslapse",
+            "value": "p.3600"
+          },
+          {
+            "name": "fpslapse",
+            "value": null
+          },
+          {
+            "name": "tlstrt",
+            "value": "48"
+          },
+          {
+            "name": "tlend",
+            "value": "292"
+          },
+          {
+            "name": "upld",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "oMBURN"
+        ],
+        "documentationLength": 8767,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "solartimelapse": {
+        "source": "https://gopro.github.io/labs/control/solartimelapse/",
+        "sourceSha": "1f1086a6226da4a8c09bfdfe3f45a78e6487cc0f",
+        "sourcePath": "docs/control/solartimelapse/README.md",
+        "controlInputs": [
+          {
+            "name": "tlmin",
+            "value": "15"
+          },
+          {
+            "name": "solar",
+            "value": "r"
+          },
+          {
+            "name": "solar",
+            "value": "s"
+          },
+          {
+            "name": "tlendmin",
+            "value": "60"
+          },
+          {
+            "name": "repeat",
+            "value": null
+          },
+          {
+            "name": "setdatetime",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "oMLLTZ",
+          "oMLLTZ=33.0,-117.27,-8.0",
+          "oMBURN"
+        ],
+        "documentationLength": 5726,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "construction": {
+        "source": "https://gopro.github.io/labs/control/construction/",
+        "sourceSha": "ad5878ccc043bf1903abae09a371a9e6ee4ead0d",
+        "sourcePath": "docs/control/construction/README.md",
+        "controlInputs": [
+          {
+            "name": "tlstrt",
+            "value": "48"
+          },
+          {
+            "name": "tlend",
+            "value": "54"
+          },
+          {
+            "name": "tlday",
+            "value": "60"
+          },
+          {
+            "name": "setdatetime",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "oMBURN"
+        ],
+        "documentationLength": 7288,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "eclipse": {
+        "source": "https://gopro.github.io/labs/control/eclipse/",
+        "sourceSha": "e98ed47c17e40fe3f63bf1b6bf0138ee81a455ac",
+        "sourcePath": "docs/control/eclipse/README.md",
+        "controlInputs": [
+          {
+            "name": "type",
+            "value": "1"
+          },
+          {
+            "name": "t1len",
+            "value": "15"
+          },
+          {
+            "name": "type",
+            "value": "2"
+          },
+          {
+            "name": "t2len",
+            "value": "60"
+          },
+          {
+            "name": "type",
+            "value": "3"
+          },
+          {
+            "name": "t3len",
+            "value": "2"
+          },
+          {
+            "name": "type",
+            "value": "4"
+          },
+          {
+            "name": "res",
+            "value": null
+          },
+          {
+            "name": "res",
+            "value": "r4"
+          },
+          {
+            "name": "res",
+            "value": "r4T"
+          },
+          {
+            "name": "res",
+            "value": "r4X"
+          },
+          {
+            "name": "res",
+            "value": "r5"
+          },
+          {
+            "name": "res",
+            "value": "r5T"
+          },
+          {
+            "name": "res",
+            "value": "r5X"
+          },
+          {
+            "name": "tlstrt",
+            "value": "720"
+          },
+          {
+            "name": "tlend",
+            "value": "4"
+          }
+        ],
+        "commandExamples": [
+          "oMEXPS=1",
+          "oMEXPX",
+          "oMBURN",
+          "oMEXPX=30",
+          "oMEXPX=0",
+          "oMEXPX=1"
+        ],
+        "documentationLength": 20471,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "divemode": {
+        "source": "https://gopro.github.io/labs/control/divemode/",
+        "sourceSha": "66c9c0e315aa93cf27f5402e225e4f321a08629a",
+        "sourcePath": "docs/control/divemode/README.md",
+        "controlInputs": [
+          {
+            "name": "divemd",
+            "value": null
+          },
+          {
+            "name": "wblock",
+            "value": null
+          },
+          {
+            "name": "wgamut",
+            "value": null
+          },
+          {
+            "name": "preset",
+            "value": null
+          },
+          {
+            "name": "permanent",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "$PRES",
+          "*DIVE=1",
+          "*WBLK=1",
+          "*WIDE=1",
+          "$DIVE=1",
+          "$WBLK=1",
+          "$WIDE=1",
+          "*DIVE=0",
+          "*WBLK=0",
+          "*WIDE=0",
+          "$DIVE=0",
+          "$WBLK=0",
+          "$WIDE=0"
+        ],
+        "documentationLength": 7002,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "stopmotion": {
+        "source": "https://gopro.github.io/labs/control/stopmotion/",
+        "sourceSha": "bdf3b016596b2da11083ef736d3a554ca3d5bfb4",
+        "sourcePath": "docs/control/stopmotion/README.md",
+        "controlInputs": [
+          {
+            "name": "stopmt",
+            "value": null
+          },
+          {
+            "name": "preset",
+            "value": null
+          },
+          {
+            "name": "permanent",
+            "value": null
+          },
+          {
+            "name": "tall",
+            "value": null
+          },
+          {
+            "name": "use5K",
+            "value": null
+          },
+          {
+            "name": "linear",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "$PRES",
+          "*STOP=1",
+          "$STOP=1",
+          "*STOP=0",
+          "$STOP=0"
+        ],
+        "documentationLength": 5606,
+        "verification": "source-transcribed-not-camera-tested"
       }
     }
   }
