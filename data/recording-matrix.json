@@ -18,9 +18,75 @@
       "modes": {}
     },
     "max2": {
-      "status": "not-validated",
-      "source": null,
-      "modes": {}
+      "status": "partial",
+      "source": "https://community.gopro.com/s/article/MAX2-Video-Settings-And-Resolutions?language=en_US",
+      "modes": {},
+      "modeVariants": {
+        "360": {
+          "source": "https://community.gopro.com/s/article/MAX2-Video-Settings-And-Resolutions?language=en_US",
+          "resolutions": {
+            "r8": {
+              "fps": [
+                24,
+                25,
+                30
+              ],
+              "validation": "manufacturer-mode-table",
+              "note": "360 spherical mode; 8K"
+            }
+          }
+        },
+        "singleLens": {
+          "source": "https://community.gopro.com/s/article/MAX2-Video-Settings-And-Resolutions?language=en_US",
+          "resolutions": {
+            "r4": {
+              "fps": [
+                24,
+                25,
+                30,
+                50,
+                60
+              ],
+              "lens": [
+                "fW",
+                "fL"
+              ],
+              "validation": "manufacturer-mode-table",
+              "note": "4K 16:9; additional MAX2-specific lenses are not representable by existing app tokens"
+            },
+            "r4T": {
+              "fps": [
+                24,
+                25,
+                30,
+                50,
+                60
+              ],
+              "lens": [
+                "fW",
+                "fL"
+              ],
+              "validation": "manufacturer-mode-table",
+              "note": "4K 4:3; Ultra Wide omitted until command token validated"
+            },
+            "r4V": {
+              "fps": [
+                24,
+                25,
+                30,
+                50,
+                60
+              ],
+              "lens": [
+                "fW",
+                "fL"
+              ],
+              "validation": "manufacturer-mode-table",
+              "note": "4K 9:16; Ultra Wide omitted until command token validated"
+            }
+          }
+        }
+      }
     },
     "hero13": {
       "status": "partial",
@@ -387,23 +453,148 @@
     },
     "hero10": {
       "status": "partial",
-      "source": "https://gopro.com/en/gb/news/guide-to-hero10-black-frame-rates",
+      "source": "https://gopro.com/content/dam/help/hero10-black/manuals/HERO10Black_UM_ENG_REVB.pdf",
       "modes": {
         "r5": {
           "fps": [
+            24,
+            25,
+            30,
+            50,
             60
-          ]
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH",
+            "fN"
+          ],
+          "complete": true,
+          "lensComplete": true,
+          "source": "https://gopro.com/content/dam/help/hero10-black/manuals/HERO10Black_UM_ENG_REVB.pdf",
+          "validation": "manufacturer-manual",
+          "lensByFps": {
+            "24": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "25": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "30": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "50": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "60": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ]
+          }
         },
         "r4": {
           "fps": [
+            24,
+            25,
+            30,
+            50,
             60,
+            100,
             120
-          ]
+          ],
+          "lens": [
+            "fS",
+            "fW",
+            "fL",
+            "fH",
+            "fN"
+          ],
+          "complete": true,
+          "lensComplete": true,
+          "source": "https://gopro.com/content/dam/help/hero10-black/manuals/HERO10Black_UM_ENG_REVB.pdf",
+          "validation": "manufacturer-manual",
+          "lensByFps": {
+            "24": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "25": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "30": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "50": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "60": [
+              "fS",
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "100": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ],
+            "120": [
+              "fW",
+              "fL",
+              "fH",
+              "fN"
+            ]
+          }
         },
         "r4T": {
           "fps": [
+            24,
+            25,
+            30,
+            50,
             60
-          ]
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH",
+            "fN"
+          ],
+          "complete": true,
+          "lensComplete": true,
+          "source": "https://gopro.com/content/dam/help/hero10-black/manuals/HERO10Black_UM_ENG_REVB.pdf",
+          "validation": "manufacturer-manual"
         },
         "r2": {
           "fps": [
@@ -414,6 +605,23 @@
           "fps": [
             120
           ]
+        },
+        "r5T": {
+          "fps": [
+            24,
+            25,
+            30
+          ],
+          "lens": [
+            "fW",
+            "fL",
+            "fH",
+            "fN"
+          ],
+          "complete": true,
+          "lensComplete": true,
+          "source": "https://gopro.com/content/dam/help/hero10-black/manuals/HERO10Black_UM_ENG_REVB.pdf",
+          "validation": "manufacturer-manual"
         }
       },
       "validation": "Only manufacturer-confirmed example FPS entries. Not exhaustive; missing frame rates are unknown, not unsupported."
