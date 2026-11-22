@@ -19,13 +19,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Validate camera database
+        run: node scripts/validate-camera-database.mjs
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Prepare site
         run: |
           mkdir -p dist/data dist/vendor
           cp index.html matrix.html app.js sw.js manifest.webmanifest icon.svg dist/
-          cp data/cameras.json data/recording-matrix.json data/labs-feature-matrix.json dist/data/
+          cp data/cameras.json data/recording-matrix.json data/labs-feature-matrix.json data/camera-database.json dist/data/
           if [ -f vendor/qrcode.min.js ]; then
             cp vendor/qrcode.min.js dist/vendor/
           else
