@@ -12518,6 +12518,311 @@
         ],
         "documentationLength": 5606,
         "verification": "source-transcribed-not-camera-tested"
+      },
+      "maxshut": {
+        "source": "https://gopro.github.io/labs/control/maxshut/",
+        "sourceSha": "47504eb1f68cac300616e6e7b36af3271752655d",
+        "sourcePath": "docs/control/maxshut/README.md",
+        "controlInputs": [
+          {
+            "name": "shut",
+            "value": "MEXPT=0"
+          },
+          {
+            "name": "shut",
+            "value": "MEXPT=1"
+          },
+          {
+            "name": "shut",
+            "value": "MEXPT=2"
+          },
+          {
+            "name": "shut",
+            "value": "MEXPT=3"
+          },
+          {
+            "name": "shut",
+            "value": "MEXPT=4"
+          },
+          {
+            "name": "shut",
+            "value": "MEXPT=5"
+          },
+          {
+            "name": "iso",
+            "value": "i1M1"
+          },
+          {
+            "name": "iso",
+            "value": "i2M1"
+          },
+          {
+            "name": "iso",
+            "value": "i4M1"
+          },
+          {
+            "name": "iso",
+            "value": "i8M1"
+          },
+          {
+            "name": "iso",
+            "value": "i16M1"
+          },
+          {
+            "name": "iso",
+            "value": "i32M1"
+          },
+          {
+            "name": "iso",
+            "value": "i64M1"
+          },
+          {
+            "name": "permanent",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "oMBURN"
+        ],
+        "documentationLength": 7341,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "overlays": {
+        "source": "https://gopro.github.io/labs/control/overlays/",
+        "sourceSha": "faf2f046d62c56136f8f0e37feb53723b20446f6",
+        "sourcePath": "docs/control/overlays/README.md",
+        "controlInputs": [
+          {
+            "name": "vsize",
+            "value": "20"
+          },
+          {
+            "name": "hsize",
+            "value": "0"
+          },
+          {
+            "name": "offset",
+            "value": "10"
+          },
+          {
+            "name": "brnt",
+            "value": "0"
+          },
+          {
+            "name": "addmeta",
+            "value": null
+          },
+          {
+            "name": "addmeta",
+            "value": "ISO:"
+          },
+          {
+            "name": "placement",
+            "value": "TL"
+          },
+          {
+            "name": "placement",
+            "value": "TC"
+          },
+          {
+            "name": "placement",
+            "value": "TR"
+          },
+          {
+            "name": "placement",
+            "value": "ML"
+          },
+          {
+            "name": "placement",
+            "value": "MR"
+          },
+          {
+            "name": "placement",
+            "value": "BL"
+          },
+          {
+            "name": "placement",
+            "value": "BC"
+          },
+          {
+            "name": "placement",
+            "value": "BR"
+          },
+          {
+            "name": "gps",
+            "value": null
+          },
+          {
+            "name": "permanent",
+            "value": null
+          },
+          {
+            "name": "erase",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "oMBURN"
+        ],
+        "documentationLength": 9842,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "logo": {
+        "source": "https://gopro.github.io/labs/control/logo/",
+        "sourceSha": "5feaade2bbfe7a88ebb96109284f8595c64711e1",
+        "sourcePath": "docs/control/logo/README.md",
+        "controlInputs": [
+          {
+            "name": "xpos",
+            "value": "20"
+          },
+          {
+            "name": "ypos",
+            "value": "20"
+          },
+          {
+            "name": "brnt",
+            "value": "0"
+          },
+          {
+            "name": "placement",
+            "value": "TL"
+          },
+          {
+            "name": "placement",
+            "value": "TC"
+          },
+          {
+            "name": "placement",
+            "value": "TR"
+          },
+          {
+            "name": "placement",
+            "value": "ML"
+          },
+          {
+            "name": "placement",
+            "value": "MR"
+          },
+          {
+            "name": "placement",
+            "value": "BL"
+          },
+          {
+            "name": "placement",
+            "value": "BC"
+          },
+          {
+            "name": "placement",
+            "value": "BR"
+          },
+          {
+            "name": "permanent",
+            "value": null
+          },
+          {
+            "name": "erase",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "oMLOGO"
+        ],
+        "documentationLength": 6819,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "archive": {
+        "source": "https://gopro.github.io/labs/control/archive/",
+        "sourceSha": "5cb5f3f562565f1001f53f964cb7b1da3c995143",
+        "sourcePath": "docs/control/archive/README.md",
+        "controlInputs": [
+          {
+            "name": "arch",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "!MARCH",
+          "!MSYNC=1",
+          "!MARCH=0",
+          "!MARCH=1"
+        ],
+        "documentationLength": 3334,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "rtmp": {
+        "source": "https://gopro.github.io/labs/control/rtmp/",
+        "sourceSha": "f14049503ad862b9a27838d67643ff9f0b61e069",
+        "sourcePath": "docs/control/rtmp/README.md",
+        "controlInputs": [
+          {
+            "name": "rs",
+            "value": "S"
+          },
+          {
+            "name": "rs",
+            "value": "M"
+          },
+          {
+            "name": "rs",
+            "value": "L"
+          }
+        ],
+        "commandExamples": [
+          "!MJOIN",
+          "!MRTMP"
+        ],
+        "documentationLength": 5436,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "gpssync": {
+        "source": "https://gopro.github.io/labs/control/gpssync/",
+        "sourceSha": "7be4c91613c1bbcd2f0aa96151ca77c03d6f5922",
+        "sourcePath": "docs/control/gpssync/README.md",
+        "controlInputs": [
+          {
+            "name": "gsync",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "!MSYNC=1",
+          "!MSYNC=0"
+        ],
+        "documentationLength": 3949,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "chapters": {
+        "source": "https://gopro.github.io/labs/control/chapters/",
+        "sourceSha": "c956ec95223c081052e33d7eacb211f1c4a169da",
+        "sourcePath": "docs/control/chapters/README.md",
+        "controlInputs": [
+          {
+            "name": "lchptrs",
+            "value": null
+          }
+        ],
+        "commandExamples": [],
+        "documentationLength": 5330,
+        "verification": "source-transcribed-not-camera-tested"
+      },
+      "basename": {
+        "source": "https://gopro.github.io/labs/control/basename/",
+        "sourceSha": "a5d0947345cab07678e44969010a4f3f58e8792c",
+        "sourcePath": "docs/control/basename/README.md",
+        "controlInputs": [
+          {
+            "name": "permanent",
+            "value": null
+          }
+        ],
+        "commandExamples": [
+          "*WARN",
+          "*HERO",
+          "!MOWNR"
+        ],
+        "documentationLength": 6945,
+        "verification": "source-transcribed-not-camera-tested"
       }
     }
   }
