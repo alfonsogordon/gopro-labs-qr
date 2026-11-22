@@ -113,7 +113,7 @@ r1:{fps:[24,25,30,50,60,100,120,200,240]}
 // Single normalized capability registry consumed by dropdown filtering.
 // "fps" and "resolution" are model-level candidates, NOT verified combinations.
 // videoMatrix entries are provisional until checked against manufacturer mode tables.
-let recordingMatrixData=null,labsFeatureData=null;
+let recordingMatrixData=null,labsFeatureData=null,cameraDatabase=null;
 const cameraProfiles=Object.fromEntries(Object.entries(modelCapabilities).map(([id,cap])=>[id,{
   ...cap,
   fps:fpsByModel[id]||[],
@@ -164,7 +164,7 @@ function applyConstraints(){
   if(!video&&name==='Shutter angle')allowed=[''];
   const featureName={'Custom bitrate (Mb/s)':'Bitrate Controls','Noise reduction (1–100)':'Noise Reduction','Histogram':'Histogram','Spirit level':'Spirit Level','Disable audio':'Audio Disable','Wake on USB power':'Wake on Power'}[name];
   const official=featureName?labsFeatureData?.features?.find(x=>x.feature.startsWith(featureName)):null;
-  const state=official?.support?.[id];
+  const state=cameraDatabase?.cameras?.[id]?.labs?.[official?.feature]||'unknown';
   const labsUnsupported=!!featureName&&(state?state!=='supported':!profile.labs.includes(name));
   setChoices(f,allowed);
   const disabled=labsUnsupported||(name==='GPS'&&['hero11mini','hero10bones'].includes(id))||
@@ -194,5 +194,5 @@ $('camera').addEventListener('change',refreshCamera);
 $('save').addEventListener('click',()=>{const name=prompt('Preset name');if(!name)return;presets.push({name,camera:$('camera').value,values:fields.map(f=>f.e.value)});localStorage.setItem(KEY+'.presets',JSON.stringify(presets));refreshPresets()});
 $('load').addEventListener('click',()=>{const p=presets[Number($('presets').value)];if(!p||$('presets').value==='')return;$('camera').value=p.camera;refreshCamera();fields.forEach((f,i)=>{if(!f.e.disabled)f.e.value=p.values[i]||''});applyConstraints();fields.forEach((f,i)=>{if(!f.e.disabled&&Array.isArray(f.spec)&&[...f.e.options].some(o=>o.value===p.values[i]))f.e.value=p.values[i]||''});applyConstraints();render()});
 $('fullscreen').addEventListener('click',()=>{$('qr').requestFullscreen?.()});
-(async()=>{try{build();const r=await fetch('./data/cameras.json');if(!r.ok)throw Error('Camera database unavailable');db=await r.json();try{const mr=await fetch('./data/recording-matrix.json');if(mr.ok){recordingMatrixData=await mr.json();for(const [id,profile] of Object.entries(cameraProfiles)){profile.videoMatrix=recordingMatrixData.cameras?.[id]?.modes||verifiedVideoMatrices[id]||{};profile.resolution=[...new Set([...(profile.resolution||[]),...Object.keys(profile.videoMatrix)])];}}}catch(err){console.warn('Recording matrix unavailable; using built-in fallback',err)}try{const lr=await fetch('./data/labs-feature-matrix.json');if(lr.ok)labsFeatureData=await lr.json()}catch(err){console.warn('Labs feature matrix unavailable',err)}options('camera',db.models.map(m=>({value:m.id,label:m.name})));refreshCamera();render();refreshPresets()}catch(e){$('status').textContent=e.message}})();
+(async()=>{try{build();const r=await fetch('./data/cameras.json');if(!r.ok)throw Error('Camera database unavailable');db=await r.json();try{const response=await fetch('./data/camera-database.json');if(!response.ok)throw Error('Unified camera database unavailable');cameraDatabase=await response.json();if(cameraDatabase.schemaVersion!==1)throw Error('Unsupported camera database schema');recordingMatrixData={cameras:Object.fromEntries(Object.entries(cameraDatabase.cameras).map(([id,c])=>[id,c.recording]))};labsFeatureData={features:Object.entries(cameraDatabase.features).map(([feature,v])=>({feature,reference:v.reference,support:v.support}))};for(const [id,profile] of Object.entries(cameraProfiles)){const row=cameraDatabase.cameras[id];profile.videoMatrix=row?.recording?.modes||{};profile.resolution=[...new Set([...(profile.resolution||[]),...Object.keys(profile.videoMatrix)])]}}catch(err){throw Error('Camera database could not be loaded: '+err.message)} options('camera',db.models.map(m=>({value:m.id,label:m.name})));refreshCamera();render();refreshPresets()}catch(e){$('status').textContent=e.message}})();
 if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(console.warn);
