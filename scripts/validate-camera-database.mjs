@@ -12,6 +12,7 @@ const states=new Set(['supported','unsupported','partial','grouped-check','unkno
 for(const m of models){
  const camera=db.cameras[m.id];assert.ok(camera,'Missing camera '+m.id);
  assert.deepEqual(camera.recording.modes,recording[m.id]?.modes||{},'Recording mismatch: '+m.id);
+ assert.deepEqual(camera.recording.modeVariants||{},recording[m.id]?.modeVariants||{},'Mode variants mismatch: '+m.id);
  for(const feature of labs){
   const state=camera.labs[feature.feature];
   assert.ok(states.has(state),'Invalid Labs state '+m.id+': '+feature.feature);
