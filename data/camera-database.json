@@ -3370,5 +3370,1086 @@
   "notes": {
     "modeVariants": "Use modeVariants for 360 versus single-lens modes. Do not flatten into modes or combine FPS across modes.",
     "verification": "Partial GoPro-source transcription; incomplete cameras and unsupported QR tokens remain unverified."
+  },
+  "extensionCatalog": {
+    "source": "https://gopro.github.io/labs/control/extensions/",
+    "sourceRepository": "gopro/labs",
+    "sourcePath": "docs/control/extensions/README.md",
+    "sourceBlobSha": "5124be3253b4b1839e8afbbf28c50b7e7169e80d",
+    "entries": [
+      {
+        "code": "24HZ",
+        "exampleValue": "1",
+        "description": "- enable film standard 24.0 frame, rather than the default broadcast standard 23.976.  The existing 24p mode(s) will have the new frame rate when this is enabled, all other video modes are unaffected.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "64BT",
+        "exampleValue": "1",
+        "description": "- Enables 64GB chapters.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "ALLI",
+        "exampleValue": "1",
+        "description": "- for optionally ALL Integer frame rates: 24.0, 25.0, 30.0, 50.0, 60.0, 90.0, 100.0, 120.0, 200.0, 240.0, 400.0, 480.0, 800.0, 960.0",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BERS",
+        "exampleValue": "1",
+        "description": "- Bypass ERS compensation with stablization disabled. Not commonly used.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BURN",
+        "exampleValue": null,
+        "description": "- overlay support (limited to 4K 24,25,30 16:9 8-bit)",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BOOT",
+        "exampleValue": "!Lscript",
+        "description": "- A command to run automatically at boot. For safety, this should only be a load script command, so that the command is dependent on the SD card presence. e.g. \\*BOOT=\"!Lboot\"  Then you can place whatever command you need in the boot script with !SAVEboot=\"your command here\".",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BYPS",
+        "exampleValue": "1",
+        "description": "- Bypass common pop-ups. Remember to set time and date if you remove the battery.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "COOL",
+        "exampleValue": "x",
+        "description": "- COOL maybe useful with DIVE, so you can decrease the blue respond for deeper dives. x range -50 to 100. Reducing or increasing blue signal only.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DAUD",
+        "exampleValue": "1",
+        "description": "- Disable audio, all video created video files will have no audio. Application: high bit-rate drones video.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DBGL",
+        "exampleValue": "1",
+        "description": "- enabled more debug logging. Labs saves it logs to the SD card under MISC/qrlog.txt. Using this extension increases the details and logged events.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DIOP",
+        "exampleValue": "x",
+        "description": "- Experimental diopter correction. Adding a diopter lens will modify the distortion, and impact stabilization, this attempts to compensate.  e.g. $DIOP=4 for +4 diopter lens.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DTMF",
+        "exampleValue": "x",
+        "description": "- DTMF detector, code auto running Macro stored in DTMA-D,0-9,S-Start(*), H-Hash(*)  DTMF=1 External USB audio, =2 Internal mics",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DSPC",
+        "exampleValue": "value",
+        "description": ", this sets that contrast for which messages are displayed.  Contrast is from 0 - transparent text background, to 6 - opaque black background",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DSPL",
+        "exampleValue": "time",
+        "description": ", this will control the amount of time messages are displayed. For users who want there own information displayed longer. The default is 1 second.  DSPL=1 thru 9 is in seconds.  DSPL = 10 thru 9999 is in milliseconds.  So for much faster messages set DSPL to 100. Set this before setting the owner information, as metadata commands are processed in the order they are stored.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPL",
+        "exampleValue": "1",
+        "description": "- Exposure lock on capture",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPX",
+        "exampleValue": "x",
+        "description": "- Max Shutter speed e.g. $EXPX=200 for 1/200",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPN",
+        "exampleValue": "x",
+        "description": "-  Min Shutter speed e.g. $EXPX=1000 for 1/1000",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPQ",
+        "exampleValue": "x",
+        "description": "-  Manual Shutter speed e.g. $EXPQ=50 for 1/50",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FAST",
+        "exampleValue": "1",
+        "description": "For fewer Labs notifications on boot. Useful for any script that repeats after a shutdown, and the script will run sooner, and reducting battery consumption.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FEAT",
+        "exampleValue": "x",
+        "description": "- Display the permanent Labs feature active for x seconds. It is easy to miss the start-up message, this QR command redisplays that message.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FONT",
+        "exampleValue": "1",
+        "description": "Select the old fonts (if you only want the dot matrix font)",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FRNT",
+        "exampleValue": "1",
+        "description": "For front screen equipped cameras, display most LCD Labs message on the front screen. Practicular useful for FPV useful not using the touchscreen.  e.g.  \\*FRNT=1\\*EXPS=1 will display the ISO and shutter speed on the front LCD.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GPSL",
+        "exampleValue": "x",
+        "description": "- to enabled continous GPS location logging, even when not capturing, so the capture can log more of you path and adventures. Path is saved by day into",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GRAB",
+        "exampleValue": "x",
+        "description": "- Screen grab 'x'-frames, grab next 'x' Labs overlays - frame grab the UI. Useful for education and bug reporting.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GUID",
+        "exampleValue": "aspect,aspect,...",
+        "description": "- Displays an on-scene shooting guide for different aspect ratios, independent from the camera's current video mode.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GUIC",
+        "exampleValue": "level,level,...",
+        "description": "- The shooting guides default to white at 255, but you can select their luma level. e.g. GUIC=255,0, will be white for the first guide and black the for second.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HNDL",
+        "exampleValue": "x",
+        "description": ", where x is 1 to 31, setting the camera ID for a camera. This is for rare scenarios where multiple cameras see the same QR Code, and you only want particular cameras to respond. This combined with **hZ** command where Z is the bit mask for which cameras will follow the command.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HIST",
+        "exampleValue": "x",
+        "description": "- Displays a histogram with contrast from 1 to 11. e.g. try setting HIST to 5. HIST=0 will disable it.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HS30",
+        "exampleValue": "1",
+        "description": "- default Hindsight shortcut to 30s",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HSTO",
+        "exampleValue": "x",
+        "description": "- minutes - controlling the length of the Hindsight timeout, changing from the default for 15 minutes. e.g. !MHSTO=60 for a 60 minute Hindsight timeout.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HSTP",
+        "exampleValue": "x,z,size",
+        "description": "- Used with HIST=1, this sets the size (40-100) and position (x,y as 1-100) of the histogram.  A negative position will place the histogram on the front LCD.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "IFRM",
+        "exampleValue": "1",
+        "description": "- for I-frame only encoding. Recommend to run at least 240Mb/s using BITR. Still very experimental.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LEVL",
+        "exampleValue": "size",
+        "description": "- Add a spirit level to the rear LCD, where the size can be 1-9. e.g. $LEVL=6.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LLTZ",
+        "exampleValue": "latt,long,timezone",
+        "description": "for those want to use Sunset/Sunrise timelapse without using GPS, or for when you are shooting a sunset timelapse from indoors. The metadata is used to store your GPS Location and timezone e.g. !MLLTZ=33.126,-117.327,-8.0  In this case you must used the !M command, permanent storage, as solar event timers will shutdown the camera.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "MMSK",
+        "exampleValue": "x",
+        "description": "- for auto generating a mask for the new motion detector.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "NR01",
+        "exampleValue": "x",
+        "description": "- Noise Reduction control. e.g. $NR01=50 range 1-100, 100 being 100% active (default), so 1 is the noisest. Mainly if you want noise reduction complete off, or lower than Low.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "PRES",
+        "exampleValue": "x,name",
+        "description": "- Added creating, naming and sharing presets where x 0-32 for icon selection (-1 for delete), and 'name' is your named preset. e.g, QR Command **$PRES=\"14,Scuba\"**",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "PRXY",
+        "exampleValue": "x",
+        "description": "- Normally a camera will encode a LRV (Low Res Video) for every MP4, this extension stores LRVs as Proxy files. 1 - moves LRVs as Adobe Premiere Pro™ style, 2 - moves THMs, 3 moves both into the proxies folder, 4 - uses DaVinci Resolve™ style proxies folder.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "PMXY",
+        "exampleValue": "x,y",
+        "description": "- processing message screen position",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "QRDR",
+        "exampleValue": "1",
+        "description": "- detect QR Codes while recording, or even Quik Preview. This also enables Labs BOOT commands to work with QuikCapture in recent models. Normally this feature is disabled to ensure the lowest computing load impact, so not enabling this is the safest. However, it is needed for some cool ideas, like changing a video burnin message in the middle of a live-stream, or changing its exposure with BIAS (see below.) This also allows you to end a capture via a QR Code (command: !E). oMQRDR=0 will disable it.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "SPED",
+        "exampleValue": "1",
+        "description": "- SD Card Speed Test.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "STDL",
+        "exampleValue": "x",
+        "description": "- Start Delay is milliseconds (default 2000ms, wait before any other commands.) $STDL=100 for less wait. Experimental to improve scripting performance.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TUSB",
+        "exampleValue": "1",
+        "description": "- Trust USB power. Limited implementation on Mission.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TCAL",
+        "exampleValue": "milliseconds",
+        "description": "- Timecode CALibration, help to increase the precision of setting timecode via QR Code. The milliseconds can be positive or negative as needed.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WAKE",
+        "exampleValue": "1",
+        "description": "- This will make the camera wake on any power addition.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WARM",
+        "exampleValue": "x",
+        "description": "- WARM maybe useful with DIVE, so you can improve the red respond for deeper dives. x range -50 to 100. Reducing or increasing red signal only.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WBLK",
+        "exampleValue": "1",
+        "description": "- This is an auto lock for white balance, it auto WB until the capture starts. The feature was added for scuba users, as fixed white balance are computed for above water, and while the auto works great in dive scenarios, some prefer a fixed white balance per clip.",
+        "section": "MISSION 1 Series cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DPTS",
+        "exampleValue": "x",
+        "description": "- (1-15) depth change smoother, 1 - fast, 15 - smooth. 360 experimental.",
+        "section": "MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DPTP",
+        "exampleValue": "x",
+        "description": "- (1-7) depth change speed, 1 - slow, 7 - fast (like DPTS with a different implementation). 360 experimental.",
+        "section": "MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DPTL",
+        "exampleValue": "x",
+        "description": "- depth lock stitch after x seconds, 1 - immediate, 2-99 - seconds, 100-99999 - milliseconds. 360 experimental.",
+        "section": "MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WBLC",
+        "exampleValue": "1",
+        "description": "- (same as wC) for white balance lock NOW, where recording on not. To scan while recording use *QRDR=1.",
+        "section": "MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "ALLI",
+        "exampleValue": "1",
+        "description": "- for optionally ALL Integer frame rates: 24.0, 25.0, 30.0, 50.0, 60.0, 90.0, 100.0",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "IFRM",
+        "exampleValue": "1",
+        "description": "- for I-frame only encoding. Likely the first action camera with an all I-frame encoding option in HEVC. Recommend to run at least 180Mb/s using BITR. Still very experimental.",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LOWL",
+        "exampleValue": "1",
+        "description": "- for a low light mode, technically it is the same a GCMP=1, but easier to remember. All this does is bias the camera to use a longer shutter when shooting video.",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GAMA",
+        "exampleValue": "2.2",
+        "description": "- Useful for HDRI work, gamma equivalent of LOGB.",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "SHEL",
+        "exampleValue": "1",
+        "description": "- Using $SHEL=1 enables a command shell for Labs over a USB serial port. Every experimental, and looking for feedback. Connect to COM at 115200 8N1. All QR code command work, just type them. Used $ commands will report their data back to the shell, e.g. $BITR or $A or $p:T to read variables.",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "OPNW",
+        "exampleValue": "1",
+        "description": "- Open Network (allows of faster non-secure http vs https to be used with Open GoPro)",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DIST",
+        "exampleValue": "x",
+        "description": "- Time-Lapse Video Distance, x is a GPS travel distance between exposures in meters, rather than time for an in-camera computed timelapse. So $DIST=5 will set a 5 meter interval for TLV. One exception is when x=1, 10 meters will be used, 1 meter is too noisy (GPS errors.) So this feature is good for 2 meters of larger. For shorter distances or a higher speed, you the new TLV sample rate for 4Hz (p4), for the best distance precision. e.g. mTr5Xp4$DIST=5",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GOAL",
+        "exampleValue": "x",
+        "description": "- 0 to 60 (or x) MPH speed timing. Not for precision timing, just for fun. Drive safe. It currents a JPEG in MISC for you speed award. All very crude, from a recent hackathon.",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GPSL",
+        "exampleValue": "x",
+        "description": "- to enabled continous GPS location logging, even when not capturing, so the capture can log more of you path and adventures. Path is saved by day into",
+        "section": "HERO13/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WBDV",
+        "exampleValue": "1",
+        "description": "- White Balance DiVe improvements. Rather than WARM for improving diving white balance, which effects WB the same at all depths, WBDV is more automatic – as the scene get more blue, the more the red channel is gain up. Currently $WBDV=1 is uses =2.33,4.0 internally (gaining red 4x after red gain hits 2.33), so you can try tuning this yourself e.g. $WBDV=2.4,5.0",
+        "section": "HERO13 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BFLK",
+        "exampleValue": "1",
+        "description": "- to bypass deflicker controls for 50/60Hz lightinh, to allow for continuous shutter speeds from 1/fps. Useful if you are locking ISO by setting min and max ISO to the same value, but using an auto shutter.",
+        "section": "HERO13 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DIVE",
+        "exampleValue": "1",
+        "description": "- optimizing the Hypersmooth stabilization for underwater. It might be no surprise, but HyperSmooth is designed for the camera operation above the water's surface,",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WARM",
+        "exampleValue": "x",
+        "description": "- WARM maybe useful with DIVE, so you can improve the red respond for deeper dives. x range -50 to 100. Reducing or increasing red signal only.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "COOL",
+        "exampleValue": "x",
+        "description": "- COOL maybe useful with DIVE, so you can decrease the blue respond for deeper dives. x range -50 to 100. Reducing or increasing blue signal only.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "MMSK",
+        "exampleValue": "x",
+        "description": "- for auto generating a mask for the new motion detector.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "OLTC",
+        "exampleValue": "x",
+        "description": "- frame offset to LTC, enabling calibration you are seeing any offset.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "RLTC",
+        "exampleValue": "1",
+        "description": "- to enable LTC timecode reading from line-in audio.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "STOP",
+        "exampleValue": "x",
+        "description": "- A Stop Motion extension where is x the number for frames to store per shutter press. This modify timelapse video. It is recommend to make a stop motion preset with this command ```mT$PRES=\"0,STOP\"mTr5Xp4``` Works great with the remote. Mode button ends capture.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "ONIO",
+        "exampleValue": "x",
+        "description": "- Onion percentage used for Stop Motion where is x the precentage of transparency of the onion skin.",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "PRES",
+        "exampleValue": "x,name",
+        "description": "- Added creating, naming and sharing presets where x 0-32 for icon selection (-1 for delete), and 'name' is your named preset. e.g, QR Command **oMPRES=\"14,Scuba\"**",
+        "section": "HERO13/12 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WIDE",
+        "exampleValue": "1",
+        "description": "This offers a color gamut like setting white balance to Native (wider gamut), while enabling auto whitebalance, or user controlled whitebalance. With WIDE off (0 - the default), the camera saturates color to the Rec709 gamut (basically sRGB), so some extreme real-world color saturations are clipped by the gamut. With WIDE=1, the gamut is sensor native, not Rec709, not Rec2020, just what the sensor sees.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WBLK",
+        "exampleValue": "1",
+        "description": "This is an auto lock for balance, it auto white balances until the capture starts. The feature was added for scuba users, as fixed white balance are computed for above water, and while the auto works great in dive scenarios, some prefer a fixed white balance per clip.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "MTRX",
+        "exampleValue": "a,b,c,d,e,f,g,h,i",
+        "description": "This is the RGB to YUV matrix, new ways to mess up your video. e.g. For an B/W effect in camera try oMMTRX=50,175,25,0,0,0,0,0,0",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GCMP",
+        "exampleValue": "1",
+        "description": "Disables gyro compensated exposure. This is users not concerned about Hypersmooth stabilization, and would prefer the auto exposure to use a longer shutter, rather than more sensor gain.  Longer shutters are worse for stabilization, so the HERO11-13 is smart, it will shorten the shutter if it detects the camera's movement.  GCMP=1 disables this feature.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "64BT",
+        "exampleValue": "32000",
+        "description": "HERO11-13 cameras default to 12GB chapters when using 64GB card (or larger media), but you can use the 64BT command to specify even larger chapters like 32GB or even 64GB. There has been very limited testing, so experiment first before committing to super large chapters.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "PRXY",
+        "exampleValue": "x",
+        "description": "Normally a camera will encode a LRV (Low Res Video) for every MP4, this extension stores LRVs as Proxy files. 1 - moves LRVs as Adobe Premiere Pro™ style, 2 - moves THMs, 3 moves both into the proxies folder, 4 - uses DaVinci Resolve™ style proxies folder.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GUID",
+        "exampleValue": "aspect,aspect,...",
+        "description": "- Displays an on-scene shooting guide for different aspect ratios, independent from the camera's current video mode.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GUIC",
+        "exampleValue": "level,level,...",
+        "description": "- The shooting guides default to white at 255, but you can select their luma level. e.g. GUIC=255,0, will be white for the first guide and black the for second.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPS",
+        "exampleValue": "1",
+        "description": "- Display the current ISO and shutter speed being used during preview and capture. For 11-Mini EXPS=num,",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPX",
+        "exampleValue": "x",
+        "description": "and **EXPN=n** - exposure shutter time mi(n) and ma(x). e.g. oMEXPX=48 (for 1/48) and oMEXPN=500 (for 1/500)",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EXPQ",
+        "exampleValue": "x",
+        "description": "- exposure Quick shutter, same as $EXPX=x$EXPN=x, setting min and max shutter to the same value",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FEAT",
+        "exampleValue": "x",
+        "description": "- Display the permanent Labs feature active for x seconds. It is easy to miss the start-up message, this QR command redisplays that message.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GRAB",
+        "exampleValue": "x",
+        "description": "- Screen grab 'x'-frames, grab next 'x' Labs overlays - frame grab the UI. Useful for education and bug reporting.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HSTP",
+        "exampleValue": "x,z,size",
+        "description": "- Used with HIST=1, this sets the size (40-100) and position (x,y as 1-100) of the histogram.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LEVL",
+        "exampleValue": "size",
+        "description": "- Add a spirit level to the rear LCD, where the size can be 1-9. e.g. oMLEVL=6. Color for the spirit level line was added for HERO11 and HERO12. LEVL has three colors with no controls. White - nothing is level. Yellow - the horizon is level. Green - the horizon and pitch is level",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LOGB",
+        "exampleValue": "logbase,offset",
+        "description": "- Super experimental, alter the log encoding for more dynamic range, or for a closer match with other camera's log curves.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "NR01",
+        "exampleValue": "x",
+        "description": "- Noise Reduction control, which should be combined with the LOGB control. e.g. oMNR01=50 range 1-100, 100 being 100% active (default), so 1 is the noisest.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BYPS",
+        "exampleValue": "1",
+        "description": "- Bypass common pop-ups, such as resetting the time and date. Remember to set time and date if you remove the battery.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BERS",
+        "exampleValue": "x",
+        "description": "- 1 - Bypass ERS compensation. 2 - Bypass ERS only with stablization disabled. Not commonly used.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TUSB",
+        "exampleValue": "1",
+        "description": "- Trust USB power.  Some USB power sources may report less than they are capable. This modification assumes the USB Power source is 2A minimum, and disables the testing. This can help with some USB power sources that the camera can reject, but are otherwise sufficient to run all camera operations. If you use TUSB with an inadequate power source, expect capture failures.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "STDL",
+        "exampleValue": "x",
+        "description": "- Start Delay is milliseconds (default 2000ms, wait before any other commands.) $STDL=100 for less wait. Experimental to improve scripting performance.",
+        "section": "HERO13/12/11/Mini/MAX2 cameras",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "IWFR",
+        "exampleValue": "1",
+        "description": "- Increased Write FRequency to support for higher precision file recoveries (this is also defaulted on with !MBITR=x bitrate changes). If you have ever had a big crash that ejects the battery, you may have noticed the file recovery will miss 5-15 seconds of your video. Missing even the lead up to the great moment. This hack increases the rate in which video data is flushed to the SD Card, improving the recoverability for footage. With this enabled, battery ejects will not lose more than 1-2 seconds of footage.  Great for FPV users. Not commonly used.",
+        "section": "HERO10/11 only",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WG84",
+        "exampleValue": "1",
+        "description": "to switch GPS altitude from Mean Sea Level to WGS84 elipsoid.",
+        "section": "HERO13/11 only (GPS feature)",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "24HZ",
+        "exampleValue": "1",
+        "description": "- enable film standard 24.0 frame, rather than the default broadcast standard 23.976.  The existing 24p mode(s) will have the new frame rate when this is enabled, all other video modes are unaffected.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "AUDS",
+        "exampleValue": "1",
+        "description": "display the approximate audio levels in dB SPL.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BITH",
+        "exampleValue": "3",
+        "description": "- set the compression in Mb/s for the H264 encodes. Normally this would be for LRVs at around 4Mb/s. No guaranteed capture reliability using this feature. Input range in Mb/s from 1 to 100.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BITR",
+        "exampleValue": "120",
+        "description": "- set the compression in Mb/s for the Protune High Bitrate setting (HEVC only). Normally this would be around 100Mb/s, however higher (or lower) rates may be achieved with newer SD Cards. No guaranteed capture reliability using this feature. Input range in Mb/s from 2 to 200. Counterintuitively, lower frame rates like 24/25/30fps can use higher bitrates than faster frame rates.  e.g. A camera that is reliable doing 180Mb/s at 24fps, will likely need to drop to 150Mb/s for 120fps. Most GP2 cameras can do 150Mb/s for all video modes, but your testing is still required. Use at your own risk.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DAMP",
+        "exampleValue": "0.1 to 1000",
+        "description": "- Control over the auto-exposure damping. When moving a camera through dramatically changing lighting, like biking through a forest, in and out of sunlight, or flying a drone through a short tunnel, the exposure will adjust automatically, correctly in most scenarios, but sometimes not optimal for some rapidly changing light levels. The camera's auto-exposure currently takes about one second to adjust from sunlight to indoor conditions, but if you are flying a drone through indoors for only a few seconds, the camera would over-expose on exit. In this scenario using an exposure lock might be preferable, maintaining an outdoor exposure throwout, but exposure lock is risky for shooting under variable lighting conditions. Changing the damping might be what you need. Setting the DAMP=1 is the de",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DAUD",
+        "exampleValue": "1",
+        "description": "- Disable audio, all video created video files will have no audio. Application: high bit-rate drones video.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DLRV",
+        "exampleValue": "1",
+        "description": "- Disable LRV, all videos will have an MP4 only. This is not good idea for Quik uses, as the LRV video helps in video preview. Note: There is currently a bug in this feature (HERO10 as requires a restart after two captures.) (not supported on H12-13)",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "EVBS",
+        "exampleValue": "x",
+        "description": "Global EV comp bias for all video modes that also works with Live-Stream and web-cam, and can be changed during capture if QRDR=1 is set. As this is global offset, it will add to EV comp settings with your presets.  So if EVBS=-1 and a preset has EV set to -0.5, the effective EV will be -1.5.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FAST",
+        "exampleValue": "1",
+        "description": "For fewer Labs notifications on boot. Useful for any script that repeats after a shutdown, and the script will run sooner, and reducting battery consumption.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FONT",
+        "exampleValue": "1",
+        "description": "Select the old fonts (if you only want the dot matrix font)",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FRNT",
+        "exampleValue": "1",
+        "description": "For front screen equipped cameras, display most LCD Labs message on the front screen. Practicular useful for FPV useful not using the touchscreen.  e.g.  !MFRNT=1!MEXPS=1 will display the ISO and shutter speed on the front LCD.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "STDL",
+        "exampleValue": "x",
+        "description": "All scripts running the **!S** start command, will wait a second or two before the next action. STDL allow you to set this wait time in millisecond, for scripts needing a faster reponse time.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TONE",
+        "exampleValue": "0,1,2 or 3",
+        "description": "- Tone-mapping controls. Tone-mapping is the in-camera contrast control, dynamically adjusting the video to look good under a range of lighting conditions.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TONE",
+        "exampleValue": "0",
+        "description": "- using the cameras default",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TONE",
+        "exampleValue": "1",
+        "description": "- use GTM only",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TONE",
+        "exampleValue": "2",
+        "description": "- use GTM+LTM",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TONE",
+        "exampleValue": "3",
+        "description": "- disable all tone-mapping",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "FSOS",
+        "exampleValue": "1",
+        "description": "- Scan the SD for files that can be repaired (truncated). Normal file recovery checks only the last file captured, this checks and fixes them all.",
+        "section": "HERO13/12/11/10/MAX2 and Bones cameras - Advanced features",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BOOT",
+        "exampleValue": "!Lscript",
+        "description": "- A command to run automatically at boot. For safety, this should only be a load script command, so that the command is dependent on the SD card presence. e.g. !MBOOT=\"!Lboot\"  Then you can place whatever command you need in the boot script with !SAVEboot=\"your command here\". See an example in [IMU Triggers for Drones](../imutrigger)",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DBGL",
+        "exampleValue": "1",
+        "description": "- enabled more debug logging. Labs saves it logs to the SD card under MISC/qrlog.txt. Using this extension increases the details and logged events.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DSPC",
+        "exampleValue": "value",
+        "description": ", this sets that contrast for which messages are displayed.  Contrast is from 0 - transparent text background, to 6 - opaque black background",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "DSPL",
+        "exampleValue": "time",
+        "description": ", this will control the amount of time messages are displayed. For users who want there own information displayed longer. The default is 1 second.  DSPL=1 thru 9 is in seconds.  DSPL = 10 thru 9999 is in milliseconds.  So for much faster messages set DSPL to 100. Set this before setting the owner information, as metadata commands are processed in the order they are stored.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HNDL",
+        "exampleValue": "x",
+        "description": ", where x is 1 to 31, setting the camera ID for a camera. This is for rare scenarios where multiple cameras see the same QR Code, and you only want particular cameras to respond. This combined with **hZ** command where Z is the bit mask for which cameras will follow the command.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HIST",
+        "exampleValue": "x",
+        "description": "- Displays a histogram with contrast from 1 to 11. e.g. try setting HIST to 5. HIST=0 will disable it.  On 11-Mini the number is a display duratrion.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HSTO",
+        "exampleValue": "x",
+        "description": "- minutes - controlling the length of the Hindsight timeout, changing from the default for 15 minutes. e.g. !MHSTO=60 for a 60 minute Hindsight timeout.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LLTZ",
+        "exampleValue": "latt,long,timezone",
+        "description": "for those want to use Sunset/Sunrise timelapse without GPS, or for when you are shooting a sunset timelapse from indoors. The metadata is used to store your GPS Location and timezone e.g. !MLLTZ=33.126,-117.327,-8.0  In this case you must used the !M command, permanent storage, as solar event timers will shutdown the camera.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "QRDR",
+        "exampleValue": "1",
+        "description": "- detect QR Codes while recording, or even Quik Preview. This also enables Labs BOOT commands to work with QuikCapture in recent models. Normally this feature is disabled to ensure the lowest computing load impact, so not enabling this is the safest. However, it is needed for some cool ideas, like changing a video burnin message in the middle of a live-stream, or changing its exposure with BIAS (see below.) This also allows you to end a capture via a QR Code (command: !E). oMQRDR=0 will disable it.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "SPED",
+        "exampleValue": "1",
+        "description": "- SD Card Speed Test, only really useful on older cameras (HERO9 or older.) GP2 cameras are faster and generally require faster SD cards anyway. It still works on newer cameras, but the results are misleading, are often way higher than what the encoder can support (i.e. don't set BITR to 200 because you card writes at 500Mb/s.)",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "TCAL",
+        "exampleValue": "milliseconds",
+        "description": "- Timecode CALibration, help to increase the precision of setting timecode via QR Code. The milliseconds can be positive or negative as needed.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WAKE",
+        "exampleValue": "1",
+        "description": "- This will make the camera wake on any power addition, but only if there is a delay action pending (determined by a delay.txt file in the MISC folder, created automatically with wake timer events.) Inserting a battery or the connection of USB power, will boot up the camera to continue a script after a power failure. With some experimentation, this may be used to improve very long time-lapse reliability, by cycling USB power every 24 hours -- reseting the camera to restart scripts.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "WAKE",
+        "exampleValue": "2",
+        "description": "- (HERO8/10-13 only) Same as WAKE=1, except it will ignore any pending actions, and wake of any power addition. This is useful with combined with a boot command.",
+        "section": "Miscellaneous controls for most Labs cameras.",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BRNT",
+        "exampleValue": "0.5",
+        "description": "- The overlays or burn-in display time in seconds. e.g. BRNT=0.016 will display the logo or text overlays only on the first frame (1/60th of a second.)",
+        "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "BRNX",
+        "exampleValue": "x,y",
+        "description": "- This is an upgrade to BRNO (Burn-ins Offset), allowing you to offset the burn-ins with X,Y pixel coordinates. e.g. BRNX=120,40",
+        "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "CBAR",
+        "exampleValue": "1",
+        "description": "- enable a small 75% saturated color bars for video tools evaluation (HERO10-13 has a GP2 limitation: only works 4Kp30 or lower res/fps.)",
+        "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LBAR",
+        "exampleValue": "1",
+        "description": "- enable a small luma sweep for video tools evaluation  (HERO10/11 limitation: only works 4Kp30 or lower res/fps.)",
+        "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "LOGO",
+        "exampleValue": "\"filename.png\"",
+        "description": "- overlay a small logo or icon on the encoded video. The logo must be stored on the SD card in the MISC folder. The alpha channel is supported. The PNG files must be less than 64kBytes with fewer than 64k pixels, e.g. Logo overlay of 400x100 works, but 400x200 will not. The smaller the better for demanding video modes like 4K60 and 1080p240.  (HERO10/11 limitation: only works 4Kp30 or lower res/fps.)",
+        "section": "HERO13/12/11/10/9 & 8 - Overlay extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "GAIN",
+        "exampleValue": "dB",
+        "description": "- Digitally gain up the audio. e.g. oMGAIN=12, increase audio by 12dB.  Will likely reduce the dynamic range.-",
+        "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "HDMI",
+        "exampleValue": "0,1 or 2",
+        "description": "- Media Mod users can change the output default from Gallery (0) to clean monitoring with no overlays (1), or monitoring live video with overlays (2).",
+        "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "MUTE",
+        "exampleValue": "mask",
+        "description": "- Mute one or more channels of audio (microphones). For HERO9 cameras, there are four channels, although three microphones. The mask is binary mask for channels 4321. e.g. oMMUTE=15 mute all channels (15 = 1111B), oMMUTE=8 mute the fourth channel (8 = 1000B), oMMUTE=7 mutes the first 3 channels (7 = 0111B).",
+        "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      },
+      {
+        "code": "SOLO",
+        "exampleValue": "channel",
+        "description": "- Use only one channel of audio. e.g. oMSOLO=1 use only channel 1, oMSOLO=4 only use the fourth channel.",
+        "section": "HERO13/12/11/10 and 9 - Audio and MediaMod extensions",
+        "source": "https://gopro.github.io/labs/control/extensions/",
+        "verification": "official-documentation-transcription"
+      }
+    ],
+    "notice": "Entries transcribed from official documentation. Section grouping does not prove support for every camera. Values are examples or parameter placeholders, not validated QR payloads."
   }
 }
